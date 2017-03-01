@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ximo Pietro Full Game highlights of today</title>
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://apis.google.com/js/api.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/pl.js"></script>
+	<!--<script type="text/javascript" src="js/stackoverflow.js"></script>-->
+	</script>
+	<body>
+		<div id = "video-container">
+			<h1>Video Snippet Titles</h1>
+			<ul id ="results"></ul>
+		</div>
+		<div>
+			<button type="button" onclick=search() id="#search-button">Load Video Player</button>
+		</div>
+		<form>
+			<br>
+		  Team: <input id="team" type="text" name="firstname" value="Sacramento Kings">
+			Date: <input type="text" id="datepicker" value="february 25 2017">
+			<br><br>
+		</form>
+		<!-- <div id="player"></div> -->
+		<iframe
+		id="player" type="text/html" width="640" height="390"
+		src="https://www.youtube.com/embed?listType=playlist&list=PLD8amBJiZ9dx0IXEDHJVhdzHkaPBeEHXi"
+		frameborder="0">
+		</iframe>
+	</body>
+</html>
