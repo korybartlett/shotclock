@@ -1,29 +1,29 @@
-var playlistId = 'PLD8amBJiZ9dx0IXEDHJVhdzHkaPBeEHXi';
+//var playlistId = 'PLD8amBJiZ9dx0IXEDHJVhdzHkaPBeEHXi'; //old playlist
+var playlistId = 'PLeqtW_b5-U42wkEp4S8nebgJx5r_bdSwG';
 var vidIdList = [];
 var month = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 
 $(document).ready(function() {
-    // $.get(
-    //     "https://www.googleapis.com/youtube/v3/playlistItems", {
-    //         part: 'snippet',
-    //         playlistId: playlistId,
-    //         key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
-    //     },
-    //     function(data) {
-    //         var outputs;
-    //         $.each(data.items, function(i, item) {
-    //             //console.log(item);
-    //             var vidTitle = item.snippet.title;
-    //             outputs = '<li>' + vidTitle + '</li>';
-    //             $('#results').append(outputs);
-    //             var vidId = item.snippet.resourceId.videoId;
-    //             // console.log(vidId);
-    //             vidIdList.push(vidId);
-    //             //makeFrame(vidId);
-		// 				})
-    //     }
-    // );
-		//$.get("https://www.googleapis.com/youtube/v3/search");
+    $.get(
+        "https://www.googleapis.com/youtube/v3/playlistItems", {
+            part: 'snippet',
+            playlistId: playlistId,
+            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
+        },
+        function(data) {
+            var outputs;
+            $.each(data.items, function(i, item) {
+                //console.log(item);
+                var vidTitle = item.snippet.title;
+                outputs = '<li>' + vidTitle + '</li>';
+                $('#results').append(outputs);
+                var vidId = item.snippet.resourceId.videoId;
+                // console.log(vidId);
+                vidIdList.push(vidId);
+                //makeFrame(vidId);
+    				})
+        }
+    );
 });
 /*
 function createFrame(){
@@ -83,32 +83,41 @@ function createFrame(){
 
 // Search for a specified string.
 function search() {
-	var userInput = $('#team').val() + " " + $('#datepicker').val();
-	console.log(userInput);
-	$.get(
-		"https://www.googleapis.com/youtube/v3/search", {
-			q: userInput,
-	    part: 'snippet',
-			order: 'relevance',
-			key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
-			maxResults: 1,
-			channelId: 'UCRUQQrm8_l3CVYxfq2kPMlg'
-		},
-		function (data) {
-			//console.log(data);
-			$.each(data.items, function(i, item){
-						console.log(item.id.videoId);
-			});
+    var userInput = $('#team').val() + " " + $('#datepicker').val();
+    var vidId;
+    console.log(userInput);
+    $.get(
+        "https://www.googleapis.com/youtube/v3/search", {
+            q: userInput,
+            part: 'snippet',
+            order: 'relevance',
+            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
+            maxResults: 1,
+            channelId: 'UCFIrTpC6LJDqzPMeBfgAGrQ'
+        },
+        function(data) {
+            //console.log(data);
+            $.each(data.items, function(i, item) {
+                console.log(item.id.videoId);
+								var vidTitle = item.snippet.title;
+                outputs = '<li>' + vidTitle + '</li>';
+                $('#results').append(outputs);
+								var vidId = item.id.videoId;
+                vidIdList.unshift(vidId);
+								console.log(vidIdList);
+            });
+            //document.getElementById('player').src='http://youtube.com/embed/'+vidId+'?autoplay=1&rel=0&showinfo=0&autohide=1'
+						vidIdListString = vidIdList.toString();
+						$('#player').attr('src', "http://www.youtube.com/embed/VIDEO_ID?playlist=" + vidIdListString);
+        }
 
-		}
-
-	);
+    );
 }
 
-$( function() {
-    $( "#datepicker" ).datepicker();
-		$("#datepicker").val();
-  } );
+$(function() {
+    $("#datepicker").datepicker();
+    $("#datepicker").val();
+});
 
 // adding video to queue
 // loadVideoById({
