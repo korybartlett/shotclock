@@ -1,5 +1,5 @@
-//var playlistId = 'PLD8amBJiZ9dx0IXEDHJVhdzHkaPBeEHXi'; //old playlist
-var playlistId = 'PLeqtW_b5-U42wkEp4S8nebgJx5r_bdSwG';
+//var playlistId = 'PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76-'; //old playlist
+var playlistId = 'PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76';
 var vidIdList = [];
 var month = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 
