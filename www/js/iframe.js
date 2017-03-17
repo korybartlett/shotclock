@@ -75,9 +75,48 @@ function moveToQueue(vidId) {
     ); 
     //find the current li we are at
     //save the data from the list item
-    console.log(vidId);
+    //console.log(vidId);
     //$('#'+vidId).clone(true).inserAfter('theQueue-ul');
     $('.theQueue-ul').prepend($('#'+vidId).clone());
     
     $('#'+vidId+'.searchResults-item').last().remove();
+}
+
+//This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      height: '400',
+      width: '650',
+      videoId: 'jLRFACyYE6Y',
+      events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+      }
+    });
+}
+
+function onPlayerReady(event) {
+        event.target.playVideo();
+}
+
+ function onPlayerStateChange(event) {
+    //0 when video ends
+    if (event.data === 0) {
+      queueToPlayer();
+    }
+}
+
+function queueToPlayer(){
+    //player.loadVideoById("qRIFuIMqe94");
+    var queueId = $('.theQueue-ul li:first-child').attr('id');
+    $('.theQueue-ul li:first-child').remove();
+    //console.log(queueId);
+    player.loadVideoById(queueId);
 }
