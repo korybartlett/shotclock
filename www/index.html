@@ -32,7 +32,7 @@
 			</header>
 		</section>
 
-		<!-- This is the div for the main wrapper -->
+		<!-- This is the div for the main wrapper (everything under the header) -->
 		<div id="wrapper">
 			<!-- Section 2: The Queue -->
 			<section class="theQueue">
@@ -70,6 +70,7 @@
 				</ul>	
 			</section>
 
+			<!-- The middle section -->
 			<div class="middleSection"> <!-- This was needed due to a CSS thing -->
 				<!-- Section 3: The game score -->
 				<section class="currentScore">
@@ -95,9 +96,19 @@
 			</div>
 
 			<!-- Section 6: The Search Box / Recomendations area -->
-			<section class="rightColumn">
-				<p>This is where search results will show up</p>
-				<p>Also, Hi Pamper</p>
+			<section class="searchResults">
+				<ul class="searchResults-ul">
+					<li>	
+						<div class="searchResults-ul-img">
+							<img src="hazardgoal.png"> <!-- the thumbnail -->
+						</div>
+						<div class="searchResults-ul-li">
+							<h6>Team A - 2</h6> <!-- Team 1 and score -->
+							<h6>Team B - 1</h6> <!-- Team 2 and score -->
+							<h6>1/21/2017</h6> <!-- Date -->
+						</div>
+					</li>
+				</ul>
 			</section>
 		</div> <!-- end wrapper -->
 
