@@ -1,18 +1,19 @@
 var playlistId = 'PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76-';
 var vidIdList = [];
 
-$(document).ready(function() {
+$(document).ready(function () {
     //get request to get youtube playlist
     $.get(
-        "https://www.googleapis.com/youtube/v3/playlistItems", {
+        "https://www.googleapis.com/youtube/v3/playlistItems",  
+        {
             part: 'snippet',
             playlistId: playlistId,
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
         },
         //function traverses through received items
-        function(data) {
+        function (data) {
             var outputs;
-            $.each(data.items, function(i, item) {
+            $.each(data.items, function (i, item) {
                 console.log(item);
                 //saves the video ids to the array
                 var vidId = item.snippet.resourceId.videoId;
@@ -77,7 +78,7 @@ function moveToQueue(vidId) {
     //adds to the top of the Queue
     $('.theQueue-ul').prepend($('#'+vidId).clone());
     //removes the last occurence, which is hopefully in the search result 
-    $('#'+vidId+'.searchResults-item').last().remove();
+    $('#' + vidId + '.searchResults-item').last().remove();
 }
 
 //This code loads the IFrame Player API code asynchronously.
