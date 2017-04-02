@@ -129,14 +129,18 @@ function queueToPlayer(){
 
     //function will be used to grab scores 
     //jquery searches using the videoId, aka its queueId, then grabs only the text from the html DOM containing the score
-    var score = $('#' + queueId + ' .theQueue-ul-li').text();
-    console.log(score);
+    var topTeam = $('#' + queueId + ' .theQueue-ul-li h6:first-child').text();
+    var botTeam = $('#' + queueId + ' .theQueue-ul-li h6:nth-child(2)').text();
+    var topScore = topTeam.replace(/\D+/g, '');
+    var botScore = botTeam.replace(/\D+/g, '');
+    //console.log(firstScore);
+    //console.log(secondScore);
 
     //removes the first element from the queue
     $('.theQueue-ul li:first-child').remove();
 
     //loads video to video player with video ID
     player.loadVideoById(queueId);
-    $('div.currentScore-leftSide > h2').replaceWith('<h2>5</h2>');
-    $('div.currentScore-rightSide > h2').replaceWith('<h2>5</h2>');
+    $('div.currentScore-leftSide > h2').replaceWith('<h2>'+topScore+'</h2>');
+    $('div.currentScore-rightSide > h2').replaceWith('<h2>'+botScore+'</h2>');
 }
