@@ -73,6 +73,31 @@ nav a.selected, nav a:hover {
   color: #999999;
 }
 
+/* The search box styling */ 
+header form {
+	width: 300px;
+	float: left;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+header form input[type=text] {
+	width: 150px;
+	margin-left: 325px; /* Not the best way to center the search box. come back to this */
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	font-size: 16px;
+	background-color: white;
+	-webkit-transition: width 0.4s ease-in-out; /* Animating search box */
+    transition: width 0.4s ease-in-out;
+}
+
+/* Controversial micro-animation for search box */
+header form input[type=text]:focus {
+	width: 300px;
+	margin-left: 250px;
+}
+
 /*****************************
 The Wrapper
 *****************************/
