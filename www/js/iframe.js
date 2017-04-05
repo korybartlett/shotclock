@@ -1,21 +1,22 @@
-var playlistId = 'PLIqH-UbFXUsWh_d_tplAaGFUgbBwXE6k7';
+var playlistId = 'PLtZj4PDaJaI0_RrJDv_adFdf1gXInIGhV';
 var vidIdList = [];
-
+var monthsObj = {"January":1, "February":2, "March":3, "April":4, "May":5, "June":6, "July":7, "August":8, "September":9, "October":10, "November":11, "December":12};
 $(document).ready(function () {
-    //get request to get youtube playlist
+    //get request to get youtube playlist to load todays games into results
     var score = 0;
     $.get(
         "https://www.googleapis.com/youtube/v3/playlistItems",  
         {
             part: 'snippet',
             playlistId: playlistId,
+            maxResults: 15,
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
         },
         //function traverses through received items
         function (data) {
             var outputs;
             $.each(data.items, function (i, item) {
-                //console.log(item);
+                console.log(item);
                 //saves the video ids to the array
                 var vidId = item.snippet.resourceId.videoId;
                 //pushes video ids to an array
@@ -25,13 +26,36 @@ $(document).ready(function () {
                 aScore = score;
                 bScore = 10 - score;
                 //console.log(item.snippet.thumbnails.default.url);
+
+                console.log(item.snippet.title);
+
+                var vidTitle = item.snippet.title;
+                var vidTitleArray = vidTitle.split("-");
+                
+                //get team names
+                var teams = vidTitleArray[0].split("vs");
+                var aTeam = teams[0];
+                var bTeam = teams[1];
+                bTeam = bTeam.slice(1);
+
+                //get date
+                var vidDate = vidTitleArray[1].split("|");
+                var date = vidDate[1];
+                date = date.substring(1, date.length-1);
+                date = date.replace (/,/g, "");
+                date = date.replace(/\s+/g, '/');
+
+                var month = monthsObj[date.split("/")[0]];
+
+                date = date.slice(date.split("/")[0].length);
+
                 var listItem = [
                     '<li id="'+vidId+'" class="searchResults-item"><div class="searchResults-ul-img" >',
                     '<img src=" '+item.snippet.thumbnails.default.url+' " onclick="moveToQueue(\''+vidId+'\');"> <!-- the thumbnail --></div>',
                     '<div class="searchResults-ul-li">',
-                    '<h6>Team A - '+aScore+' </h6> <!-- Team 1 and score -->',
-                    '<h6>Team B - '+bScore+' </h6> <!-- Team 2 and score -->',
-                    '<h6>1/21/2017</h6> <!-- Date --></div></li>'
+                    '<h6>'+ aTeam +' - '+aScore+' </h6> <!-- Team 1 and score -->',
+                    '<h6>'+ bTeam +' - '+bScore+' </h6> <!-- Team 2 and score -->',
+                    '<h6>'+month+date+'</h6> <!-- Date --></div></li>'
                 ];
                 
                 //appends the items to the search list 
@@ -43,31 +67,28 @@ $(document).ready(function () {
 
 });
 
-
-console.log(vidIdList);
-
 function moveToQueue(vidId) {
-    var movId;
-    
+    //not needed
+    //var movId;
     //ajax call to youtube videos
-    $.get(
-        "https://www.googleapis.com/youtube/v3/videos", {
-            part: 'snippet',
-            id: vidId,
-            maxResults: 1,
-            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
-        },
-        //function traverses through received items
-        function(data) {
-            var outputs;
-            $.each(data.items, function(i, item) {
-                console.log(item);
-                //saves the video ids to the array
-                //saves the video id to a variable for later use
-                movId = item.id;
-            })
-        }
-    ); 
+    // $.get(
+    //     "https://www.googleapis.com/youtube/v3/videos", {
+    //         part: 'snippet',
+    //         id: vidId,
+    //         maxResults: 1,
+    //         key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
+    //     },
+    //     //function traverses through received items
+    //     function(data) {
+    //         var outputs;
+    //         $.each(data.items, function(i, item) {
+    //             console.log(item);
+    //             //saves the video ids to the array
+    //             //saves the video id to a variable for later use
+    //             movId = item.id;
+    //         })
+    //     }
+    // ); 
 
     //clones the searchResult video item to the queue, copies the entire item data
     //adds to the top of the Queue
@@ -81,7 +102,10 @@ function moveToQueue(vidId) {
     $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
     $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
 
-
+    //delete after testing
+    var end = player.getDuration();
+    end = end - 1;
+    player.seekTo(end, true);
 }
 
 //This code loads the IFrame Player API code asynchronously.
@@ -99,15 +123,17 @@ function onYouTubeIframeAPIReady() {
       width: '650',
       //creates player with hardcoded ID for now
       videoId: 'o5aYww6nf0s',
+      //another option to set video to autoplay 
+      playerVars: {'autoplay':1 },
       //creates events to use with youtube player
       events: {
-        'onReady': onPlayerReady,
+        //'onReady': onPlayerReady,
         'onStateChange': onPlayerStateChange
       }
     });
 }
 
-//function for playing the video
+//function to play the video
 function onPlayerReady(event) {
         event.target.playVideo();
 }
@@ -120,6 +146,8 @@ function onPlayerStateChange(event) {
     }
 }
 
+
+
 //function to move videos from queue to the player
 function queueToPlayer(){
     //grabs the ID attribute from the first element in the queue
@@ -130,17 +158,17 @@ function queueToPlayer(){
     var topTeam = $('#' + queueId + ' .theQueue-ul-li h6:first-child').text();
     var botTeam = $('#' + queueId + ' .theQueue-ul-li h6:nth-child(2)').text();
 
-    //splits fields into an array = {'Team', name of team, '-' ,score}
-    var topTeamArray = topTeam.split(" ");
-    var botTeamArray = botTeam.split(" ");
+    //splits fields into an array = {name of team, score}
+    var topTeamArray = topTeam.split("-");
+    var botTeamArray = botTeam.split("-");
 
     //saves the scores from the returned results
-    var topScore = topTeamArray[3];
-    var botScore = botTeamArray[3];
+    var topScore = topTeamArray[1];
+    var botScore = botTeamArray[1];
 
     //saves the name of the team 
-    var topTeamName = topTeamArray[1];
-    var botTeamName = botTeamArray[1];
+    var topTeamName = topTeamArray[0];
+    var botTeamName = botTeamArray[0];
 
     //removes the first element from the queue
     $('.theQueue-ul li:first-child').remove();
@@ -150,3 +178,4 @@ function queueToPlayer(){
     $('div.currentScore-leftSide > h2').replaceWith('<h2>'+topScore+'</h2>');
     $('div.currentScore-rightSide > h2').replaceWith('<h2>'+botScore+'</h2>');
 }
+
