@@ -15,7 +15,7 @@ $(document).ready(function () {
         function (data) {
             var outputs;
             $.each(data.items, function (i, item) {
-                console.log(item);
+                //console.log(item);
                 //saves the video ids to the array
                 var vidId = item.snippet.resourceId.videoId;
                 //pushes video ids to an array
@@ -48,6 +48,7 @@ console.log(vidIdList);
 
 function moveToQueue(vidId) {
     var movId;
+    
     //ajax call to youtube videos
     $.get(
         "https://www.googleapis.com/youtube/v3/videos", {
@@ -64,12 +65,9 @@ function moveToQueue(vidId) {
                 //saves the video ids to the array
                 //saves the video id to a variable for later use
                 movId = item.id;
-                //console.log(movId)
-               // vidIdList.push(vidId);
             })
         }
     ); 
-    //console.log(vidId);
 
     //clones the searchResult video item to the queue, copies the entire item data
     //adds to the top of the Queue
@@ -109,12 +107,13 @@ function onYouTubeIframeAPIReady() {
     });
 }
 
-//function for onPlayerReady, plays video
+//function for playing the video
 function onPlayerReady(event) {
         event.target.playVideo();
 }
 
- function onPlayerStateChange(event) {
+//function for checking the iframe player state
+function onPlayerStateChange(event) {
     //0 when video ends
     if (event.data === 0) {
       queueToPlayer();
@@ -125,16 +124,23 @@ function onPlayerReady(event) {
 function queueToPlayer(){
     //grabs the ID attribute from the first element in the queue
     var queueId = $('.theQueue-ul li:first-child').attr('id');
-    //console.log(queueId);
 
     //function will be used to grab scores 
-    //jquery searches using the videoId, aka its queueId, then grabs only the text from the html DOM containing the score
+    //jquery searches using the videoId, aka its queueId, then grabs only the text from the html element containing the team name and scores
     var topTeam = $('#' + queueId + ' .theQueue-ul-li h6:first-child').text();
     var botTeam = $('#' + queueId + ' .theQueue-ul-li h6:nth-child(2)').text();
-    var topScore = topTeam.replace(/\D+/g, '');
-    var botScore = botTeam.replace(/\D+/g, '');
-    //console.log(firstScore);
-    //console.log(secondScore);
+
+    //splits fields into an array = {'Team', name of team, '-' ,score}
+    var topTeamArray = topTeam.split(" ");
+    var botTeamArray = botTeam.split(" ");
+
+    //saves the scores from the returned results
+    var topScore = topTeamArray[3];
+    var botScore = botTeamArray[3];
+
+    //saves the name of the team 
+    var topTeamName = topTeamArray[1];
+    var botTeamName = botTeamArray[1];
 
     //removes the first element from the queue
     $('.theQueue-ul li:first-child').remove();
