@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<meta name="description" content="ShotClock, An alternative way to view highlights">
+	<meta name="keywords" content="shotclock, sports highlights, epl, nba, fred, kory">
+	<meta name="author" content="Fred Farzad Feyzi and Kory Bartlett">
+	<!-- <link rel="stylesheet" href="/stylesheets/main.css"> -->
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/iframe.js"></script>
+    <title>ShotClock</title>
+    <!-- <title>{{ title }}</title> --> 
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+	<div class="main">
+	<!-- Section 1: The Header -->
+	<section>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">NBA</a></li>
+					<li><a href="#">EPL</a></li>
+				</ul>
+			</nav>
+			<!-- The div for the customization feature -->
+			<div id="customizeDiv">
+				<a id="customizeKeyword" href="#">Customize Settings</a>
+			</div>
+		</header>
+	</section>
+
+	<!-- This is the div for the main wrapper -->
+	<div id="wrapper">
+		<!-- Section 2: The Queue -->
+		<section class="theQueue">
+			<ul class="theQueue-ul">
+				<li>	
+					<div class="theQueue-ul-img">
+						<img src="images/hazardgoal.png"> <!-- the thumbnail -->
+					</div>
+					<div class="theQueue-ul-li">
+						<h6>Team A - 2</h6> <!-- Team 1 and score -->
+						<h6>Team B - 1</h6> <!-- Team 2 and score -->
+						<h6>1/21/2017</h6> <!-- Date -->
+					</div>
+				</li>
+				<li>	
+					<div class="theQueue-ul-img">
+						<img src=""> <!-- the thumbnail -->
+					</div>
+					<div class="theQueue-ul-li">
+						<h6>Team A - 3</h6> <!-- Team 1 and score -->
+						<h6>Team B - 0</h6> <!-- Team 2 and score -->
+						<h6>1/28/2017</h6> <!-- Date -->
+					</div>
+				</li>
+				<li>	
+					<div class="theQueue-ul-img">
+						<img src=""> <!-- the thumbnail -->
+					</div>
+					<div class="theQueue-ul-li">
+						<h6>Team A - 1</h6> <!-- Team 1 and score -->
+						<h6>Team B - 1</h6> <!-- Team 2 and score -->
+						<h6>2/5/2017</h6> <!-- Date -->
+					</div>
+				</li>
+			</ul>	
+		</section>
+
+		<div class="middleSection"> <!-- This was needed due to a CSS thing -->
+			<!-- Section 3: The game score -->
+			<section class="currentScore">
+				<div class="currentScore-leftSide">
+					<img src="images/chelsea.png">
+					<h2>2</h2>
+				</div>
+				<div class="currentScore-rightSide">
+					<h2>1</h2>
+					<img src="images/mancity.png">
+				</div>
+			</section>
+
+			<!-- Section 4: The Screen (or iFrame) -->
+			<section class="theScreen">
+				<!-- <iframe
+						id="player" type="text/html" width="650" height="400"
+						src="https://www.youtube.com/embed?list=PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76-"
+						frameborder="0">
+				</iframe> -->
+				<div id="player"></div>
+			</section>
+
+			<!-- Section 5: The Updated Scores (Bottom of Page) -->
+			<section class="updatedScore">
+
+			</section>
+		</div>
+
+		<!-- Section 6: The Search Box / Recomendations area -->
+		<section class="searchResults">
+			<ul class="searchResults-ul">
+				<!-- video ID added via js function -->
+				<!-- <li class="searchResults-item">	 -->
+					<!-- <div class="searchResults-ul-img"> -->
+						<!-- <img src="hazardgoal.png">--> <!-- the thumbnail --> 
+					<!-- </div> -->
+					<!-- <div class="searchResults-ul-li"> -->
+						<!-- <h6>Team A - 2</h6>--> <!-- Team 1 and score --> 
+						<!-- <h6>Team B - 1</h6> --> <!-- Team 2 and score -->
+						<!-- <h6>1/21/2017</h6> --><!-- Date --> 
+					<!-- </div> -->
+				<!-- </li> -->
+			</ul>
+		</section>
+		
+		</div> <!-- end wrapper -->
+
+		</div>
+
+    <!-- <h1>{{ title }}</h1> -->
+    <!-- <h1>{{ val2 }}</h1>
+    <p>Welcome to {{ title }}</p> -->
+  </body>
+</html>
