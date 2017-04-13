@@ -9,7 +9,7 @@ $(document).ready(function () {
         {
             part: 'snippet',
             playlistId: playlistId,
-            maxResults: 15,
+            maxResults: 7,
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
         },
         //function traverses through received items
@@ -50,16 +50,16 @@ $(document).ready(function () {
                 date = date.slice(date.split("/")[0].length);
 
                 var listItem = [
-                    '<li id="'+vidId+'" class="searchResults-item"><div class="searchResults-ul-img" >',
-                    '<img src=" '+item.snippet.thumbnails.default.url+' " onclick="moveToQueue(\''+vidId+'\');"> <!-- the thumbnail --></div>',
-                    '<div class="searchResults-ul-li">',
+                    '<li id="'+vidId+'"><div class="theQueue-ul-img" >',
+                    '<img src=" '+item.snippet.thumbnails.default.url+' " <!-- the thumbnail --></div>',
+                    '<div class="theQueue-ul-li">',
                     '<h6>'+ aTeam +' - '+aScore+' </h6> <!-- Team 1 and score -->',
                     '<h6>'+ bTeam +' - '+bScore+' </h6> <!-- Team 2 and score -->',
                     '<h6>'+month+date+'</h6> <!-- Date --></div></li>'
                 ];
                 
                 //appends the items to the search list 
-                $(".searchResults-ul").append(listItem.join(''));
+                $(".theQueue-ul").append(listItem.join(''));
 
     		})
         }
@@ -68,7 +68,7 @@ $(document).ready(function () {
 });
 
 function moveToQueue(vidId) {
-    //not needed
+    //!!not needed!!
     //var movId;
     //ajax call to youtube videos
     // $.get(
@@ -103,9 +103,9 @@ function moveToQueue(vidId) {
     $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
 
     //delete after testing
-    var end = player.getDuration();
-    end = end - 1;
-    player.seekTo(end, true);
+    // var end = player.getDuration();
+    // end = end - 1;
+    // player.seekTo(end, true);
 }
 
 //This code loads the IFrame Player API code asynchronously.
@@ -179,3 +179,89 @@ function queueToPlayer(){
     $('div.currentScore-rightSide > h2').replaceWith('<h2>'+botScore+'</h2>');
 }
 
+function searchVideo(){
+    //ajax call to search youtube videos on specific channel !!still need to edit for search!!
+    var userInput = $('#search').val();
+    userInput+=" Full Game";
+    console.log(userInput);
+    $.get(
+        "https://www.googleapis.com/youtube/v3/search", {
+            q: userInput,
+            part: 'snippet',
+            order: 'relevance',
+            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
+            maxResults: 1,
+            channelId: 'UCOYuAoGMa3BeQ-Wr5mgz4NQ'
+        },
+        //function traverses through received items
+        function (data) {
+            var outputs;
+            var score = 0;
+            $.each(data.items, function (i, item) {
+                console.log(item);
+                //saves the video ids to the array
+                var vidId = item.id.videoId;
+                //pushes video ids to an array
+                vidIdList.push(vidId);
+                var aScore, bScore;
+                score++;
+                aScore = score;
+                bScore = 10 - score;
+                //console.log(item.snippet.thumbnails.default.url);
+
+                console.log(item.snippet.title);
+
+                var vidTitle = item.snippet.title;
+                var vidTitleArray = vidTitle.split("-");
+                
+                //get team names
+                var teams = vidTitleArray[0].split("vs");
+                var aTeam = teams[0];
+                var bTeam = teams[1];
+                bTeam = bTeam.slice(1);
+
+                //get date
+                var vidDate = vidTitleArray[1].split("|");
+                var date = vidDate[1];
+                date = date.substring(1, date.length-1);
+                date = date.replace (/,/g, "");
+                date = date.replace(/\s+/g, '/');
+
+                var month = monthsObj[date.split("/")[0]];
+
+                date = date.slice(date.split("/")[0].length);
+
+                console.log(aScore);
+                console.log(bScore);
+
+                var listItem = [
+                    '<li id="'+vidId+'" class="searchResults-item"><div class="searchResults-ul-img" >',
+                    '<img src=" '+item.snippet.thumbnails.default.url+' " onclick="moveToQueue(\''+vidId+'\');"> <!-- the thumbnail --></div>',
+                    '<div class="searchResults-ul-li">',
+                    '<h6>'+ aTeam +' - '+aScore+' </h6> <!-- Team 1 and score -->',
+                    '<h6>'+ bTeam +' - '+bScore+' </h6> <!-- Team 2 and score -->',
+                    '<h6>'+month+date+'</h6> <!-- Date --></div></li>'
+                ];
+                
+                //appends the items to the search list 
+                $(".searchResults-ul").append(listItem.join(''));
+
+            })
+        }
+    ); 
+}
+
+//enter button functionality
+$(document).keypress(function(ev){
+  if (ev.which == 13) {
+    ev.preventDefault();
+    searchVideo();
+  }
+});
+
+
+
+$("#form").submit(function() {
+    console.log("made it to");
+    return false;
+});
