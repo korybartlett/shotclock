@@ -1,6 +1,6 @@
-var playlistId = 'PLtZj4PDaJaI0_RrJDv_adFdf1gXInIGhV';
+var playlistId = 'PLO44uQM9orW4NL_thKgLZXIerQ9QRmXqC';
 var vidIdList = [];
-var monthsObj = {"January":1, "February":2, "March":3, "April":4, "May":5, "June":6, "July":7, "August":8, "September":9, "October":10, "November":11, "December":12};
+var monthsObj = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "December": 12};
 $(document).ready(function () {
     //get request to get youtube playlist to load todays games into results
     var score = 0;
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
                 //get date
                 var vidDate = vidTitleArray[1].split("|");
-                var date = vidDate[1];
+                var date = vidDate[2];
                 date = date.substring(1, date.length-1);
                 date = date.replace (/,/g, "");
                 date = date.replace(/\s+/g, '/');
@@ -53,9 +53,9 @@ $(document).ready(function () {
                     '<li id="'+vidId+'"><div class="theQueue-ul-img" >',
                     '<img src=" '+item.snippet.thumbnails.default.url+' " <!-- the thumbnail --></div>',
                     '<div class="theQueue-ul-li">',
-                    '<h6>'+ aTeam +' - '+aScore+' </h6> <!-- Team 1 and score -->',
-                    '<h6>'+ bTeam +' - '+bScore+' </h6> <!-- Team 2 and score -->',
-                    '<h6>'+month+date+'</h6> <!-- Date --></div></li>'
+                    '<h6>' + aTeam + ' - '+aScore+' </h6> <!-- Team 1 and score -->',
+                    '<h6>' + bTeam + ' - '+bScore+' </h6> <!-- Team 2 and score -->',
+                    '<h6>' + month+date + '</h6> <!-- Date --></div></li>'
                 ];
                 
                 //appends the items to the search list 
@@ -190,8 +190,8 @@ function searchVideo(){
             part: 'snippet',
             order: 'relevance',
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
-            maxResults: 1,
-            channelId: 'UCOYuAoGMa3BeQ-Wr5mgz4NQ'
+            maxResults: 5,
+            channelId: 'UCSr206TTNSJcGGGnU15Ga9A'
         },
         //function traverses through received items
         function (data) {
@@ -210,6 +210,10 @@ function searchVideo(){
                 //console.log(item.snippet.thumbnails.default.url);
 
                 console.log(item.snippet.title);
+                
+                //video title
+                //Cleveland Cavaliers vs Indiana Pacers - Full Game Highlights | Game 3 | Apr 20, 2017 | NBA Playoffs
+
 
                 var vidTitle = item.snippet.title;
                 var vidTitleArray = vidTitle.split("-");
@@ -222,7 +226,7 @@ function searchVideo(){
 
                 //get date
                 var vidDate = vidTitleArray[1].split("|");
-                var date = vidDate[1];
+                var date = vidDate[2];
                 date = date.substring(1, date.length-1);
                 date = date.replace (/,/g, "");
                 date = date.replace(/\s+/g, '/');
