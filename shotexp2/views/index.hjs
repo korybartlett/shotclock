@@ -23,11 +23,15 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">NBA</a></li>
-					<li><a href="#">EPL</a></li>
+					<li><a href="home">Home</a></li>
+					<li><a href="nba">NBA</a></li>
+					<li><a href="epl">EPL</a></li>
 				</ul>
 			</nav>
+			<!-- The Interactive Search Box -->
+				<form>
+					<input type="text" name="search" id="search" placeholder="Search..">
+				</form>	
 			<!-- The div for the customization feature -->
 			<div id="customizeDiv">
 				<a id="customizeKeyword" href="#">Customize Settings</a>

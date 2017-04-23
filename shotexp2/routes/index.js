@@ -3,7 +3,12 @@ var router = express.Router();
 
 /* GET home page - also default pathway */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', val2: 'rory' });
+  res.render('index', { title: 'hellllo', val2: 'rory' });
+});
+
+/* GET NBA page. */
+router.get('/home', function(req, res, next) {
+  res.render('index', { title: 'NBA',val2: 'NBA' });
 });
 
 /* GET NBA page. */
