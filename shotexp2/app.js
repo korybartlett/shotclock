@@ -24,6 +24,7 @@ app.use(cookieParser());
 app.use(lessMiddleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+//sends to index.js and users.js
 app.use('/', index);
 app.use('/users', users);
 
