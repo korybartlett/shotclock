@@ -1,4 +1,4 @@
-var playlistId = 'PLO44uQM9orW4NL_thKgLZXIerQ9QRmXqC';
+var playlistId = 'PLQNqwCpoZBfetQpUKU3Kpksm8AfSivirs';
 var vidIdList = [];
 var monthsObj = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "December": 12};
 $(document).ready(function () {
@@ -191,7 +191,7 @@ function searchVideo(){
             order: 'relevance',
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
             maxResults: 5,
-            channelId: 'UCSr206TTNSJcGGGnU15Ga9A'
+            channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
         },
         //function traverses through received items
         function (data) {
