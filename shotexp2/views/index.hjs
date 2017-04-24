@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    	<script type="text/javascript" src="js/iframe.js"></script>
+    <script type="text/javascript" src="javascripts/iframe.js"></script>
     <title>ShotClock</title>
     <!-- <title>{{ title }}</title> --> 
     <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -44,36 +44,16 @@
 		<!-- Section 2: The Queue -->
 		<section class="theQueue">
 			<ul class="theQueue-ul">
-				<li>	
-					<div class="theQueue-ul-img">
-						<img src="images/hazardgoal.png"> <!-- the thumbnail -->
-					</div>
-					<div class="theQueue-ul-li">
-						<h6>Team A - 2</h6> <!-- Team 1 and score -->
-						<h6>Team B - 1</h6> <!-- Team 2 and score -->
-						<h6>1/21/2017</h6> <!-- Date -->
-					</div>
-				</li>
-				<li>	
-					<div class="theQueue-ul-img">
-						<img src=""> <!-- the thumbnail -->
-					</div>
-					<div class="theQueue-ul-li">
-						<h6>Team A - 3</h6> <!-- Team 1 and score -->
-						<h6>Team B - 0</h6> <!-- Team 2 and score -->
-						<h6>1/28/2017</h6> <!-- Date -->
-					</div>
-				</li>
-				<li>	
-					<div class="theQueue-ul-img">
-						<img src=""> <!-- the thumbnail -->
-					</div>
-					<div class="theQueue-ul-li">
-						<h6>Team A - 1</h6> <!-- Team 1 and score -->
-						<h6>Team B - 1</h6> <!-- Team 2 and score -->
-						<h6>2/5/2017</h6> <!-- Date -->
-					</div>
-				</li>
+				<!-- <li> -->
+					<!-- <div class="theQueue-ul-img"> -->
+						<!-- <img src="images/hazardgoal.png"> --> <!-- the thumbnail -->
+					<!-- </div> -->
+					<!-- <div class="theQueue-ul-li"> -->
+						<!-- <h6>Team A - 2</h6> --> <!-- Team 1 and score --> 
+						<!-- <h6>Team B - 1</h6> --> <!-- Team 2 and score -->
+						<!-- <h6>1/21/2017</h6> --> <!-- Date -->
+					<!-- </div> -->
+				<!-- </li> -->
 			</ul>	
 		</section>
 
