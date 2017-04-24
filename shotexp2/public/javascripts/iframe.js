@@ -1,6 +1,6 @@
 var playlistId = 'PLQNqwCpoZBfetQpUKU3Kpksm8AfSivirs';
 var vidIdList = [];
-var monthsObj = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "December": 12};
+var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3};
 $(document).ready(function () {
     //get request to get youtube playlist to load todays games into results
     var score = 0;
@@ -9,7 +9,7 @@ $(document).ready(function () {
         {
             part: 'snippet',
             playlistId: playlistId,
-            maxResults: 7,
+            maxResults: 8,
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
         },
         //function traverses through received items
@@ -180,6 +180,9 @@ function queueToPlayer(){
 }
 
 function searchVideo(){
+    //removes the first element from the queue
+    $('.searchResults-ul li').remove();
+
     //ajax call to search youtube videos on specific channel !!still need to edit for search!!
     var userInput = $('#search').val();
     userInput+=" Full Game";
@@ -213,7 +216,7 @@ function searchVideo(){
                 
                 //video title
                 //Cleveland Cavaliers vs Indiana Pacers - Full Game Highlights | Game 3 | Apr 20, 2017 | NBA Playoffs
-
+                //Phoenix Suns vs Sacramento Kings - Full Game Highlights | April 11, 2017 | 2016-17 NBA Season
 
                 var vidTitle = item.snippet.title;
                 var vidTitleArray = vidTitle.split("-");
@@ -226,7 +229,8 @@ function searchVideo(){
 
                 //get date
                 var vidDate = vidTitleArray[1].split("|");
-                var date = vidDate[2];
+                var date = vidDate[1];
+                console.log(date);
                 date = date.substring(1, date.length-1);
                 date = date.replace (/,/g, "");
                 date = date.replace(/\s+/g, '/');
