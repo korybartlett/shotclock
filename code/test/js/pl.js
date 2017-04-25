@@ -1,30 +1,102 @@
 //var playlistId = 'PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76-'; //old playlist
-var playlistId = 'PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76-';
+var playlistId = 'PLQNqwCpoZBfcfbWpT3cxXtCmn8arr6Tzs';
 var vidIdList = [];
-var month = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+var csvArr = [];
+var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2};
 
 $(document).ready(function() {
-    $.get(
-        "https://www.googleapis.com/youtube/v3/playlistItems", {
-            part: 'snippet',
-            playlistId: playlistId,
-            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
-        },
-        function(data) {
+	$.get(
+	    "https://www.googleapis.com/youtube/v3/search", {
+	        q: "full game ",
+	        part: 'snippet',
+	        order: 'date',
+	        key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
+	        maxResults: 50,
+	        publishedAfter: "2017-02-25T00:00:00Z",
+	        publishedBefore: "2017-03-01T00:00:00Z",
+	        channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
+	    },
+	    function(data) {
             var outputs;
             $.each(data.items, function(i, item) {
-                //console.log(item);
+                var csvString = "";
+                console.log(item);
+
+                var vidId = item.id.videoId;
                 var vidTitle = item.snippet.title;
-                outputs = '<li>' + vidTitle + '</li>';
+                var vidTitleArray = vidTitle.split("-");
+                
+                //get team names
+                var teams = vidTitleArray[0].split("vs");
+                var aTeam = teams[0];
+                var bTeam = teams[1];
+                bTeam = bTeam.slice(1);
+
+                //get date
+                var vidDate = vidTitleArray[1].split("|");
+                var date = vidDate[1];
+               	console.log(date);
+                date = date.substring(1, date.length-1);
+                date = date.replace (/,/g, "");
+                date = date.replace(/\s+/g, '/');
+
+                var month = monthsObj[date.split("/")[0]];
+
+                date = date.slice(date.split("/")[0].length);
+                
+                csvString+=aTeam;
+                csvString+=", "
+                outputs = '<li>' + aTeam + '</li>';
                 $('#results').append(outputs);
-                var vidId = item.snippet.resourceId.videoId;
+
+                csvString+=bTeam;
+                csvString+=", "
+                outputs = '<li>' + bTeam + '</li>';
+                $('#results').append(outputs);
+                
+                date = month + date;
+                csvString+=date;
+                csvString+=", "
+                outputs = '<li>' + date + '</li>';
+                $('#results').append(outputs);
+
+                csvString+=vidId;
+                //csvString+="\n"
+                outputs = '<li>' + vidId + '</li>';
+                $('#results').append(outputs);
+
+                console.log(csvString);
+                csvArr.push(csvString);
                 // console.log(vidId);
-                vidIdList.push(vidId);
+                //vidIdList.push(vidId);
                 //makeFrame(vidId);
-    				})
+    		})
+			var data = csvArr.join("\n");
+			console.log(data);
+			var csvContent = "data:text/csv;charset=utf-8,";
+			csvContent= csvContent + data;
+    		var encodedUri = encodeURI(csvContent);
+      		window.open(encodedUri);
         }
+
+		
+
     );
+
+	
 });
+
+//get request for searching channel
+// $.get(
+// 	    "https://www.googleapis.com/youtube/v3/search", {
+// 	        q: "full game highlights",
+// 	        part: 'snippet',
+// 	        order: 'relevance',
+// 	        key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
+// 	        maxResults: 50,
+// 	        channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
+// 	    },
+
 /*
 function createFrame(){
 	// $(window).load(function() {
