@@ -8,7 +8,7 @@ var lessMiddleware = require('less-middleware');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-console.log("Server is Running!");
+console.log("Server is Running!!");
 var app = express();
 
 // view engine setup
