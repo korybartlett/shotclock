@@ -239,8 +239,8 @@ function searchVideo(){
 
                 date = date.slice(date.split("/")[0].length);
 
-                console.log(aScore);
-                console.log(bScore);
+                // console.log(aScore);
+                // console.log(bScore);
 
                 var listItem = [
                     '<li id="'+vidId+'" class="searchResults-item"><div class="searchResults-ul-img" >',
