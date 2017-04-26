@@ -10,3 +10,16 @@ npm-debug.log*
 node_modules/
 jspm_packages/
 
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+ build/Release
+
+ # Runtime data
+ pids
+ *.pid
+ *.seed
