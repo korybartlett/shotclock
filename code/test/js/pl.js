@@ -2,7 +2,7 @@
 var playlistId = 'PLQNqwCpoZBfcfbWpT3cxXtCmn8arr6Tzs';
 var vidIdList = [];
 var csvArr = [];
-var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2};
+var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2, "Jan": 1, "Nov": 11};
 
 $(document).ready(function() {
 	$.get(
@@ -12,8 +12,8 @@ $(document).ready(function() {
 	        order: 'date',
 	        key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
 	        maxResults: 50,
-	        publishedAfter: "2017-02-25T00:00:00Z",
-	        publishedBefore: "2017-03-01T00:00:00Z",
+	        publishedAfter: "2016-11-24T00:00:00Z",
+	        publishedBefore: "2016-11-27T00:00:00Z",
 	        channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
 	    },
 	    function(data) {
@@ -24,8 +24,13 @@ $(document).ready(function() {
 
                 var vidId = item.id.videoId;
                 var vidTitle = item.snippet.title;
-                var vidTitleArray = vidTitle.split("-");
+
+                //with -
+                //var vidTitleArray = vidTitle.split("-");
                 
+                //with |
+               	var vidTitleArray = vidTitle.split("|");
+
                 //get team names
                 var teams = vidTitleArray[0].split("vs");
                 var aTeam = teams[0];
@@ -33,8 +38,13 @@ $(document).ready(function() {
                 bTeam = bTeam.slice(1);
 
                 //get date
-                var vidDate = vidTitleArray[1].split("|");
-                var date = vidDate[1];
+                //with -
+                // var vidDate = vidTitleArray[1].split("|");
+                // var date = vidDate[1];
+               	
+               	//with |
+               	var date = vidTitleArray[2];
+
                	console.log(date);
                 date = date.substring(1, date.length-1);
                 date = date.replace (/,/g, "");
@@ -67,7 +77,7 @@ $(document).ready(function() {
 
                 console.log(csvString);
                 csvArr.push(csvString);
-                // console.log(vidId);
+                //console.log(vidId);
                 //vidIdList.push(vidId);
                 //makeFrame(vidId);
     		})
