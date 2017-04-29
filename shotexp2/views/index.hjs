@@ -44,7 +44,7 @@
 		<!-- Section 2: The Queue -->
 		<section class="theQueue">
 			<ul class="theQueue-ul">
-				<!-- <li> -->
+				<!-- <li class="theQueue-item"> -->
 					<!-- <div class="theQueue-ul-img"> -->
 						<!-- <img src="images/hazardgoal.png"> --> <!-- the thumbnail -->
 					<!-- </div> -->

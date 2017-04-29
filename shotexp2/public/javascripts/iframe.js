@@ -1,6 +1,6 @@
 var playlistId = 'PLQNqwCpoZBfetQpUKU3Kpksm8AfSivirs';
 var vidIdList = [];
-var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3};
+var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2, "Jan": 1, "Nov": 11, "Oct": 10};
 $(document).ready(function () {
     //get request to get youtube playlist to load todays games into results
     var score = 0;
@@ -50,8 +50,8 @@ $(document).ready(function () {
                 date = date.slice(date.split("/")[0].length);
 
                 var listItem = [
-                    '<li id="'+vidId+'"><div class="theQueue-ul-img" >',
-                    '<img src=" '+item.snippet.thumbnails.default.url+' " <!-- the thumbnail --></div>',
+                    '<li id="'+vidId+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
+                    '<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+vidId+'\');"> <!-- the thumbnail --></div>',
                     '<div class="theQueue-ul-li">',
                     '<h6>' + aTeam + ' - '+aScore+' </h6> <!-- Team 1 and score -->',
                     '<h6>' + bTeam + ' - '+bScore+' </h6> <!-- Team 2 and score -->',
@@ -96,11 +96,15 @@ function moveToQueue(vidId) {
 
     //removes the last occurence, which is hopefully in the search result 
     $('#' + vidId + '.searchResults-item').last().remove();
+
+    $('#' + vidId + '.theQueue-item').last().remove();    
     
     //adjusts theQueue class attributes because of cloning
-    $('#' + vidId).removeClass('searchResults-item');
+    $('#' + vidId).removeClass('searchResults-item').addClass('theQueue-item');
     $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
     $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
+    //$('.theQueue-ul-img').prop('onclick', null);
+
 
     //delete after testing
     // var end = player.getDuration();
@@ -124,7 +128,7 @@ function onYouTubeIframeAPIReady() {
       //creates player with hardcoded ID for now
       videoId: 'o5aYww6nf0s',
       //another option to set video to autoplay 
-      playerVars: {'autoplay':1 },
+      playerVars: {'autoplay':0 },
       //creates events to use with youtube player
       events: {
         //'onReady': onPlayerReady,
