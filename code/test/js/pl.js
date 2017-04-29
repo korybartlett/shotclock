@@ -2,7 +2,7 @@
 var playlistId = 'PLQNqwCpoZBfcfbWpT3cxXtCmn8arr6Tzs';
 var vidIdList = [];
 var csvArr = [];
-var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2, "Jan": 1, "Nov": 11};
+var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2, "Jan": 1, "Nov": 11, "Oct": 10};
 
 $(document).ready(function() {
 	$.get(
