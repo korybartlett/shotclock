@@ -17,9 +17,12 @@ jspm_packages/
 *.tgz
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
- build/Release
+build/Release
 
- # Runtime data
- pids
- *.pid
- *.seed
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Icont issue 
+ Icon\r
