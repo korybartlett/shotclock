@@ -12,8 +12,8 @@ $(document).ready(function() {
 	        order: 'date',
 	        key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
 	        maxResults: 50,
-	        publishedAfter: "2016-11-24T00:00:00Z",
-	        publishedBefore: "2016-11-27T00:00:00Z",
+	        publishedAfter: "2016-10-25T00:00:00Z",
+	        publishedBefore: "2016-10-27T00:00:00Z",
 	        channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
 	    },
 	    function(data) {
