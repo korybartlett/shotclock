@@ -83,10 +83,10 @@ $(document).ready(function() {
     		})
 			var data = csvArr.join("\n");
 			console.log(data);
-			var csvContent = "data:text/csv;charset=utf-8,";
-			csvContent= csvContent + data;
-    		var encodedUri = encodeURI(csvContent);
-      		window.open(encodedUri);
+			// var csvContent = "data:text/csv;charset=utf-8,";
+			// csvContent= csvContent + data;
+   //  		var encodedUri = encodeURI(csvContent);
+   //    		window.open(encodedUri);
         }
 
 		
