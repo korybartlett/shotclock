@@ -74,6 +74,7 @@ $(document).ready(function( {
     if(firebaseUser){
       console.log(firebaseUser);
       btnSignOut.classList.remove('hide');
+      loadUserSettings(firebaseUser);
     }
     else{
       console.log("Not logged in!");
@@ -84,11 +85,17 @@ $(document).ready(function( {
 }));
 
 /*
+function loadUserSettings(firebaseUser){
 
+  //finds the firebase user in database
+  var dbRefObj = firebase.database().ref().child(firebaseUser);
+}
+*/
+
+/*
 //check if email and password provided
 if(!email || !password){
   console.log("email and password required");
   return;
 }
-
 */  
