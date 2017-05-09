@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ximo Pietro Full Game highlights of today</title>
+		<title>Scraping Page</title>
 	</head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://apis.google.com/js/api.js"></script>
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/jquery-csv.js"></script>
+	<script src="https://evanplaice.github.io/jquery-csv/src/jquery.csv.js"></script>
 	<!--  <script type="text/javascript" src="js/pl.js"></script> -->
-	<script type="text/javascript" src="js/epl.js"></script>
-	<!--<script type="text/javascript" src="js/stackoverflow.js"></script>-->
-	</script>
+	<!-- <script type="text/javascript" src="js/epl.js"></script> -->
+	<!--<script type="text/javascript" src="js/nbaScores.js"></script>-->
+	<script type="text/javascript" src="js/eplScores.js"></script>
 	<body>
 		<div id = "video-container">
 			<h1>Video Snippet Titles</h1>
@@ -25,6 +25,14 @@
 			Date: <input type="text" id="datepicker" value="february 25 2017">
 			<br><br>
 		</form>
+		<div>
+			<input type="file" id="filebtn">
+			<button type="button" id="loadbtn">SCORE</button>
+		</div>
+		<div>
+			<input type="file" id="filebtn2">
+			<button type="button" id="loadbtn2">LIST</button>
+		</div>
 		<!-- <div id="player"></div> -->
 		<!-- <iframe
 		id="player" type="text/html" width="640" height="390"

@@ -12,6 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/iframe.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
     <title>ShotClock</title>
     <!-- <title>{{ title }}</title> --> 
     <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -72,11 +73,6 @@
 
 			<!-- Section 4: The Screen (or iFrame) -->
 			<section class="theScreen">
-				<!-- <iframe
-						id="player" type="text/html" width="650" height="400"
-						src="https://www.youtube.com/embed?list=PL31NN8Vu_FZ_ZEABi73pW_0YXqbOJ_76-"
-						frameborder="0">
-				</iframe> -->
 				<div id="player"></div>
 			</section>
 
