@@ -82,21 +82,21 @@ header form {
 }
 
 header form input[type=text] {
-	width: 150px;
+	width: 300px;
 	margin-left: 325px; /* Not the best way to center the search box. come back to this */
 	border: 1px solid #ccc;
 	border-radius: 25px;
 	font-size: 16px;
 	background-color: white;
-	-webkit-transition: width 0.4s ease-in-out; /* Animating search box */
-    transition: width 0.4s ease-in-out;
+	/*-webkit-transition: width 0.4s ease-in-out;  Animating search box 
+    transition: width 0.4s ease-in-out; */
 }
 
 /* Controversial micro-animation for search box */
-header form input[type=text]:focus {
+/* header form input[type=text]:focus {
 	width: 300px;
-	margin-left: 250px;
-}
+	margin-left: 250px; 
+} */
 
 /*****************************
 The Wrapper
@@ -104,7 +104,7 @@ The Wrapper
  
 #wrapper {
 	margin: 10px auto;
-	max-width: 1275px;
+  max-width: 1275px; 
 	max-height: 675px;
 	min-height: 675px;
 }

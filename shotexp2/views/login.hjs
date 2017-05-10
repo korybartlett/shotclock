@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<meta name="description" content="ShotClock, An alternative way to view highlights">
+	<meta name="keywords" content="shotclock, sports highlights, epl, nba, fred, kory">
+	<meta name="author" content="Fred Farzad Feyzi and Kory Bartlett">
+	<!-- <link rel="stylesheet" href="/stylesheets/main.css"> -->
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/iframe.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <title>ShotClock - Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/login.css" />
+</head>
+<body>
+	<div class="main">
+	<!-- Section 1: The Header -->
+	<section>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="home">Home</a></li>
+					<li><a href="nba">NBA</a></li>
+					<li><a href="epl">EPL</a></li>
+				</ul>
+			</nav>
+			<!-- The Interactive Search Box -->
+				<form>
+					<input type="text" name="search" id="search" placeholder="Search..">
+				</form>	
+			<!-- The div for the customization feature -->
+			<div id="customizeDiv">
+				<a id="customizeKeyword" href="login">Customize Settings</a>
+			</div>
+		</header>
+	</section>
+
+	<!-- This is the div for the main wrapper -->
+	<div id="wrapper">
+
+		<div class="login">
+			<h2 class="loginHeader">FUCK THIS!</h2>
+			<form class="loginBox">
+				<input type="email" placeholder="rory@kory.com">
+				<input type="password" placeholder="Password">
+				<input type="submit" value="Log in">
+			</form>
+		</div>
+		
+	</div>
+
+	<h1>{{ title }}</h1>
+    <h1>{{ val2 }}</h1>
+    <p>Welcome to {{ title }}</p> -->
+  </body>
+</html>
