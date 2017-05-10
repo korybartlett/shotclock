@@ -88,7 +88,7 @@ $(document).ready(function( {
 function loadUserSettings(firebaseUser){
 
   //finds the firebase user in database
-  var dbRefObj = firebase.database().ref().child(firebaseUser);
+  var dbRefObj = firebase.database().ref("users").child(firebaseUser);
 }
 */
 
@@ -97,5 +97,5 @@ function loadUserSettings(firebaseUser){
 if(!email || !password){
   console.log("email and password required");
   return;
-}
+}f
 */  
