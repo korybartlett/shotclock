@@ -115,7 +115,30 @@ function checkStateChange(){
 /*
 function loadUserSettings(firebaseUser){
   //finds the firebase user in database
-  var dbRefObj = firebase.database().ref("users").child(firebaseUser);
+  //.ref() is the root of the database
+  //.child(<param>), param goes to users in database
+  var dbRefObj = firebase.database().ref().child(firebaseUser);
+  var dvRefBasketball = dbRefObj.child('basketball');
+  var teamBJSON = dvRefBasketball['basketball'];
+  var favBaskArr = [];
+  for (var key in teamBJSON) {
+    if (teamJSON.hasOwnProperty(key)) {
+      faveBaskArr[key] = teamBJSON[key];
+    }
+  }
+
+  var dvRefSoccer = dbRefObj.child('soccer');
+  var teamSJSON = dvRefSoccer['soccer'];
+  var favSocArr = [];
+  for (var key in teamSJSON) {
+    if (teamSJSON.hasOwnProperty(key)) {
+      faveSocArr[key] = teamSJSON[key];
+    }
+  }
+
+  dbRefObj.on('value', snap =>{
+    <something> = JSON.stringify(snap.val(), null);
+  });
 }
 */
 
