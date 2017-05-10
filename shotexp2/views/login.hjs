@@ -11,8 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/iframe.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script type="text/javascript" src="javascripts/firebase.js"></script>
     <title>ShotClock - Login</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="/stylesheets/login.css" />
@@ -44,15 +44,16 @@
 	<div id="wrapper">
 
 		<div class="login">
-			<h2 class="loginHeader">FUCK THIS!</h2>
-			<form class="loginBox">
-				<input type="email" placeholder="rory@kory.com">
-				<input type="password" placeholder="Password">
-				<input type="submit" value="Log in">
-			</form>
+			<h2 class="loginHeader">Access Account</h2>
+			<div class="loginBox">
+				<input type="email" id = "email" placeholder="rory@kory.com">
+				<input type="password" id = "password" placeholder="Password">
+				<input type="submit" id = "btnSignIn" value="Log in">
+				<input type="submit" id = "btnRegister" value="Register Account">
+				<input type="submit" id = "btnSignOut" value="Sign Out">
+			</div>
 		</div>
 		
 	</div>
-
   </body>
 </html>

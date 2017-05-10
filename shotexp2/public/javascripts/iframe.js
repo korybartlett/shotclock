@@ -65,6 +65,30 @@ $(document).ready(function () {
         }
     ); 
 
+    //Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyC844URQeH0lRk7ucJkR40rqenAx14XqOU",
+      authDomain: "shotclock-b3cee.firebaseapp.com",
+      databaseURL: "https://shotclock-b3cee.firebaseio.com",
+      projectId: "shotclock-b3cee",
+      storageBucket: "shotclock-b3cee.appspot.com",
+      messagingSenderId: "284568572596"
+    };
+    firebase.initializeApp(config);
+
+    //monitors login state change
+    firebase.auth().onAuthStateChanged(firebaseUser =>{
+    if(firebaseUser){
+      console.log(firebaseUser);
+      btnSignOut.classList.remove('hide');
+      loadUserSettings(firebaseUser);
+    }
+    else{
+      console.log("Not logged in!");
+      btnSignOut.classList.add('hide');
+    }
+  });
+
 });
 
 function moveToQueue(vidId) {
