@@ -40,7 +40,15 @@ function loadUserSettings(username){
 	//finds the firebase user in database
 	//.ref() is the root of the database
 	//.child(<param>), param goes to users in database
-	var dbRefObj = firebase.database().ref().child("users").child(username)
+	var dbRefObj = firebase.database().ref().child("users").child(username);
+  var objS;
+  dbRefObj.on('value', snap=>{
+    objS = JSON.parse(JSON.stringify(snap.val()));
+    //objS["basketball"]["Warriors"] = 0;
+    console.log(objS["basketball"]);
+    firebase.database().ref().child("users").child(username).set(objS);
+  });
+
 	var dbRefObjBask = dbRefObj.child("basketball");
 	var dbRefObjSoc = dbRefObj.child("soccer");
 	var JSONObj;
@@ -49,7 +57,8 @@ function loadUserSettings(username){
 		//console.log(JSON.stringify(snap.val(), null, 3));
 		JSONObj = JSON.stringify(snap.val(), null, 3);
 		favBaskArr = JSON.parse(JSONObj);
-		console.log(favBaskArr);
+		// console.log(JSON.stringify(favBaskArr));
+  //   console.log(favBaskArr);
 		
 	});
 
@@ -57,7 +66,6 @@ function loadUserSettings(username){
 		//console.log(JSON.stringify(snap.val(), null, 3));
 		JSONObj = JSON.stringify(snap.val(), null, 3);
 		favSocArr = JSON.parse(JSONObj);
-		console.log(favSocArr);
-		
+		// console.log(favSocArr);
 	});
 }
