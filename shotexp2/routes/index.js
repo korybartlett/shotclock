@@ -40,6 +40,11 @@ router.get('/login', function(req, res, next) {
 	res.render('login', { title: 'Login', val2: 'Customize' });
 });
 
+/* Logged In Session Page */
+router.get('/loggedin', function(req, res, next) {
+	res.render('loggedin', { title: 'Logged in Now', val2: 'here we go'})
+});
+
 //This is what the return value of the entire file will be.
 module.exports = router;
 
