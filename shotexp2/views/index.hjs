@@ -35,7 +35,7 @@
 				</form>	
 			<!-- The div for the customization feature -->
 			<div id="customizeDiv">
-				<a id="customizeKeyword" href="#">Customize Settings</a>
+				<a id="customizeKeyword" href="login">Customize Settings</a>
 			</div>
 		</header>
 	</section>
