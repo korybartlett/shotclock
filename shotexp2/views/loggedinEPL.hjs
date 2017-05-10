@@ -66,46 +66,46 @@
             <div class="individualBox" onclick="selectorFunction('Crystal_Palace.png')">
                 <img src="/images/soccer/150px/Crystal_Palace.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Everton.png')">
+            <div class="individualBox" onclick="selectorFunction('Everton')">
                 <img src="/images/soccer/150px/Everton.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Hull_City.png')">
+            <div class="individualBox" onclick="selectorFunction('Hull_City')">
                 <img src="/images/soccer/150px/Hull_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Leicester_City.png')">
+            <div class="individualBox" onclick="selectorFunction('Leicester_City')">
                 <img src="/images/soccer/150px/Leicester_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Liverpool.png')">
+            <div class="individualBox" onclick="selectorFunction('Liverpool')">
                 <img src="/images/soccer/150px/Liverpool.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Manchester_City.png')">
+            <div class="individualBox" onclick="selectorFunction('Manchester_City')">
                 <img src="/images/soccer/150px/Manchester_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Manchester_United.png')">
+            <div class="individualBox" onclick="selectorFunction('Manchester_United')">
                 <img src="/images/soccer/150px/Manchester_United.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Middlesbrough.png')">
+            <div class="individualBox" onclick="selectorFunction('Middlesbrough')">
                 <img src="/images/soccer/150px/Middlesbrough.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Southampton.png')">
+            <div class="individualBox" onclick="selectorFunction('Southampton')">
                 <img src="/images/soccer/150px/Southampton.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Stoke_City.png')">
+            <div class="individualBox" onclick="selectorFunction('Stoke_City')">
                 <img src="/images/soccer/150px/Stoke_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Sunderland.png')">
+            <div class="individualBox" onclick="selectorFunction('Sunderland')">
                 <img src="/images/soccer/150px/Sunderland.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Tottenham.png')">
+            <div class="individualBox" onclick="selectorFunction('Tottenham')">
                 <img src="/images/soccer/150px/Tottenham.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Watford.png')">
+            <div class="individualBox" onclick="selectorFunction('Watford')">
                 <img src="/images/soccer/150px/Watford.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('West_Bromwich_Albion.png')">
+            <div class="individualBox" onclick="selectorFunction('West_Bromwich_Albion')">
                 <img src="/images/soccer/150px/West_Bromwich_Albion.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('West_Ham.png')">
+            <div class="individualBox" onclick="selectorFunction('West_Ham')">
                 <img src="/images/soccer/150px/West_Ham.png">
             </div>
         </div> 
