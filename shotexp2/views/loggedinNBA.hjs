@@ -45,8 +45,8 @@
 
         <h2>Select Your Favorite Teams</h2>
         <div id="toggleButtonDiv">
-            <a href="#" id="theNBA"><h3 id="NBA" class="toggleIcon">NBA</h3></a>
-            <a href="#" id="theEPL"><h3 id="EPL" class="toggleIcon">EPL</h3></a>
+            <a href="#" onclick="showNBA()">NBA</a>
+            <a href="#" onclick="showEPL()">EPL</a>
         </div>
 
         
@@ -162,6 +162,12 @@
                 document.getElementById("testArray").innerHTML = selectedTeams;
             }
         }
+
+
+        function showNBA() {
+            alert("Activated Correctly. NBA!");
+        }
+
 
     </script>
   </body>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<meta name="description" content="ShotClock, An alternative way to view highlights">
+	<meta name="keywords" content="shotclock, sports highlights, epl, nba, fred, kory">
+	<meta name="author" content="Fred Farzad Feyzi and Kory Bartlett">
+	<!-- <link rel="stylesheet" href="/stylesheets/main.css"> -->
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/iframe.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <title>ShotClock - Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/loggedin.css" />
+</head>
+<body>
+    <div class="main">
+    <!-- Section 1: The Header -->
+    <section>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="nba">NBA</a></li>
+                    <li><a href="epl">EPL</a></li>
+                </ul>
+            </nav>
+            <!-- The Interactive Search Box -->
+                <form>
+                    <input type="text" name="search" id="search" placeholder="Search..">
+                </form> 
+            <!-- The div for the customization feature -->
+            <div id="customizeDiv">
+                <a id="customizeKeyword" href="login">Customize Settings</a>
+            </div>
+        </header>
+    </section>
+
+    <!-- This is the div for the main wrapper -->
+    <div id="wrapper">
+
+        <h2>Select Your Favorite Teams</h2>
+        <div id="toggleButtonDiv">
+            <a href="#" onclick="showNBA()">NBA</a>
+            <a href="#" onclick="showEPL()">EPL</a>
+        </div>
+
+        
+        <div class="gridContainer" id="divContent">
+            <div class="individualBox" onclick="selectorFunction('Arsenal.png')">
+                <img src="/images/soccer/150px/Arsenal.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Bournemouth.png')">
+                <img src="/images/soccer/150px/Bournemouth.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Burnley.png')">
+                <img src="/images/soccer/150px/Burnley.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Chelsea.png')">
+                <img src="/images/soccer/150px/Chelsea.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Crystal_Palace.png')">
+                <img src="/images/soccer/150px/Crystal_Palace.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Everton.png')">
+                <img src="/images/soccer/150px/Everton.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Hull_City.png')">
+                <img src="/images/soccer/150px/Hull_City.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Leicester_City.png')">
+                <img src="/images/soccer/150px/Leicester_City.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Liverpool.png')">
+                <img src="/images/soccer/150px/Liverpool.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Manchester_City.png')">
+                <img src="/images/soccer/150px/Manchester_City.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Manchester_United.png')">
+                <img src="/images/soccer/150px/Manchester_United.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Middlesbrough.png')">
+                <img src="/images/soccer/150px/Middlesbrough.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Southampton.png')">
+                <img src="/images/soccer/150px/Southampton.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Stoke_City.png')">
+                <img src="/images/soccer/150px/Stoke_City.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Sunderland.png')">
+                <img src="/images/soccer/150px/Sunderland.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Tottenham.png')">
+                <img src="/images/soccer/150px/Tottenham.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('Watford.png')">
+                <img src="/images/soccer/150px/Watford.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('West_Bromwich_Albion.png')">
+                <img src="/images/soccer/150px/West_Bromwich_Albion.png">
+            </div>
+            <div class="individualBox" onclick="selectorFunction('West_Ham.png')">
+                <img src="/images/soccer/150px/West_Ham.png">
+            </div>
+        </div> 
+        
+        <p id="testArray"></p>
+    </div>
+    <!-- Not too much JS, so save the variables here -->
+    <script type="text/javascript">
+        var selectedTeams = [];
+        document.getElementById("testArray").innerHTML = selectedTeams;
+
+        function selectorFunction(title) {
+            if (selectedTeams.indexOf(title) === -1) {
+                selectedTeams.push(title);
+                document.getElementById("testArray").innerHTML = selectedTeams;
+            }
+            //If the element already exists
+            else {
+                removalIndex = selectedTeams.indexOf(title);
+                selectedTeams.splice(removalIndex, 1);
+                document.getElementById("testArray").innerHTML = selectedTeams;
+            }
+        }
+
+
+        function showNBA() {
+            alert("Activated Correctly. NBA!");
+        }
+
+
+    </script>
+  </body>
+</html>
