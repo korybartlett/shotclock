@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/iframe.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script type="text/javascript" src="javascripts/changeCustomize.js"></script>
     <title>ShotClock</title>
     <!-- <title>{{ title }}</title> --> 
     <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -35,7 +36,7 @@
 				</form>	
 			<!-- The div for the customization feature -->
 			<div id="customizeDiv">
-				<a id="customizeKeyword" href="login">Customize Settings</a>
+				<a id="customizeKeyword" href="login"></a>
 			</div>
 		</header>
 	</section>
