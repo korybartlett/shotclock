@@ -64,12 +64,12 @@
 			<!-- Section 3: The game score -->
 			<section class="currentScore">
 				<div class="currentScore-leftSide">
-					<img src="images/chelsea.png">
+					<img id="currentScore-leftTeam" src="images/chelsea.png">
 					<h2>2</h2>
 				</div>
 				<div class="currentScore-rightSide">
 					<h2>1</h2>
-					<img src="images/mancity.png">
+					<img id="currentScore-rightTeam" src="images/mancity.png">
 				</div>
 			</section>
 
@@ -91,6 +91,14 @@
 				<div>
 					<p>Los Angeles Clippers - 114</p>
 					<p>Utah Jazz - 100</p>
+				</div>
+				<div>
+					<p>Cleveland Cavaliers - 101</p>
+					<p>Portland Trailblazers - 98</p>
+				</div>
+				<div>
+					<p>Memphis Grizzlies - 102</p>
+					<p>Portland Trailblazers - 94</p>
 				</div>
 				<div>
 					<p>Memphis Grizzlies - 102</p>
