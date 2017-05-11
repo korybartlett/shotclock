@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
     <script type="text/javascript" src="javascripts/changeCustomize.js"></script>
+    <script type="text/javascript" src="javascripts/goSomewhere.js"></script>
     <title>ShotClock - Login</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="/stylesheets/loggedin.css" />
@@ -24,9 +25,9 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="nba">NBA</a></li>
-                    <li><a href="epl">EPL</a></li>
+                    <li><a href="home" onclick="goHome()">Home</a></li>
+                    <li><a href="nba" onclick="goNBA()">NBA</a></li>
+                    <li><a href="epl" onclick="goEPL()">EPL</a></li>
                 </ul>
             </nav>
             <!-- The Interactive Search Box -->
@@ -148,6 +149,7 @@
     <!-- Not too much JS, so save the variables here -->
     <script type="text/javascript">
         var selectedTeams = [];
+        console.log(selectedTeams);
         document.getElementById("testArray").innerHTML = selectedTeams;
 
         function selectorFunction(title) {
@@ -165,7 +167,14 @@
 
 
         function showNBA() {
+            saveBaskTeams(selectedTeams);
+            //console.log(selectedTeams);
             alert("Activated Correctly. NBA!");
+        }
+
+        function showEPL(){
+            //saveBaskTeams(selectedTeams);
+            window.location.replace("loggedInEPL");
         }
 
 

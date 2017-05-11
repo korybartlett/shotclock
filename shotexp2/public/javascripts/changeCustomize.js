@@ -1,5 +1,8 @@
 var favBaskArr = [];
 var favSocArr = [];
+var username = "";
+var userJSON;
+var string = "test";
 
 $(document).ready(function() {
   // Initialize Firebase
@@ -22,8 +25,8 @@ $(document).ready(function() {
       document.getElementById('customizeKeyword').removeAttribute("href");
       document.getElementById('customizeKeyword').onclick = function(){ firebase.auth().signOut();};
       var email = firebaseUser.email;
-      var username = email.split("@")[0];
-      loadUserSettings(username);
+      username = email.split("@")[0];
+      loadUserSettings();
     }
     else{
       console.log("Not logged in!");
@@ -36,36 +39,30 @@ $(document).ready(function() {
   
 });
 
-function loadUserSettings(username){
+function loadUserSettings(){
 	//finds the firebase user in database
 	//.ref() is the root of the database
 	//.child(<param>), param goes to users in database
 	var dbRefObj = firebase.database().ref().child("users").child(username);
-  var objS;
+  var JSONObj;
   dbRefObj.on('value', snap=>{
-    objS = JSON.parse(JSON.stringify(snap.val()));
+    userJSON = JSON.parse(JSON.stringify(snap.val()));
     //objS["basketball"]["Warriors"] = 0;
-    console.log(objS["basketball"]);
-    firebase.database().ref().child("users").child(username).set(objS);
+    if(userJSON == null){
+      return;
+    }
+    console.log(userJSON);
+    if(!jQuery.isEmptyObject(userJSON["soccer"])){
+      favSocArr = userJSON["soccer"];
+    }
+    if(!jQuery.isEmptyObject(userJSON["basketball"])){
+      favBaskArr = userJSON["basketball"];
+    }
+    console.log(favBaskArr);
+    console.log(favSocArr);
+    var pathname = window.location.pathname;
+    populateFavTeams(pathname);
+    //firebase.database().ref().child("users").child(username).set(userJSON);
   });
 
-	var dbRefObjBask = dbRefObj.child("basketball");
-	var dbRefObjSoc = dbRefObj.child("soccer");
-	var JSONObj;
-
-	dbRefObjBask.on('value', snap=> {
-		//console.log(JSON.stringify(snap.val(), null, 3));
-		JSONObj = JSON.stringify(snap.val(), null, 3);
-		favBaskArr = JSON.parse(JSONObj);
-		// console.log(JSON.stringify(favBaskArr));
-  //   console.log(favBaskArr);
-		
-	});
-
-	dbRefObjSoc.on('value', snap=> {
-		//console.log(JSON.stringify(snap.val(), null, 3));
-		JSONObj = JSON.stringify(snap.val(), null, 3);
-		favSocArr = JSON.parse(JSONObj);
-		// console.log(favSocArr);
-	});
 }
