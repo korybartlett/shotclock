@@ -95,7 +95,6 @@ $(document).ready(function() {
       var email = firebaseUser.email;
       username = email.split("@")[0];
       checkIfUserNotExsits(username);
-      //window.location.replace("loggedInNBA");
     }
     else{
       var element = document.getElementById('customizeKeyword');
@@ -107,8 +106,12 @@ $(document).ready(function() {
 });
 
 function checkIfUserNotExsits(username){
+
+  //var deferred = $.Deferred();
+
+  
   var usersRef = firebase.database().ref().child("users")
-  usersRef.child(username).once('value', function(snapshot) {
+  var writePromise = usersRef.child(username).once('value', function(snapshot) {
     var exists = (snapshot.val() !== null);
     if (!exists){
       firebase.database().ref().child("users").child(username).child("basketball").set({
@@ -117,62 +120,20 @@ function checkIfUserNotExsits(username){
 
       firebase.database().ref().child("users").child(username).child("soccer").set({
         "daHolderVariable" : 0
+      },function(error){
+        if(error){
+          alert("failed to save data" + error);
+        }
+        else {
+          window.location.replace("loggedInNBA");
+        }
       });
     }
-  });
-}
-
-// function checkStateChange(){
-//     firebase.auth().onAuthStateChanged(firebaseUser =>{
-//     if(firebaseUser){
-//       console.log(firebaseUser);
-//       $("#btnSignOut").show();
-//       //loadUserSettings(firebaseUser);
-//     }
-//     else{
-//       console.log("Not logged in!");
-//       $("#btnSignOut").hide();
-//     }
-//   }); 
-// }
-
-/*
-function loadUserSettings(firebaseUser){
-  //finds the firebase user in database
-  //.ref() is the root of the database
-  //.child(<param>), param goes to users in database
-  var dbRefObj = firebase.database().ref().child(firebaseUser);
-  var dvRefBasketball = dbRefObj.child('basketball');
-  var teamBJSON = dvRefBasketball['basketball'];
-  var favBaskArr = [];
-  for (var key in teamBJSON) {
-    if (teamJSON.hasOwnProperty(key)) {
-      faveBaskArr[key] = teamBJSON[key];
+    else{
+      window.location.replace("loggedInNBA");
     }
-  }
-
-  var dvRefSoccer = dbRefObj.child('soccer');
-  var teamSJSON = dvRefSoccer['soccer'];
-  var favSocArr = [];
-  for (var key in teamSJSON) {
-    if (teamSJSON.hasOwnProperty(key)) {
-      faveSocArr[key] = teamSJSON[key];
-    }
-  }
-
-  dbRefObj.on('value', snap =>{
-    <something> = JSON.stringify(snap.val(), null);
   });
-}
-*/
-
-/*
-//check if email and password provided
-if(!email || !password){
-  console.log("email and password required");
-  return;
-}f
-*/  
+}  
 
 $("#form").submit(function() {
     return false;
