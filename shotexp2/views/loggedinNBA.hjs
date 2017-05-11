@@ -168,12 +168,11 @@
 
         function showNBA() {
             saveBaskTeams(selectedTeams);
-            //console.log(selectedTeams);
             alert("Activated Correctly. NBA!");
         }
 
         function showEPL(){
-            //saveBaskTeams(selectedTeams);
+            saveBaskTeams(selectedTeams);
             window.location.replace("loggedInEPL");
         }
 

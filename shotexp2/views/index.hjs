@@ -14,6 +14,7 @@
     <script type="text/javascript" src="javascripts/iframe.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
     <script type="text/javascript" src="javascripts/changeCustomize.js"></script>
+    <script type="text/javascript" src="javascripts/goSomewhere.js"></script>
     <title>ShotClock</title>
     <!-- <title>{{ title }}</title> --> 
     <link rel='stylesheet' href='/stylesheets/style.css' />

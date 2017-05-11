@@ -62,7 +62,6 @@ function loadUserSettings(){
     console.log(favSocArr);
     var pathname = window.location.pathname;
     populateFavTeams(pathname);
-    //firebase.database().ref().child("users").child(username).set(userJSON);
   });
 
 }

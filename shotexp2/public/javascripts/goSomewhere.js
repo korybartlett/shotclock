@@ -1,7 +1,7 @@
 function populateFavTeams(pathname){
 	if(pathname === '/loggedInNBA'){
 		for(var key in favBaskArr){
-			if(key === 'daHolder'){
+			if(key === 'daHolderVariable'){
 				continue;
 			}
 			if(selectedTeams.indexOf(key) === -1){
@@ -11,7 +11,7 @@ function populateFavTeams(pathname){
 	}
 	else if (pathname === '/loggedInEPL'){
 		for(var key in favSocArr){
-			if(key === 'daHolder'){
+			if(key === 'daHolderVariable'){
 				continue;
 			}
 			if(selectedTeams.indexOf(key) === -1){
