@@ -11,8 +11,9 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/iframe.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script type="text/javascript" src="javascripts/changeCustomize.js"></script>
+    <script type="text/javascript" src="javascripts/goSomewhere.js"></script>
     <title>ShotClock - Login</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="/stylesheets/loggedin.css" />
@@ -24,9 +25,9 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="nba">NBA</a></li>
-                    <li><a href="epl">EPL</a></li>
+                    <li><a href="home" onclick="goHome()">Home</a></li>
+                    <li><a href="nba" onclick="goNBA()">NBA</a></li>
+                    <li><a href="epl" onclick="goEPL()">EPL</a></li>
                 </ul>
             </nav>
             <!-- The Interactive Search Box -->
@@ -35,7 +36,7 @@
                 </form> 
             <!-- The div for the customization feature -->
             <div id="customizeDiv">
-                <a id="customizeKeyword" href="login">Customize Settings</a>
+                <a id="customizeKeyword" href="login"></a>
             </div>
         </header>
     </section>
@@ -51,19 +52,19 @@
 
         
         <div class="gridContainer" id="divContent">
-            <div class="individualBox" onclick="selectorFunction('Arsenal.png')">
+            <div class="individualBox" onclick="selectorFunction('Arsenal')">
                 <img src="/images/soccer/150px/Arsenal.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Bournemouth.png')">
+            <div class="individualBox" onclick="selectorFunction('Bournemouth')">
                 <img src="/images/soccer/150px/Bournemouth.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Burnley.png')">
+            <div class="individualBox" onclick="selectorFunction('Burnley')">
                 <img src="/images/soccer/150px/Burnley.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Chelsea.png')">
+            <div class="individualBox" onclick="selectorFunction('Chelsea')">
                 <img src="/images/soccer/150px/Chelsea.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Crystal_Palace.png')">
+            <div class="individualBox" onclick="selectorFunction('Crystal_Palace')">
                 <img src="/images/soccer/150px/Crystal_Palace.png">
             </div>
             <div class="individualBox" onclick="selectorFunction('Everton')">
@@ -115,6 +116,7 @@
     <!-- Not too much JS, so save the variables here -->
     <script type="text/javascript">
         var selectedTeams = [];
+        console.log(selectedTeams);
         document.getElementById("testArray").innerHTML = selectedTeams;
 
         function selectorFunction(title) {
@@ -132,7 +134,13 @@
 
 
         function showNBA() {
-            alert("Activated Correctly. NBA!");
+            saveSocTeams(selectedTeams);
+            window.location.replace("loggedInNBA");
+        }
+
+        function showEPL(){
+            saveSocTeams(selectedTeams);
+            alert("Activated Correctly. EPL!"); 
         }
 
 
