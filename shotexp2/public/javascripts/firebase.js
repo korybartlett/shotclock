@@ -92,8 +92,10 @@ $(document).ready(function() {
       var element = document.getElementById('customizeKeyword');
       element.innerHTML = "Sign Off"
       $("#btnSignOut").show();
-      window.location.replace("loggedIn");
-      //loadUserSettings(firebaseUser);
+      var email = firebaseUser.email;
+      username = email.split("@")[0];
+      checkIfUserNotExsits(username);
+      //window.location.replace("loggedInNBA");
     }
     else{
       var element = document.getElementById('customizeKeyword');
@@ -103,6 +105,22 @@ $(document).ready(function() {
   });
 
 });
+
+function checkIfUserNotExsits(username){
+  var usersRef = firebase.database().ref().child("users")
+  usersRef.child(username).once('value', function(snapshot) {
+    var exists = (snapshot.val() !== null);
+    if (!exists){
+      firebase.database().ref().child("users").child(username).child("basketball").set({
+        "daHolderVariable" : 0
+      });
+
+      firebase.database().ref().child("users").child(username).child("soccer").set({
+        "daHolderVariable" : 0
+      });
+    }
+  });
+}
 
 // function checkStateChange(){
 //     firebase.auth().onAuthStateChanged(firebaseUser =>{
