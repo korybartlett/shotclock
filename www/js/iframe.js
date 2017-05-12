@@ -17,6 +17,11 @@ $(document).ready(function () {
             var outputs;
             $.each(data.items, function (i, item) {
                 console.log(item);
+                console.log(i);
+                if(i == 0){
+                    console.log("here");
+                   onYouTubeIframeAPIReady(item.snippet.resourceId.videoId); 
+                }
                 //saves the video ids to the array
                 var vidId = item.snippet.resourceId.videoId;
                 //pushes video ids to an array
@@ -116,13 +121,13 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 //funcion to create youtbue iFrame player
 var player;
-function onYouTubeIframeAPIReady() {
+function onYouTubeIframeAPIReady(videoID) {
     //creates player which replaces div with id=player
     player = new YT.Player('player', {
       height: '400',
       width: '650',
       //creates player with hardcoded ID for now
-      videoId: 'o5aYww6nf0s',
+      videoId: videoID,
       //another option to set video to autoplay 
       playerVars: {'autoplay':1 },
       //creates events to use with youtube player
