@@ -21,7 +21,18 @@ function populateFavTeams(pathname){
 	}
 }
 
-
+function colorBackgrounds(){
+	//console.log("tessst");
+	$('.individualBox img').each(function(){
+			console.log(this.src);
+			var imgFile = this.src.split("/")[6];
+			var imgName = imgFile.split(".")[0];
+			console.log(imgName);
+			if(selectedTeams.indexOf(imgName) > -1){
+				this.parentElement.style.background = "#3498db";
+			}
+	});
+}
 
 function saveBaskTeams(selectedTeams){
 	var saveArr = [];
