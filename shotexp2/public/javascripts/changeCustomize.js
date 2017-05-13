@@ -62,6 +62,20 @@ function loadUserSettings(){
     console.log(favSocArr);
     var pathname = window.location.pathname;
     populateFavTeams(pathname);
+    colorBackgrounds();
   });
+}
+
+function goHome(){
+  var pathname = window.location.pathname;
+  if(pathname === '/loggedInNBA'){
+    saveBaskTeams(selectedTeams);
+    window.location.replace("home");
+  }
+  else if (pathname === '/loggedInEPL'){
+    saveSocTeams(selectedTeams);
+    window.location.replace("home");
+  }
+    
 
 }
