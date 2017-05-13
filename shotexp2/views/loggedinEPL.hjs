@@ -52,83 +52,88 @@
 
         
         <div class="gridContainer" id="divContent">
-            <div class="individualBox" onclick="selectorFunction('Arsenal')">
-                <img src="/images/soccer/150px/Arsenal.png">
+            <div class="individualBox" id="1" onclick="selectorFunction('Arsenal', '1')">
+                    <img src="/images/soccer/150px/Arsenal.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Bournemouth')">
+            <div class="individualBox" id="2" onclick="selectorFunction('Bournemouth', '2')">
                 <img src="/images/soccer/150px/Bournemouth.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Burnley')">
+            <div class="individualBox" id="3" onclick="selectorFunction('Burnley', '3')">
                 <img src="/images/soccer/150px/Burnley.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Chelsea')">
+            <div class="individualBox" id="4" onclick="selectorFunction('Chelsea', '4')">
                 <img src="/images/soccer/150px/Chelsea.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Crystal_Palace')">
+            <div class="individualBox" id="5" onclick="selectorFunction('Crystal_Palace', '5')">
                 <img src="/images/soccer/150px/Crystal_Palace.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Everton')">
+            <div class="individualBox" id="6" onclick="selectorFunction('Everton', '6')">
                 <img src="/images/soccer/150px/Everton.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Hull_City')">
+            <div class="individualBox" id="7" onclick="selectorFunction('Hull_City', '7')">
                 <img src="/images/soccer/150px/Hull_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Leicester_City')">
+            <div class="individualBox" id="8" onclick="selectorFunction('Leicester_City', '8')">
                 <img src="/images/soccer/150px/Leicester_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Liverpool')">
+            <div class="individualBox" id="9" onclick="selectorFunction('Liverpool', '9')">
                 <img src="/images/soccer/150px/Liverpool.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Manchester_City')">
+            <div class="individualBox" id="10" onclick="selectorFunction('Manchester_City', '10')">
                 <img src="/images/soccer/150px/Manchester_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Manchester_United')">
+            <div class="individualBox" id="11" onclick="selectorFunction('Manchester_United', '11')">
                 <img src="/images/soccer/150px/Manchester_United.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Middlesbrough')">
+            <div class="individualBox" id="12" onclick="selectorFunction('Middlesbrough', '12')">
                 <img src="/images/soccer/150px/Middlesbrough.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Southampton')">
+            <div class="individualBox" id="13" onclick="selectorFunction('Southampton', '13')">
                 <img src="/images/soccer/150px/Southampton.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Stoke_City')">
+            <div class="individualBox" id="14" onclick="selectorFunction('Stoke_City', '14')">
                 <img src="/images/soccer/150px/Stoke_City.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Sunderland')">
+            <div class="individualBox" id="15" onclick="selectorFunction('Sunderland', '15')">
                 <img src="/images/soccer/150px/Sunderland.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Tottenham')">
+            <div class="individualBox" id="20" onclick="selectorFunction('Swansea_City', '20')">
+                <img src="/images/soccer/150px/Swansea_City.png">
+            </div>
+            <div class="individualBox" id="16" onclick="selectorFunction('Tottenham', '16')">
                 <img src="/images/soccer/150px/Tottenham.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Watford')">
+            <div class="individualBox" id="17" onclick="selectorFunction('Watford', '17')">
                 <img src="/images/soccer/150px/Watford.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('West_Bromwich_Albion')">
+            <div class="individualBox" id="18" onclick="selectorFunction('West_Bromwich_Albion', '18')">
                 <img src="/images/soccer/150px/West_Bromwich_Albion.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('West_Ham')">
+            <div class="individualBox" id="19" onclick="selectorFunction('West_Ham', '19')">
                 <img src="/images/soccer/150px/West_Ham.png">
             </div>
         </div> 
         
-        <p id="testArray"></p>
+        <!--<p id="testArray"></p>-->
     </div>
     <!-- Not too much JS, so save the variables here -->
     <script type="text/javascript">
         var selectedTeams = [];
         console.log(selectedTeams);
-        document.getElementById("testArray").innerHTML = selectedTeams;
+        //document.getElementById("testArray").innerHTML = selectedTeams;
 
-        function selectorFunction(title) {
+        function selectorFunction(title, idNumber) {
             if (selectedTeams.indexOf(title) === -1) {
                 selectedTeams.push(title);
-                document.getElementById("testArray").innerHTML = selectedTeams;
+                document.getElementById(idNumber).style.background = "#3498db";
+                //document.getElementById("testArray").innerHTML = selectedTeams;
             }
             //If the element already exists
             else {
                 removalIndex = selectedTeams.indexOf(title);
                 selectedTeams.splice(removalIndex, 1);
-                document.getElementById("testArray").innerHTML = selectedTeams;
+                document.getElementById(idNumber).style.background = "none";
+                //document.getElementById("testArray").innerHTML = selectedTeams;
             }
         }
 

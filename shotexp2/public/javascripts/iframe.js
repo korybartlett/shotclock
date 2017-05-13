@@ -5,92 +5,61 @@ $(document).ready(function () {
     //get request to get youtube playlist to load todays games into results
     var score = 0;
     $.get(
-        "https://www.googleapis.com/youtube/v3/playlistItems",  
-        {
-            part: 'snippet',
-            playlistId: playlistId,
-            maxResults: 8,
-            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
-        },
+        //"https://www.googleapis.com/youtube/v3/playlistItems", 
+        "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=8",
+        //{
+        //    part: 'snippet',
+        //    playlistId: playlistId,
+        //    maxResults: 8,
+        //    key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
+        //},
         //function traverses through received items
         function (data) {
-            var outputs;
-            $.each(data.items, function (i, item) {
-                console.log(item);
-                //saves the video ids to the array
-                var vidId = item.snippet.resourceId.videoId;
-                //pushes video ids to an array
-                vidIdList.push(vidId);
-                var aScore, bScore;
-                score++;
-                aScore = score;
-                bScore = 10 - score;
-                //console.log(item.snippet.thumbnails.default.url);
-
-                console.log(item.snippet.title);
-
-                var vidTitle = item.snippet.title;
-                var vidTitleArray = vidTitle.split("-");
-                
-                //get team names
-                var teams = vidTitleArray[0].split("vs");
-                var aTeam = teams[0];
-                var bTeam = teams[1];
-                bTeam = bTeam.slice(1);
-
-                //get date
-                var vidDate = vidTitleArray[1].split("|");
-                var date = vidDate[2];
-                date = date.substring(1, date.length-1);
-                date = date.replace (/,/g, "");
-                date = date.replace(/\s+/g, '/');
-
-                var month = monthsObj[date.split("/")[0]];
-
-                date = date.slice(date.split("/")[0].length);
-
+            gooooo = data;
+            betterParse = gooooo.hits.hits;
+            for(var i=0; i<betterParse.length; i++) {
+                var info = betterParse[i]._source;
+                var sportType = betterParse[i]._type;
+                var mainSport;
+                var dominantTeam;
+                if (sportType=='epl') {
+                    mainSport = 'soccer';
+                } 
+                else {
+                    mainSport = 'basketball';
+                }
+                if (info.homeTeamScore >= info.awayTeamScore) {
+                    dominantTeam = info.homeTeam;
+                }
+                else {
+                    dominantTeam = info.awayTeam;
+                }
+                var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
                 var listItem = [
-                    '<li id="'+vidId+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
-                    '<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+vidId+'\');"> <!-- the thumbnail --></div>',
+                    '<li id="'+info.videoID+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
+                    //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
+                    '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
                     '<div class="theQueue-ul-li">',
-                    '<h6>' + aTeam + ' - '+aScore+' </h6> <!-- Team 1 and score -->',
-                    '<h6>' + bTeam + ' - '+bScore+' </h6> <!-- Team 2 and score -->',
-                    '<h6>' + month+date + '</h6> <!-- Date --></div></li>'
+                    '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6> <!-- Team 1 and score -->',
+                    '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6> <!-- Team 2 and score -->',
+                    '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
                 ];
                 
                 //appends the items to the search list 
                 $(".theQueue-ul").append(listItem.join(''));
 
-    		})
-        }
+            }
+    	}
+        
     ); 
 });
 
 function moveToQueue(vidId) {
-    //!!not needed!!
-    //var movId;
-    //ajax call to youtube videos
-    // $.get(
-    //     "https://www.googleapis.com/youtube/v3/videos", {
-    //         part: 'snippet',
-    //         id: vidId,
-    //         maxResults: 1,
-    //         key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
-    //     },
-    //     //function traverses through received items
-    //     function(data) {
-    //         var outputs;
-    //         $.each(data.items, function(i, item) {
-    //             console.log(item);
-    //             //saves the video ids to the array
-    //             //saves the video id to a variable for later use
-    //             movId = item.id;
-    //         })
-    //     }
-    // ); 
 
     //clones the searchResult video item to the queue, copies the entire item data
     //adds to the top of the Queue
+    //vidId = vidId.slice(1, vidId.length);
+    console.log('#'+vidId);
     $('.theQueue-ul').prepend($('#'+vidId).clone());
 
     //removes the last occurence, which is hopefully in the search result 
@@ -171,10 +140,29 @@ function queueToPlayer(){
 
     //saves the name of the team 
     var topTeamName = topTeamArray[0];
+    topTeamName = topTeamName.replace(/\s+/g, "");
     var botTeamName = botTeamArray[0];
+    botTeamName = botTeamName.replace(/\s+/g, "");
+
+    
+    var imgSrc = $('.theQueue-ul-img:first-child img').attr('src');
 
     //removes the first element from the queue
     $('.theQueue-ul li:first-child').remove();
+
+    console.log("image source", imgSrc);
+    var sportType;
+    if (/soccer/.test(imgSrc)) {
+        sportType='soccer';
+    }
+    else {
+        sportType = 'basketball';
+    }
+
+    $('#currentScore-leftTeam').attr('src', '../images/'+sportType+'/150px/'+topTeamName+'.png');
+    $('#currentScore-rightTeam').attr('src', '../images/'+sportType+'/150px/'+botTeamName+'.png');
+    //var hello = $('.currentScore-leftSide img').text();
+    //onsole.log("hello =" , hello);
 
     //loads video to video player with video ID
     player.loadVideoById(queueId);
@@ -188,77 +176,50 @@ function searchVideo(){
 
     //ajax call to search youtube videos on specific channel !!still need to edit for search!!
     var userInput = $('#search').val();
-    userInput+=" Full Game";
+    userInput = userInput.replace(/\s+/g,"_");
+    //userInput+=" Full Game";
     console.log(userInput);
     $.get(
-        "https://www.googleapis.com/youtube/v3/search", {
-            q: userInput,
-            part: 'snippet',
-            order: 'relevance',
-            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
-            maxResults: 5,
-            channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
-        },
-        //function traverses through received items
+        "http://localhost:9200/deployshotclock/nba/_search?q="+userInput+"&size=8",
+
         function (data) {
-            var outputs;
-            var score = 0;
-            $.each(data.items, function (i, item) {
-                console.log(item);
-                //saves the video ids to the array
-                var vidId = item.id.videoId;
-                //pushes video ids to an array
-                vidIdList.push(vidId);
-                var aScore, bScore;
-                score++;
-                aScore = score;
-                bScore = 10 - score;
-                //console.log(item.snippet.thumbnails.default.url);
-
-                console.log(item.snippet.title);
-                
-                //video title
-                //Cleveland Cavaliers vs Indiana Pacers - Full Game Highlights | Game 3 | Apr 20, 2017 | NBA Playoffs
-                //Phoenix Suns vs Sacramento Kings - Full Game Highlights | April 11, 2017 | 2016-17 NBA Season
-
-                var vidTitle = item.snippet.title;
-                var vidTitleArray = vidTitle.split("-");
-                
-                //get team names
-                var teams = vidTitleArray[0].split("vs");
-                var aTeam = teams[0];
-                var bTeam = teams[1];
-                bTeam = bTeam.slice(1);
-
-                //get date
-                var vidDate = vidTitleArray[1].split("|");
-                var date = vidDate[1];
-                console.log(date);
-                date = date.substring(1, date.length-1);
-                date = date.replace (/,/g, "");
-                date = date.replace(/\s+/g, '/');
-
-                var month = monthsObj[date.split("/")[0]];
-
-                date = date.slice(date.split("/")[0].length);
-
-                // console.log(aScore);
-                // console.log(bScore);
-
+            gooooo = data;
+            betterParse = gooooo.hits.hits;
+            for(var i=0; i<betterParse.length; i++) {
+                var info = betterParse[i]._source;
+                console.log(info.homeTeam);
+                var sportType = betterParse[i]._type;
+                var mainSport;
+                var dominantTeam;
+                if (sportType=='epl') {
+                    mainSport = 'soccer';
+                } 
+                else {
+                    mainSport = 'basketball';
+                }
+                if (info.homeTeamScore >= info.awayTeamScore) {
+                    dominantTeam = info.homeTeam;
+                }
+                else {
+                    dominantTeam = info.awayTeam;
+                }
+                var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
+                info.videoID = info.videoID.slice(1, info.videoID.length);
                 var listItem = [
-                    '<li id="'+vidId+'" class="searchResults-item"><div class="searchResults-ul-img" >',
-                    '<img src=" '+item.snippet.thumbnails.default.url+' " onclick="moveToQueue(\''+vidId+'\');"> <!-- the thumbnail --></div>',
+                    '<li id="'+info.videoID+'" class = "searchResults-item" ><div class="searchResults-ul-img" >',
+                    //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
+                    '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
                     '<div class="searchResults-ul-li">',
-                    '<h6>'+ aTeam +' - '+aScore+' </h6> <!-- Team 1 and score -->',
-                    '<h6>'+ bTeam +' - '+bScore+' </h6> <!-- Team 2 and score -->',
-                    '<h6>'+month+date+'</h6> <!-- Date --></div></li>'
+                    '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6>',
+                    '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6>',
+                    '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
                 ];
                 
                 //appends the items to the search list 
                 $(".searchResults-ul").append(listItem.join(''));
 
-            })
-        }
+            }
+        }        
     ); 
 }
 

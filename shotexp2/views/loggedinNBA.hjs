@@ -52,116 +52,118 @@
 
         
         <div class="gridContainer" id="divContent">
-            <div class="individualBox" onclick="selectorFunction('Atlanta_Hawks')">
+            <div class="individualBox" id="1" onclick="selectorFunction('Atlanta_Hawks', '1')">
                 <img src="/images/basketball/150px/Atlanta_Hawks.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Boston_Celtics')">
+            <div class="individualBox" id="2" onclick="selectorFunction('Boston_Celtics', '2')">
                 <img src="/images/basketball/150px/Boston_Celtics.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Brooklyn_Nets')">
+            <div class="individualBox" id="3" onclick="selectorFunction('Brooklyn_Nets', '3')">
                 <img src="/images/basketball/150px/Brooklyn_Nets.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Charlotte_Hornets')">
+            <div class="individualBox" id="4" onclick="selectorFunction('Charlotte_Hornets', '4')">
                 <img src="/images/basketball/150px/Charlotte_Hornets.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Chicago_Bulls')">
+            <div class="individualBox" id="5" onclick="selectorFunction('Chicago_Bulls', '5')">
                 <img src="/images/basketball/150px/Chicago_Bulls.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Cleveland_Cavaliers')">
+            <div class="individualBox" id="6" onclick="selectorFunction('Cleveland_Cavaliers', '6')">
                 <img src="/images/basketball/150px/Cleveland_Cavaliers.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Dallas_Mavericks')">
+            <div class="individualBox" id="7" onclick="selectorFunction('Dallas_Mavericks', '7')">
                 <img src="/images/basketball/150px/Dallas_Mavericks.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Denver_Nuggets')">
+            <div class="individualBox" id="8" onclick="selectorFunction('Denver_Nuggets', '8')">
                 <img src="/images/basketball/150px/Denver_Nuggets.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Detroit_Pistons')">
+            <div class="individualBox" id="9" onclick="selectorFunction('Detroit_Pistons', '9')">
                 <img src="/images/basketball/150px/Detroit_Pistons.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Golden_State_Warriors')">
+            <div class="individualBox" id="10" onclick="selectorFunction('Golden_State_Warriors', '10')">
                 <img src="/images/basketball/150px/Golden_State_Warriors.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Houston_Rockets')">
+            <div class="individualBox" id="11" onclick="selectorFunction('Houston_Rockets', '11')">
                 <img src="/images/basketball/150px/Houston_Rockets.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Indiana_Pacers')">
+            <div class="individualBox" id="12" onclick="selectorFunction('Indiana_Pacers', '12')">
                 <img src="/images/basketball/150px/Indiana_Pacers.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Los_Angeles_Clippers')">
+            <div class="individualBox" id="13" onclick="selectorFunction('Los_Angeles_Clippers', '13')">
                 <img src="/images/basketball/150px/Los_Angeles_Clippers.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Los_Angeles_Lakers')">
+            <div class="individualBox" id="14" onclick="selectorFunction('Los_Angeles_Lakers', '14')">
                 <img src="/images/basketball/150px/Los_Angeles_Lakers.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Memphis_Grizzlies')">
+            <div class="individualBox" id="15" onclick="selectorFunction('Memphis_Grizzlies', '15')">
                 <img src="/images/basketball/150px/Memphis_Grizzlies.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Miami_Heat')">
+            <div class="individualBox" id="16" onclick="selectorFunction('Miami_Heat', '16')">
                 <img src="/images/basketball/150px/Miami_Heat.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Milwaukee_Bucks')">
+            <div class="individualBox" id="17" onclick="selectorFunction('Milwaukee_Bucks', '17')">
                 <img src="/images/basketball/150px/Milwaukee_Bucks.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Minnesota_Timberwolves')">
+            <div class="individualBox" id="18" onclick="selectorFunction('Minnesota_Timberwolves', '18')">
                 <img src="/images/basketball/150px/Minnesota_Timberwolves.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('New_Orleans_Pelicans')">
+            <div class="individualBox" id="19" onclick="selectorFunction('New_Orleans_Pelicans', '19')">
                 <img src="/images/basketball/150px/New_Orleans_Pelicans.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('New_York_Knicks')">
+            <div class="individualBox" id="20" onclick="selectorFunction('New_York_Knicks', '20')">
                 <img src="/images/basketball/150px/New_York_Knicks.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Oklahoma_City_Thunder')">
+            <div class="individualBox" id="21" onclick="selectorFunction('Oklahoma_City_Thunder', '21')">
                 <img src="/images/basketball/150px/Oklahoma_City_Thunder.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Orlando_Magic')">
+            <div class="individualBox" id="22" onclick="selectorFunction('Orlando_Magic', '22')">
                 <img src="/images/basketball/150px/Orlando_Magic.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Philadelphia_76ers')">
+            <div class="individualBox" id="23" onclick="selectorFunction('Philadelphia_76ers', '23')">
                 <img src="/images/basketball/150px/Philadelphia_76ers.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Phoenix_Suns')">
+            <div class="individualBox" id="24" onclick="selectorFunction('Phoenix_Suns', '24')">
                 <img src="/images/basketball/150px/Phoenix_Suns.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Portland_Trailblazers')">
+            <div class="individualBox" id="25" onclick="selectorFunction('Portland_Trailblazers', '25')">
                 <img src="/images/basketball/150px/Portland_Trailblazers.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Sacramento_Kings')">
+            <div class="individualBox" id="26" onclick="selectorFunction('Sacramento_Kings', '26')">
                 <img src="/images/basketball/150px/Sacramento_Kings.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('San_Antonio_Spurs')">
+            <div class="individualBox" id="27" onclick="selectorFunction('San_Antonio_Spurs', '27')">
                 <img src="/images/basketball/150px/San_Antonio_Spurs.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Toronto_Raptors')">
+            <div class="individualBox" id="28" onclick="selectorFunction('Toronto_Raptors', '28')">
                 <img src="/images/basketball/150px/Toronto_Raptors.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Utah_Jazz')">
+            <div class="individualBox" id="29" onclick="selectorFunction('Utah_Jazz', '29')">
                 <img src="/images/basketball/150px/Utah_Jazz.png">
             </div>
-            <div class="individualBox" onclick="selectorFunction('Washington_Wizards')">
+            <div class="individualBox" id="30" onclick="selectorFunction('Washington_Wizards', '30')">
                 <img src="/images/basketball/150px/Washington_Wizards.png">
             </div>
         </div> 
         
-        <p id="testArray"></p>
+        <!--<p id="testArray"></p>-->
     </div>
     <!-- Not too much JS, so save the variables here -->
     <script type="text/javascript">
         var selectedTeams = [];
         console.log(selectedTeams);
-        document.getElementById("testArray").innerHTML = selectedTeams;
+        //document.getElementById("testArray").innerHTML = selectedTeams;
 
-        function selectorFunction(title) {
+        function selectorFunction(title, idNumber) {
             if (selectedTeams.indexOf(title) === -1) {
                 selectedTeams.push(title);
-                document.getElementById("testArray").innerHTML = selectedTeams;
+                document.getElementById(idNumber).style.background = "#3498db";
+                //document.getElementById("testArray").innerHTML = selectedTeams;
             }
             //If the element already exists
             else {
                 removalIndex = selectedTeams.indexOf(title);
                 selectedTeams.splice(removalIndex, 1);
-                document.getElementById("testArray").innerHTML = selectedTeams;
+                document.getElementById(idNumber).style.background = "none";
+                //document.getElementById("testArray").innerHTML = selectedTeams;
             }
         }
 
