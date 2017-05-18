@@ -14,7 +14,7 @@ $(document).ready(function () {
         {
             part: 'snippet',
             playlistId: playlistId,
-            maxResults: 7,
+            maxResults: 8,
             key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
         },
         //function traverses through received items
@@ -54,46 +54,40 @@ $(document).ready(function () {
                 var month = monthsObj[date.split("/")[0]];
 
                 date = date.slice(date.split("/")[0].length);
+                if(i != 0){
+                    var listItem = [
+                        '<li id="'+vidId+'"><div class="theQueue-ul-img" >',
+                        '<img src=" '+item.snippet.thumbnails.default.url+' " <!-- the thumbnail --></div>',
+                        '<div class="theQueue-ul-li">',
+                        '<h6>' + aTeam + ' - '+aScore+' </h6> <!-- Team 1 and score -->',
+                        '<h6>' + bTeam + ' - '+bScore+' </h6> <!-- Team 2 and score -->',
+                        '<h6>' + month+date + '</h6> <!-- Date --></div></li>'
+                    ];
+                    
+                    //appends the items to the search list 
+                    $(".theQueue-ul").append(listItem.join(''));
+                    
+                    /*NEW CODE*/
+                    //save the count of the queue
+                    queueCount = i;
+                    queuedVideos.push(vidId);
+                }
 
-                var listItem = [
-                    '<li id="'+vidId+'"><div class="theQueue-ul-img" >',
-                    '<img src=" '+item.snippet.thumbnails.default.url+' " <!-- the thumbnail --></div>',
-                    '<div class="theQueue-ul-li">',
-                    '<h6>' + aTeam + ' - '+aScore+' </h6> <!-- Team 1 and score -->',
-                    '<h6>' + bTeam + ' - '+bScore+' </h6> <!-- Team 2 and score -->',
-                    '<h6>' + month+date + '</h6> <!-- Date --></div></li>'
-                ];
-                
-                //appends the items to the search list 
-                $(".theQueue-ul").append(listItem.join(''));
-                
-                /*NEW CODE*/
-                //save the count of the queue
-                queueCount = i;
-                queuedVideos.push(vidId);
     		})
         }
     );
-    //This code loads the IFrame Player API code asynchronously.
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-    //funcion to create youtbue iFrame player
-    var player;
-    // onYouTubeIframeAPIReady()
+    
     loadVideo();
 });
 
-// //This code loads the IFrame Player API code asynchronously.
-// var tag = document.createElement('script');
-// tag.src = "https://www.youtube.com/iframe_api";
-// var firstScriptTag = document.getElementsByTagName('script')[0];
-// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+//This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 //funcion to create youtbue iFrame player
-// var player;
+var player;
 function onYouTubeIframeAPIReady() {
     console.log("video players creation: ",initID);
     //var id = "GiB86yJlKJE";
@@ -112,6 +106,28 @@ function onYouTubeIframeAPIReady() {
       }
     });
 }
+
+/*LOAD VIDEO FUNCTION*/
+function loadVideo(){
+    getVideoID(function(returnID){
+        initID = returnID;
+    });        
+}
+
+//function to play the video
+function onPlayerReady(event) {
+    player.loadVideoById(initID);
+    event.target.playVideo();
+}
+
+//function for checking the iframe player state
+function onPlayerStateChange(event) {
+    //0 when video ends
+    if (event.data === 0) {
+      queueToPlayer();
+    }
+}
+
 
 function moveToQueue(vidId) {
     /*NEW CODE*/
@@ -143,29 +159,6 @@ function moveToQueue(vidId) {
     // end = end - 1;
     // player.seekTo(end, true);
 }
-
-/*LOAD VIDEO FUNCTION*/
-function loadVideo(){
-    getVideoID(function(returnID){
-        initID = returnID;
-    });        
-}
-
-//function to play the video
-function onPlayerReady(event) {
-    player.loadVideoById(initID);
-    event.target.playVideo();
-}
-
-//function for checking the iframe player state
-function onPlayerStateChange(event) {
-    //0 when video ends
-    if (event.data === 0) {
-      queueToPlayer();
-    }
-}
-
-
 
 //function to move videos from queue to the player
 function queueToPlayer(){
@@ -201,7 +194,6 @@ function queueToPlayer(){
     /*New code to add to project*/
     //check if teamName in favTeam array, then increment count
     //else add empty count to array using name
-
     queueCount--;
 
     //check if queueID exsits in array
