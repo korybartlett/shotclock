@@ -13,11 +13,17 @@ var username = "";
 var userJSON;
 
 $(document).ready(function () {
-    //get request to get youtube playlist to load todays games into results
-    var score = 0;
+    //gets current date and previous weeke date
+    var today = new Date();
+    var lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 6);
+    //var res = rightNow.toISOString().slice(0,10).replace(/-/g,"");
+    var todayString = today.toISOString().slice(0,10);
+    var lastWeekString = lastWeek.toISOString().slice(0,10);
+    //console.log(todayString);
+    //console.log(lastWeekString);
     $.get(
         //"https://www.googleapis.com/youtube/v3/playlistItems", 
-        "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=8",
+        "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=8",
         //{
         //    part: 'snippet',
         //    playlistId: playlistId,
@@ -66,7 +72,9 @@ $(document).ready(function () {
             }
     	}
         
-    ); 
+    );
+
+
 });
 
 //This code loads the IFrame Player API code asynchronously.

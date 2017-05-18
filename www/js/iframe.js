@@ -9,6 +9,12 @@ var queuedVideos = [];
 $(document).ready(function () {
     //get request to get youtube playlist to load todays games into results
     var score = 0;
+    var today = new Date();
+    var lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
+    var todayString = today.toISOString().slice(0,10);
+    var lastWeekString = lastWeek.toISOString().slice(0,10);
+    console.log(todayString);
+    console.log(lastWeekString);
     $.get(
         "https://www.googleapis.com/youtube/v3/playlistItems",  
         {
