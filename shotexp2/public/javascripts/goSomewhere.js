@@ -1,4 +1,5 @@
 function populateFavTeams(pathname){
+	//pushes the correct user teams into the array depending on current URL	
 	if(pathname === '/loggedInNBA'){
 		for(var key in favBaskArr){
 			if(key === 'daHolderVariable'){
@@ -21,8 +22,9 @@ function populateFavTeams(pathname){
 	}
 }
 
+/*NEW FUNCTION*/
 function colorBackgrounds(){
-	//console.log("tessst");
+	//sets the background colors of previously selected teams
 	$('.individualBox img').each(function(){
 			console.log(this.src);
 			var imgFile = this.src.split("/")[6];
@@ -32,7 +34,7 @@ function colorBackgrounds(){
 				this.parentElement.style.background = "#3498db";
 			}
 	});
-}
+}	
 
 function saveBaskTeams(selectedTeams){
 	var saveArr = [];
@@ -52,9 +54,8 @@ function saveBaskTeams(selectedTeams){
 			}	
 		}	
 	}
-	
+
 	userJSON["basketball"] = saveArr;
-	//console.log(userJSON["basketball"]);
 	firebase.database().ref().child("users").child(username).set(userJSON);
 }
 
@@ -77,5 +78,12 @@ function saveSocTeams(selectedTeams){
 	  	}
 	}	
 	userJSON["soccer"] = saveArr;
+	firebase.database().ref().child("users").child(username).set(userJSON);
+}
+
+/*NEW FUNCTION*/
+function saveTeamsOnExit(){
+	userJSON["soccer"] = favSocArr;
+	userJSON["basketball"] = favBaskArr;
 	firebase.database().ref().child("users").child(username).set(userJSON);
 }

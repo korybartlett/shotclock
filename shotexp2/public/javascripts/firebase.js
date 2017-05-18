@@ -26,15 +26,15 @@ $(document).ready(function() {
     //promise.catch(e => console.log(e.message));
     promise.catch(function(error){
       if(error.code === 'auth/wrong-password'){
-        console.log("wrong password");
+        alert("wrong password");
         console.log(error);  
       }
       else if(error.code === 'auth/user-not-found'){
-        console.log("user not found");
+        alert("user not found");
         console.log(error);  
       }
       else if(error.code === 'auth/invalid-email'){
-        console.log("invalid email");
+        alert("invalid email");
         console.log(error);  
       }
       else{
@@ -56,7 +56,7 @@ $(document).ready(function() {
 
     //check if email and password provided
     if(!email || !password){
-      console.log("email and password required");
+      alert("email and password required");
     }
 
     var promise = auth.createUserWithEmailAndPassword(email, password);
@@ -64,16 +64,15 @@ $(document).ready(function() {
     promise.catch(function(error){
       console.log("registration error", error)
       if(error.code === 'auth/email-already-in-use' ){
-        console.log("failllll!");
+        alert("email already registered");
       }
       else if( error.code === 'auth/weak-password'){
-        console.log("weak password");
+        alert("weak password");
       }
       else if( error.code === 'auth/invalid-email'){
-        console.log("invalid email format");
+        alert("invalid email format");
       }
       else{
-        //checkStateChange();
         console.log("successful!");
       }
     });
@@ -83,7 +82,6 @@ $(document).ready(function() {
   //sign out
   btnSignOut.addEventListener('click', e=>{
     firebase.auth().signOut();
-    //checkStateChange();
   });
 
   //track account state
@@ -106,10 +104,6 @@ $(document).ready(function() {
 });
 
 function checkIfUserNotExsits(username){
-
-  //var deferred = $.Deferred();
-
-  
   var usersRef = firebase.database().ref().child("users")
   var writePromise = usersRef.child(username).once('value', function(snapshot) {
     var exists = (snapshot.val() !== null);
