@@ -24,6 +24,34 @@ $(document).ready(function () {
     $.get(
         //"https://www.googleapis.com/youtube/v3/playlistItems", 
         "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=8",
+    //get request to get youtube playlist to load todays games into results
+    var score = 0;
+    var requestParam;
+    console.log("outside if statement", window.location.pathname);
+    if (window.location.pathname == '/home' || window.location.pathname == '/') {
+        requestParam = "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
+    }
+    else if (window.location.pathname == '/nba') {
+        requestParam = "http://localhost:9200/deployshotclock/nba/_search?q=datePlayed%3A[2017-04-10%20TO%202017-04-12]&size=4";
+    }
+    else {
+        requestParam = "http://localhost:9200/deployshotclock/epl/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
+    }
+    //$.get(
+        $.ajax({
+            url: requestParam,
+            type: "GET",
+            dataType: 'json',
+            headers: {'Access-Control-Allow-Origin':'*'},
+              success: function(response) {
+                run(response);
+              },
+              error: function(){
+                console.log("This shit failed");
+              }
+        });
+        //"https://www.googleapis.com/youtube/v3/playlistItems", 
+        //requestParam,
         //{
         //    part: 'snippet',
         //    playlistId: playlistId,
@@ -31,40 +59,39 @@ $(document).ready(function () {
         //    key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
         //},
         //function traverses through received items
-        function (data) {
-            gooooo = data;
-            betterParse = gooooo.hits.hits;
-            for(var i=0; i<betterParse.length; i++) {
-                var info = betterParse[i]._source;
-                var sportType = betterParse[i]._type;
-                var mainSport;
-                var dominantTeam;
-                if (sportType=='epl') {
-                    mainSport = 'soccer';
-                } 
-                else {
-                    mainSport = 'basketball';
-                }
-                if (info.homeTeamScore >= info.awayTeamScore) {
-                    dominantTeam = info.homeTeam;
-                }
-                else {
-                    dominantTeam = info.awayTeam;
-                }
-                var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
-                var listItem = [
-                    '<li id="'+info.videoID+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
-                    //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
-                    '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
-                    '<div class="theQueue-ul-li">',
-                    '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6> <!-- Team 1 and score -->',
-                    '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6> <!-- Team 2 and score -->',
-                    '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
-                ];
+    //     function (data) {
+    //         gooooo = data;
+    //         betterParse = gooooo.hits.hits;
+    //         for(var i=0; i<betterParse.length; i++) {
+    //             var info = betterParse[i]._source;
+    //             var sportType = betterParse[i]._type;
+    //             var mainSport;
+    //             var dominantTeam;
+    //             if (sportType=='epl') {
+    //                 mainSport = 'soccer';
+    //             } 
+    //             else {
+    //                 mainSport = 'basketball';
+    //             }
+    //             if (info.homeTeamScore >= info.awayTeamScore) {
+    //                 dominantTeam = info.homeTeam;
+    //             }
+    //             else {
+    //                 dominantTeam = info.awayTeam;
+    //             }
+    //             var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
+    //             var listItem = [
+    //                 '<li id="'+info.videoID+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
+    //                 //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
+    //                 '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
+    //                 '<div class="theQueue-ul-li">',
+    //                 '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6> <!-- Team 1 and score -->',
+    //                 '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6> <!-- Team 2 and score -->',
+    //                 '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
+    //             ];
                 
-                //appends the items to the search list 
-                $(".theQueue-ul").append(listItem.join(''));
-
+    //             //appends the items to the search list 
+    //             $(".theQueue-ul").append(listItem.join(''));
                 //save the count of the queue
                 queueCount = i;
                 queuedVideos.push(vidId);
@@ -73,8 +100,68 @@ $(document).ready(function () {
     	}
         
     );
+    //         }
+    // 	}
+        
+    // ); 
+});
+
+function run(data) {
+    gooooo = data;
+    betterParse = gooooo.hits.hits;
+    for(var i=0; i<betterParse.length; i++) {
+        var info = betterParse[i]._source;
+        var sportType = betterParse[i]._type;
+        var mainSport;
+        var dominantTeam;
+        if (sportType=='epl') {
+            mainSport = 'soccer';
+        } 
+        else {
+            mainSport = 'basketball';
+        }
+        if (info.homeTeamScore >= info.awayTeamScore) {
+            dominantTeam = info.homeTeam;
+        }
+        else {
+            dominantTeam = info.awayTeam;
+        }
+        var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
+        var listItem = [
+            '<li id="'+info.videoID+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
+            //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
+            '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
+            '<div class="theQueue-ul-li">',
+            '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6> <!-- Team 1 and score -->',
+            '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6> <!-- Team 2 and score -->',
+            '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
+        ];
+        
+        //appends the items to the search list 
+        $(".theQueue-ul").append(listItem.join(''));
+
+    }
+}
 
 
+function moveToQueue(vidId) {
+
+    //clones the searchResult video item to the queue, copies the entire item data
+    //adds to the top of the Queue
+    //vidId = vidId.slice(1, vidId.length);
+    console.log('#'+vidId);
+    $('.theQueue-ul').prepend($('#'+vidId).clone());
+
+    //removes the last occurence, which is hopefully in the search result 
+    $('#' + vidId + '.searchResults-item').last().remove();
+
+    $('#' + vidId + '.theQueue-item').last().remove();    
+    
+    //adjusts theQueue class attributes because of cloning
+    $('#' + vidId).removeClass('searchResults-item').addClass('theQueue-item');
+    $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
+    $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
+    //$('.theQueue-ul-img').prop('onclick', null);
 });
 
 //This code loads the IFrame Player API code asynchronously.
@@ -91,7 +178,7 @@ function onYouTubeIframeAPIReady() {
       height: '400',
       width: '650',
       //creates player with hardcoded ID for now
-      videoId: 'o5aYww6nf0s',
+      videoId: 'eDTz6k6ctZs',
       //another option to set video to autoplay 
       playerVars: {'autoplay':0 },
       //creates events to use with youtube player
@@ -290,7 +377,72 @@ function searchVideo(){
     //userInput+=" Full Game";
     console.log(userInput);
     $.get(
-        "http://localhost:9200/deployshotclock/nba/_search?q="+userInput+"&size=8",
+        "http://localhost:9200/deployshotclock/_search?q="+userInput+"&size=8",
+
+        function (data) {
+            gooooo = data;
+            betterParse = gooooo.hits.hits;
+            for(var i=0; i<betterParse.length; i++) {
+                var info = betterParse[i]._source;
+                console.log(info.homeTeam);
+                var sportType = betterParse[i]._type;
+                var mainSport;
+                var dominantTeam;
+                if (sportType=='epl') {
+                    mainSport = 'soccer';
+                } 
+                else {
+                    mainSport = 'basketball';
+                }
+                if (info.homeTeamScore >= info.awayTeamScore) {
+                    dominantTeam = info.homeTeam;
+                }
+                else {
+                    dominantTeam = info.awayTeam;
+                }
+                var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
+                info.videoID = info.videoID.slice(1, info.videoID.length);
+                var listItem = [
+                    '<li id="'+info.videoID+'" class = "searchResults-item" ><div class="searchResults-ul-img" >',
+                    //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
+                    '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
+                    '<div class="searchResults-ul-li">',
+                    '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6>',
+                    '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6>',
+                    '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
+                ];
+                
+                //appends the items to the search list 
+                $(".searchResults-ul").append(listItem.join(''));
+
+            }
+        }        
+    ); 
+}
+
+function searchVideoLogIn(){
+    //removes the first element from the queue
+    $('.searchResults-ul li').remove();
+    var userFavSearch = "";
+    var key;
+    console.log(favBaskArr);
+    for ( key in favBaskArr) {
+        userFavSearch = userFavSearch + "+" + key;
+        //console.log(key);
+    }
+    for( key in favSocArr){
+        userFavSearch = userFavSearch + "+" + key;
+        //console.log(key);
+    }
+
+    //console.log(userFavSearch);
+    //ajax call to search youtube videos on specific channel !!still need to edit for search!!
+    //var userInput = $('#search').val();
+    userInput = userFavSearch;
+    //userInput+=" Full Game";
+    console.log(userInput);
+    $.get(
+        "http://localhost:9200/deployshotclock/_search?q="+userInput+"&size=8",
 
         function (data) {
             gooooo = data;

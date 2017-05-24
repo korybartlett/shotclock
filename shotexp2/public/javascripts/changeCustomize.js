@@ -61,7 +61,7 @@ function loadUserSettings(){
 
     console.log(favBaskArr);
     console.log(favSocArr);
-    
+
     //grabs the current pathway
     var pathname = window.location.pathname;
     //correclty populates the favorite teams

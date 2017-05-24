@@ -148,6 +148,10 @@
             alert("Activated Correctly. EPL!"); 
         }
 
+        function goHome() {
+            saveSocTeams(selectedTeams);
+            window.location.replace("home");
+        }
 
 
     </script>
