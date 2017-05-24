@@ -1337,9 +1337,9 @@
  },
  {
    "homeTeam": "Manchester_City",
-   "homeTeamScore": null,
+   "homeTeamScore": 0,
    "awayTeam": "Hull_City",
-   "awayTeamScore": null,
+   "awayTeamScore": 3,
    "videoID": "QxiM1Zv9k6s",
    "datePlayed": "2016-12-26"
  },

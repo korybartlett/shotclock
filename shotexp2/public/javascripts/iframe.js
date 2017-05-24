@@ -1,7 +1,29 @@
 var playlistId = 'PLQNqwCpoZBfetQpUKU3Kpksm8AfSivirs';
 var vidIdList = [];
 var monthsObj = {"January": 1, "February": 2, "Mar": 3, "April": 4, "May": 5, "June": 6, "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "Dec": 12, "March": 3, "Apr": 4, "Feb": 2, "Jan": 1, "Nov": 11, "Oct": 10};
+var initID = "";
+var queueCount = 0;
+var videosWatched = [];
+var queuedVideos = [];
+
+//used in changeCustomize
+var favBaskArr = [];
+var favSocArr = [];
+var username = "";
+var userJSON;
+
 $(document).ready(function () {
+    //gets current date and previous weeke date
+    var today = new Date();
+    var lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 6);
+    //var res = rightNow.toISOString().slice(0,10).replace(/-/g,"");
+    var todayString = today.toISOString().slice(0,10);
+    var lastWeekString = lastWeek.toISOString().slice(0,10);
+    //console.log(todayString);
+    //console.log(lastWeekString);
+    $.get(
+        //"https://www.googleapis.com/youtube/v3/playlistItems", 
+        "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=8",
     //get request to get youtube playlist to load todays games into results
     var score = 0;
     var requestParam;
@@ -70,7 +92,14 @@ $(document).ready(function () {
                 
     //             //appends the items to the search list 
     //             $(".theQueue-ul").append(listItem.join(''));
+                //save the count of the queue
+                queueCount = i;
+                queuedVideos.push(vidId);
 
+            }
+    	}
+        
+    );
     //         }
     // 	}
         
@@ -133,13 +162,7 @@ function moveToQueue(vidId) {
     $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
     $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
     //$('.theQueue-ul-img').prop('onclick', null);
-
-
-    //delete after testing
-    // var end = player.getDuration();
-    // end = end - 1;
-    // player.seekTo(end, true);
-}
+});
 
 //This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
@@ -166,9 +189,19 @@ function onYouTubeIframeAPIReady() {
     });
 }
 
+/*LOAD THE VIDEO WE WANT FUNCTION*/
+function loadVideo(){
+    getVideoID(function(returnID){
+        initID = returnID;
+        //saves ID of video watched
+        videosWatched.push(initID);
+    });        
+}
+
 //function to play the video
 function onPlayerReady(event) {
-        event.target.playVideo();
+    player.loadVideoById(initID);
+    //event.target.playVideo();
 }
 
 //function for checking the iframe player state
@@ -178,6 +211,44 @@ function onPlayerStateChange(event) {
       queueToPlayer();
     }
 }
+
+function moveToQueue(vidId) {
+
+    //ensures queue stays within view port
+    if(queueCount > 6){
+        console.log("Queue full, cannot add videos");
+        return;
+    }
+
+    //clones the searchResult video item to the queue, copies the entire item data
+    //adds to the top of the Queue
+    //vidId = vidId.slice(1, vidId.length);
+    console.log('#'+vidId);
+    $('.theQueue-ul').prepend($('#'+vidId).clone());
+
+    //removes the last occurence, which is hopefully in the search result 
+    $('#' + vidId + '.searchResults-item').last().remove();
+
+    $('#' + vidId + '.theQueue-item').last().remove();    
+    
+    //adjusts theQueue class attributes because of cloning
+    $('#' + vidId).removeClass('searchResults-item').addClass('theQueue-item');
+    $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
+    $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
+    //$('.theQueue-ul-img').prop('onclick', null);
+
+    //monitors the queue count
+    queueCount++;
+    queuedVideos.push(vidId);
+    console.log("expanded queue array: ",queuedVideos)
+
+    //delete after testing
+    // var end = player.getDuration();
+    // end = end - 1;
+    // player.seekTo(end, true);
+}
+
+
 
 
 
@@ -229,6 +300,71 @@ function queueToPlayer(){
     player.loadVideoById(queueId);
     $('div.currentScore-leftSide > h2').replaceWith('<h2>'+topScore+'</h2>');
     $('div.currentScore-rightSide > h2').replaceWith('<h2>'+botScore+'</h2>');
+
+    //check if teamName in favTeam array, then increment count
+    if(sportType == 'soccer'){
+        //checks if topTeamName exsists in corresponding array
+        //if found increment watch, else add to array
+        if(favSocArr.hasOwnProperty(topTeamName)){
+            favSocArr[topTeamName]++;
+        }
+        else{
+            favSocArr[topTeamName] = 1;
+        }
+
+        //checks if botTeamName exsists in corresponding array
+        //if found increment watch, else add to array
+        if(favSocArr.hasOwnProperty(botTeamName)){
+            favSocArr[botTeamName]++;
+        }
+        else{
+            favSocArr[botTeamName] = 1;
+        }
+    }
+
+    if(sportType == 'basketball'){
+        //checks if topTeamName exsists in corresponding array
+        //if found increment watch, else add to array
+        if(favBaskArr.hasOwnProperty(topTeamName)){
+            favBaskArr[topTeamName]++;
+        }
+        else{
+            favBaskArr[topTeamName] = 1;
+        }
+
+        //checks if botTeamName exsists in corresponding array
+        //if found increment watch, else add to array
+        if(favBaskArr.hasOwnProperty(botTeamName)){
+            favBaskArr[botTeamName]++;
+        }
+        else{
+            favBaskArr[botTeamName] = 1;
+        }
+    }
+
+    //check if queueID exsits in array
+    var idIndex = queuedVideos.indexOf(queueId);
+
+    console.log("queuedVideos array before removal: ", queuedVideos)
+
+    //if the video ID exsists in queue array remove it
+    if(idIndex > -1){
+        queuedVideos.splice(idIndex, 1);
+    }
+
+    console.log("queuedVideos array after removal: ", queuedVideos)
+
+    //decrement queue count
+    queueCount--;
+    
+    //adds videoID to videos watched log
+    videosWatched.push(queueId);
+
+    //function to check queue size. Refresh queue to keep it full
+    if(queueCount < 1){
+        console.log("queue has space: ", queueCount);
+        //add more videos to queue as it gets empty
+    }
 }
 
 function searchVideo(){
@@ -323,12 +459,14 @@ function searchVideoLogIn(){
                 else {
                     mainSport = 'basketball';
                 }
+
                 if (info.homeTeamScore >= info.awayTeamScore) {
                     dominantTeam = info.homeTeam;
                 }
                 else {
                     dominantTeam = info.awayTeam;
                 }
+
                 var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
                 info.videoID = info.videoID.slice(1, info.videoID.length);
                 var listItem = [
@@ -346,6 +484,46 @@ function searchVideoLogIn(){
 
             }
         }        
+    ); 
+}
+
+function getVideoID(func){
+    var userInput = "sacramento kings";
+    userInput+=" Full Game";
+    $.get(
+        "https://www.googleapis.com/youtube/v3/search", {
+            q: userInput,
+            part: 'snippet',
+            order: 'relevance',
+            key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA',
+            maxResults: 1,
+            channelId: 'UCR_eeue4E0jNBz8A55DOuOg'
+        },
+        //function traverses through received items
+        function (data) {
+            var outputs;
+            var score = 0;
+            $.each(data.items, function (i, item) {
+                console.log(item);
+                //saves the video ids to the array
+                var vidId = item.id.videoId;
+                //pushes video ids to an array
+                var aScore, bScore;
+                score++;
+                aScore = score;
+                bScore = 10 - score;
+                //console.log(item.snippet.thumbnails.default.url);
+
+                console.log(item.snippet.title);
+                
+                //video title
+                //Cleveland Cavaliers vs Indiana Pacers - Full Game Highlights | Game 3 | Apr 20, 2017 | NBA Playoffs
+
+                videoID = vidId;
+                console.log("get request value: ",videoID);
+                func(videoID);
+            })
+        }
     ); 
 }
 

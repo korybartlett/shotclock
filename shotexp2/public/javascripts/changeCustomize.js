@@ -1,9 +1,3 @@
-var favBaskArr = [];
-var favSocArr = [];
-var username = "";
-var userJSON;
-var string = "test";
-
 $(document).ready(function() {
   // Initialize Firebase
   var config = {
@@ -23,7 +17,7 @@ $(document).ready(function() {
       var element = document.getElementById('customizeKeyword');
       element.innerHTML = "Sign Off";
       document.getElementById('customizeKeyword').removeAttribute("href");
-      document.getElementById('customizeKeyword').onclick = function(){ firebase.auth().signOut();};
+      document.getElementById('customizeKeyword').onclick = signOut;
       var email = firebaseUser.email;
       username = email.split("@")[0];
       loadUserSettings();
@@ -32,7 +26,8 @@ $(document).ready(function() {
       console.log("Not logged in!");
       var element = document.getElementById('customizeKeyword');
       element.innerHTML = "Customize Settings";
-      document.getElementById('customizeKeyword').setAttribute("href", "login");
+      document.getElementById('customizeKeyword').removeAttribute('onclick');
+      document.getElementById('customizeKeyword').setAttribute('href', 'login');
       //$("#btnSignOut").hide();
     }
   });
@@ -48,25 +43,42 @@ function loadUserSettings(){
   dbRefObj.on('value', snap=>{
     userJSON = JSON.parse(JSON.stringify(snap.val()));
     //objS["basketball"]["Warriors"] = 0;
+    //user has no saved data
     if(userJSON == null){
       return;
     }
+
     console.log(userJSON);
+    //checks if favorite soccer teams exsists, saves key-value pair array from JSON 
     if(!jQuery.isEmptyObject(userJSON["soccer"])){
       favSocArr = userJSON["soccer"];
     }
+
+    //checks if favorite basketball teams exsists, saves key-value pair array from JSON
     if(!jQuery.isEmptyObject(userJSON["basketball"])){
       favBaskArr = userJSON["basketball"];
     }
+
     console.log(favBaskArr);
     console.log(favSocArr);
-      if(window.location.pathname == "/home" || window.location.pathname == "/"){
-        searchVideoLogIn()
-      }
+
+    //grabs the current pathway
     var pathname = window.location.pathname;
+    //correclty populates the favorite teams
     populateFavTeams(pathname);
+    //sets the background colors when selecting favorite team images
     colorBackgrounds();
   });
+}
+
+function signOut(){
+  
+  //save both teams array to json
+  saveTeamsOnExit();
+
+  //should be done last
+  //logs out user
+  firebase.auth().signOut();
 }
 
 function goHome(){
@@ -79,6 +91,4 @@ function goHome(){
     saveSocTeams(selectedTeams);
     window.location.replace("home");
   }
-    
-
 }

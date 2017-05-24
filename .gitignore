@@ -26,3 +26,14 @@ pids
 
 # Icont issue 
 Icon?
+
+
+## Ignore for elastic search  ##
+# testing stuff
+**/.local*
+.vagrant/
+/logs/
+
+# Generated log files #
+*.log
+**/*.log
