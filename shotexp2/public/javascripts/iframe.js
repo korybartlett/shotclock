@@ -21,9 +21,9 @@ $(document).ready(function () {
     var lastWeekString = lastWeek.toISOString().slice(0,10);
     //console.log(todayString);
     //console.log(lastWeekString);
-    $.get(
+    //$.get(
         //"https://www.googleapis.com/youtube/v3/playlistItems", 
-        "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=8",
+       // "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=8",
     //get request to get youtube playlist to load todays games into results
     var score = 0;
     var requestParam;
@@ -38,72 +38,23 @@ $(document).ready(function () {
         requestParam = "http://localhost:9200/deployshotclock/epl/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
     }
     //$.get(
-        $.ajax({
-            url: requestParam,
-            type: "GET",
-            dataType: 'json',
-            headers: {'Access-Control-Allow-Origin':'*'},
-              success: function(response) {
-                run(response);
-              },
-              error: function(){
-                console.log("This shit failed");
-              }
-        });
-        //"https://www.googleapis.com/youtube/v3/playlistItems", 
-        //requestParam,
-        //{
-        //    part: 'snippet',
-        //    playlistId: playlistId,
-        //    maxResults: 8,
-        //    key: 'AIzaSyDRIWeEmYpopkQBrLH7uthr4YPJU8XxfuA'
-        //},
-        //function traverses through received items
-    //     function (data) {
-    //         gooooo = data;
-    //         betterParse = gooooo.hits.hits;
-    //         for(var i=0; i<betterParse.length; i++) {
-    //             var info = betterParse[i]._source;
-    //             var sportType = betterParse[i]._type;
-    //             var mainSport;
-    //             var dominantTeam;
-    //             if (sportType=='epl') {
-    //                 mainSport = 'soccer';
-    //             } 
-    //             else {
-    //                 mainSport = 'basketball';
-    //             }
-    //             if (info.homeTeamScore >= info.awayTeamScore) {
-    //                 dominantTeam = info.homeTeam;
-    //             }
-    //             else {
-    //                 dominantTeam = info.awayTeam;
-    //             }
-    //             var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
-    //             var listItem = [
-    //                 '<li id="'+info.videoID+'" class = "theQueue-item" ><div class="theQueue-ul-img" >',
-    //                 //'<img src=" '+item.snippet.thumbnails.default.url+' " + onclick="moveToQueue(\''+info.videoID+'\');"> <!-- the thumbnail --></div>',
-    //                 '<img src="'+imgSrc+'" onclick="moveToQueue(\''+info.videoID+'\');"></div>',
-    //                 '<div class="theQueue-ul-li">',
-    //                 '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6> <!-- Team 1 and score -->',
-    //                 '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6> <!-- Team 2 and score -->',
-    //                 '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
-    //             ];
-                
-    //             //appends the items to the search list 
-    //             $(".theQueue-ul").append(listItem.join(''));
-                //save the count of the queue
-                queueCount = i;
-                queuedVideos.push(vidId);
+    $.ajax({
+        url: requestParam,
+        type: "GET",
+        dataType: 'json',
+        headers: {'Access-Control-Allow-Origin':'*'},
+          success: function(response) {
+            run(response);
+          },
+          error: function(){
+            console.log("This shit failed");
+          }
+    });
 
-            }
-    	}
+    //save the count of the queue
+    queueCount = i;
+    queuedVideos.push(vidId);
         
-    );
-    //         }
-    // 	}
-        
-    // ); 
 });
 
 function run(data) {
@@ -162,7 +113,7 @@ function moveToQueue(vidId) {
     $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
     $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
     //$('.theQueue-ul-img').prop('onclick', null);
-});
+}
 
 //This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
