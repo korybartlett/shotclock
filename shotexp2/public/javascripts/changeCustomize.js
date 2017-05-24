@@ -60,8 +60,30 @@ function loadUserSettings(){
     }
     console.log(favBaskArr);
     console.log(favSocArr);
+      if(window.location.pathname == "/home" || window.location.pathname == "/"){
+        searchVideoLogIn()
+      }
     var pathname = window.location.pathname;
     populateFavTeams(pathname);
+    // if(typeof selectedTeams !== 'undefined' && selectedTeams.length>0){
+    //   var id;
+    //   for(var j = 0; j<selectedTeams.length;j++){
+    //     $('img').each(function(idx, img) {
+    //         console.log(img.src);
+    //         //http://localhost:3000/images/basketball/150px/Atlanta_Hawks.png
+    //         var team = selectedTeams[j];
+    //         var regString = "http://localhost:3000/images/[basketball|soccer]/150px/"+team+".png"
+    //         var re = new RegExp(regString, "g");
+    //         if (re.test(img.src)) { 
+    //           console.log("in the if");
+    //           id=this.parentNode.id;
+    //           //break;
+
+    //         }
+    //     })
+    //     selectorFunction(selectedTeams[j], id);
+    //   }
+    // }
   });
 
 }

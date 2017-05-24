@@ -11,9 +11,9 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/iframe.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
     <script type="text/javascript" src="javascripts/changeCustomize.js"></script>
+    <script type="text/javascript" src="javascripts/iframe.js"></script>
     <script type="text/javascript" src="javascripts/goSomewhere.js"></script>
     <title>ShotClock</title>
     <!-- <title>{{ title }}</title> --> 
@@ -65,11 +65,11 @@
 			<section class="currentScore">
 				<div class="currentScore-leftSide">
 					<img id="currentScore-leftTeam" src="images/chelsea.png">
-					<h2>2</h2>
+					<h2>3</h2>
 				</div>
 				<div class="currentScore-rightSide">
-					<h2>1</h2>
-					<img id="currentScore-rightTeam" src="images/mancity.png">
+					<h2>0</h2>
+					<img id="currentScore-rightTeam" src="images/soccer/150px/Middlesbrough.png">
 				</div>
 			</section>
 
@@ -81,28 +81,28 @@
 			<!-- Section 5: The Updated Scores (Bottom of Page) -->
 			<section class="updatedScore">
 				<div>
-					<p>Golden State Warriors - 101</p>
-					<p>San Antonio Spurs - 96</p>
+					<p>Golden State Warriors - 109</p>
+					<p>Los Angeles Lakers - 94</p>
 				</div>
 				<div>
-					<p>Boston Celtics - 121</p>
-					<p>Los Angeles Lakers - 82</p>
+					<p>Boston Celtics - 112</p>
+					<p>Milwaukee Bucks - 94</p>
 				</div>
 				<div>
-					<p>Los Angeles Clippers - 114</p>
-					<p>Utah Jazz - 100</p>
+					<p>Los Angeles Clippers - 115</p>
+					<p>Sacramento Kings - 95</p>
 				</div>
 				<div>
-					<p>Cleveland Cavaliers - 101</p>
-					<p>Portland Trailblazers - 98</p>
+					<p>Chelsea - 3</p>
+					<p>Middlesbrough - 0</p>
 				</div>
 				<div>
-					<p>Memphis Grizzlies - 102</p>
-					<p>Portland Trailblazers - 94</p>
+					<p>Arsenal - 2</p>
+					<p>Manchester United - 0</p>
 				</div>
 				<div>
-					<p>Memphis Grizzlies - 102</p>
-					<p>Portland Trailblazers - 94</p>
+					<p>Southampton - 0</p>
+					<p>Liverpool - 0</p>
 				</div>
 			</section>
 		</div>

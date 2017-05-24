@@ -1,0 +1,9 @@
+$(document).ready( function() {
+	initLoad();
+});
+
+
+
+function initLoad(){
+	console.log('bball length', bball.length);
+}

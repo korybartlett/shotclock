@@ -124,8 +124,8 @@
             <div class="individualBox" id="24" onclick="selectorFunction('Phoenix_Suns', '24')">
                 <img src="/images/basketball/150px/Phoenix_Suns.png">
             </div>
-            <div class="individualBox" id="25" onclick="selectorFunction('Portland_Trailblazers', '25')">
-                <img src="/images/basketball/150px/Portland_Trailblazers.png">
+            <div class="individualBox" id="25" onclick="selectorFunction('Portland_Trail_Blazers', '25')">
+                <img src="/images/basketball/150px/Portland_Trail_Blazers.png">
             </div>
             <div class="individualBox" id="26" onclick="selectorFunction('Sacramento_Kings', '26')">
                 <img src="/images/basketball/150px/Sacramento_Kings.png">
