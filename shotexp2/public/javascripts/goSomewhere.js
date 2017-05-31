@@ -30,6 +30,7 @@ function colorBackgrounds(){
 			var imgFile = this.src.split("/")[6];
 			var imgName = imgFile.split(".")[0];
 			console.log(imgName);
+			imgName = imgName.replace(/_/g,' ');
 			if(selectedTeams.indexOf(imgName) > -1){
 				this.parentElement.style.background = "#3498db";
 			}

@@ -29,13 +29,13 @@ $(document).ready(function () {
     var requestParam;
     console.log("outside if statement", window.location.pathname);
     if (window.location.pathname == '/home' || window.location.pathname == '/') {
-        requestParam = "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
+        requestParam = "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=4";
     }
     else if (window.location.pathname == '/nba') {
         requestParam = "http://localhost:9200/deployshotclock/nba/_search?q=datePlayed%3A[2017-04-10%20TO%202017-04-12]&size=4";
     }
     else {
-        requestParam = "http://localhost:9200/deployshotclock/epl/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
+        requestParam = "http://localhost:9200/deployshotclock/epl/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=4";
     }
     //$.get(
     $.ajax({
@@ -228,12 +228,14 @@ function queueToPlayer(){
     botTeamName = botTeamName.replace(/\s+/g, "");
 
     
+    //grabs the image source attribute
     var imgSrc = $('.theQueue-ul-img:first-child img').attr('src');
 
     //removes the first element from the queue
     $('.theQueue-ul li:first-child').remove();
 
     console.log("image source", imgSrc);
+    //saves the sport type
     var sportType;
     if (/soccer/.test(imgSrc)) {
         sportType='soccer';
@@ -242,10 +244,15 @@ function queueToPlayer(){
         sportType = 'basketball';
     }
 
-    $('#currentScore-leftTeam').attr('src', '../images/'+sportType+'/150px/'+topTeamName+'.png');
-    $('#currentScore-rightTeam').attr('src', '../images/'+sportType+'/150px/'+botTeamName+'.png');
-    //var hello = $('.currentScore-leftSide img').text();
-    //onsole.log("hello =" , hello);
+
+    //add underscores to the team names, replaces spaces with underscores
+    var topTeamNamePNG = topTeamName.replace(/ /g,'_');
+    var botTeamNamePNG = botTeamName.replace(/ /g,'_');
+
+    //adds correct team images to the main scoreboard
+    $('#currentScore-leftTeam').attr('src', '../images/'+sportType+'/150px/'+topTeamNamePNG+'.png');
+    $('#currentScore-rightTeam').attr('src', '../images/'+sportType+'/150px/'+botTeamNamePNG+'.png');
+
 
     //loads video to video player with video ID
     player.loadVideoById(queueId);
@@ -351,6 +358,8 @@ function searchVideo(){
                 else {
                     dominantTeam = info.awayTeam;
                 }
+
+                var dominantTeam = dominantTeam.replace(/ /g,'_');
                 var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
                 info.videoID = info.videoID.slice(1, info.videoID.length);
                 var listItem = [
@@ -418,6 +427,7 @@ function searchVideoLogIn(){
                     dominantTeam = info.awayTeam;
                 }
 
+                var dominantTeam = dominantTeam.replace(/ /g,'_');
                 var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
                 info.videoID = info.videoID.slice(1, info.videoID.length);
                 var listItem = [
@@ -439,6 +449,7 @@ function searchVideoLogIn(){
 }
 
 function getVideoID(func){
+    //NEED TO REPLACE WITH AJAX CALL TO ELASTIC SEARCH
     var userInput = "sacramento kings";
     userInput+=" Full Game";
     $.get(
