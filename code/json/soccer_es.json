@@ -1,2178 +1,2846 @@
 [
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "eDTz6k6ctZs",
-    "datePlayed": "5/8/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 2,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 0,
-    "videoID": "YD0sR-nK77g",
-    "datePlayed": "5/7/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Liverpool",
-    "awayTeamScore": 0,
-    "videoID": "pI0k9PdTJJw",
-    "datePlayed": "5/7/17"
-  },
-  {
-    "homeTeam": "Swansea City",
-    "homeTeamScore": 1,
-    "awayTeam": "Everton",
-    "awayTeamScore": 0,
-    "videoID": "TnZX0qcZOGM",
-    "datePlayed": "5/6/17"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 2,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 2,
-    "videoID": "F3LFHMqm4ZU",
-    "datePlayed": "5/6/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 5,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "bIAzGVkFQJc",
-    "datePlayed": "5/6/17"
-  },
-  {
-    "homeTeam": "Hull City",
-    "homeTeamScore": 0,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 2,
-    "videoID": "WfpwJ0tJZ",
-    "datePlayed": "5/6/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 2,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 2,
-    "videoID": "o9luWAiBQPk",
-    "datePlayed": "5/6/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 3,
-    "awayTeam": "Watford",
-    "awayTeamScore": 0,
-    "videoID": "3vdBs2oxay4",
-    "datePlayed": "5/6/17"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Tottenham",
-    "awayTeamScore": 0,
-    "videoID": "e2upXuyLWdw",
-    "datePlayed": "5/5/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "Watford",
-    "awayTeamScore": 0,
-    "videoID": "jh6Ot4Y4UnQ",
-    "datePlayed": "5/2/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 2,
-    "awayTeam": "Arsenal",
-    "awayTeamScore": 0,
-    "videoID": "dEcZvAkgwaA",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "C2rNthffcBA",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 0,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 0,
-    "videoID": "d_aWxn-1uPA",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "9rE-UPdzUfs",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "LczGx-lSs4o",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 0,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 1,
-    "videoID": "tGwXSZUMZhY",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Everton",
-    "awayTeamScore": 0,
-    "videoID": "TzawDcN0X8w",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 2,
-    "videoID": "cFyf8iu6INk",
-    "datePlayed": "4/30/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 1,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "UE2Tn2xuBxw",
-    "datePlayed": "4/26/17"
-  },
-  {
-    "homeTeam": "Middlesbrough",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "w4kUrwe2Iyg",
-    "datePlayed": "4/26/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "vIwanFcXGAI",
-    "datePlayed": "4/26/17"
-  },
-  {
-    "homeTeam": "Middlesbrough",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "jB08xiBGm8I",
-    "datePlayed": "4/26/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 4,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 2,
-    "videoID": "ZU2p03HZfOk",
-    "datePlayed": "4/25/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 2,
-    "videoID": "QUIP_SFKMqY",
-    "datePlayed": "4/23/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 0,
-    "videoID": "VPgup8Vb-8c",
-    "datePlayed": "4/23/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 0,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 2,
-    "videoID": "QoZD_72gcqI",
-    "datePlayed": "4/22/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 4,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "el1LLg4kzcQ",
-    "datePlayed": "4/22/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 0,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 2,
-    "videoID": "SFFVGIoevBI",
-    "datePlayed": "4/22/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 0,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 0,
-    "videoID": "ifWJJdwz7EM",
-    "datePlayed": "4/22/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 0,
-    "awayTeam": "Tottenham",
-    "awayTeamScore": 2,
-    "videoID": "6lbAXUpNF_k",
-    "datePlayed": "4/19/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 2,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "r99cBO9FTMw",
-    "datePlayed": "4/17/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 0,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 2,
-    "videoID": "nLVz-8RwGDU",
-    "datePlayed": "4/16/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "NObzadtdaRI",
-    "datePlayed": "4/16/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 0,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 2,
-    "videoID": "hdOHbXEm8dk",
-    "datePlayed": "4/16/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 3,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 0,
-    "videoID": "X4jrmYR6CsA",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 2,
-    "videoID": "3V19pVRu5N4",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "SjZsL8-hdX4",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 1,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 0,
-    "videoID": "CbYQ12geHQ8",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 3,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "NUvcZsMxrzk",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "NZ4FnvwEbMQ",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 4,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 0,
-    "videoID": "FWlQ6KRC87s",
-    "datePlayed": "4/15/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 0,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 3,
-    "videoID": "RmYaZiyngs0",
-    "datePlayed": "4/11/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 4,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 2,
-    "videoID": "QFs6UE6QxQk",
-    "datePlayed": "4/9/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 3,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "WRo3IwRfsbg",
-    "datePlayed": "4/9/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 4,
-    "awayTeam": "Watford",
-    "awayTeamScore": 0,
-    "videoID": "KPzaqA2ImNI",
-    "datePlayed": "4/9/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 0,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 1,
-    "videoID": "rRp3jy3UUy0",
-    "datePlayed": "4/8/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 1,
-    "videoID": "Cz98yPXwf_o",
-    "datePlayed": "4/8/17"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "YqzBkho0XGM",
-    "datePlayed": "4/8/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 1,
-    "videoID": "KTvYPMDL134",
-    "datePlayed": "4/8/17"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 0,
-    "videoID": "uIWhg4Wmdl0",
-    "datePlayed": "4/8/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "vKu20kVewJs",
-    "datePlayed": "4/8/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "jN1nMDC1g38",
-    "datePlayed": "4/6/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 3,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 1,
-    "videoID": "Cf6o5KVThSA",
-    "datePlayed": "4/6/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 2,
-    "videoID": "krQLbmdb0Ew",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Hull City",
-    "homeTeamScore": 4,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 2,
-    "videoID": "yJnCY4tIG8o",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Manchester City",
-    "awayTeamScore": 1,
-    "videoID": "B-dPaWw-4RY",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 3,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 0,
-    "videoID": "eA4mmJC_-sA",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 2,
-    "videoID": "t-Gfw8mVdH0",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Manchester City",
-    "awayTeamScore": 1,
-    "videoID": "J8dDKGY52Y4",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 3,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 1,
-    "videoID": "fuWkr7mHiO4",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "NRSOe6F24us",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Manchester City",
-    "awayTeamScore": 1,
-    "videoID": "uO3UrHpltsk",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 2,
-    "videoID": "TdWYbuBEPNw",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Hull City",
-    "homeTeamScore": 4,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 2,
-    "videoID": "Lf_I7fURQmw",
-    "datePlayed": "4/5/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Everton",
-    "awayTeamScore": 1,
-    "videoID": "QbSLM-ZNhys",
-    "datePlayed": "4/4/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 0,
-    "awayTeam": "Watford",
-    "awayTeamScore": 2,
-    "videoID": "wT0KcMZKpLc",
-    "datePlayed": "4/4/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 0,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "nDyq-__tBTA",
-    "datePlayed": "4/4/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "MfxiYuLLih8",
-    "datePlayed": "4/4/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Everton",
-    "awayTeamScore": 1,
-    "videoID": "DATZYnjtKKM",
-    "datePlayed": "4/4/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 0,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "#NAME?",
-    "datePlayed": "4/2/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 3,
-    "awayTeam": "Everton",
-    "awayTeamScore": 1,
-    "videoID": "I05ckonGAA0",
-    "datePlayed": "4/1/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 0,
-    "videoID": "1gCBfY5u0_Y",
-    "datePlayed": "4/1/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "Fg7gBRV-HmU",
-    "datePlayed": "4/1/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 0,
-    "videoID": "mRtE6i4hzH0",
-    "datePlayed": "4/1/17"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 2,
-    "videoID": "5ilTukYuAq0",
-    "datePlayed": "4/1/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 2,
-    "videoID": "S4wM6k_GDSA",
-    "datePlayed": "4/1/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "Manchester City",
-    "awayTeamScore": 1,
-    "videoID": "#NAME?",
-    "datePlayed": "3/19/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 3,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "HYAnqREIb64",
-    "datePlayed": "3/19/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 2,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 1,
-    "videoID": "uUUNGKccBm4",
-    "datePlayed": "3/19/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 2,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 0,
-    "videoID": "WRLLm8xUGv8",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 4,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "FchHI5S2Gcs",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 1,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 3,
-    "videoID": "rq1vuEisAm8",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 1,
-    "videoID": "fMGUWddMCPM",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 0,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 1,
-    "videoID": "-852pkbdKko",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 0,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "X1b1fSOagW4",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 3,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 2,
-    "videoID": "zzEUggLjOsQ",
-    "datePlayed": "3/18/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "Bc3WaUBORz4",
-    "datePlayed": "3/12/17"
-  },
-  {
-    "homeTeam": "Hull City",
-    "homeTeamScore": 2,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "hMC756JqPcg",
-    "datePlayed": "3/11/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 3,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "J8Dx_nw0Vgs",
-    "datePlayed": "3/11/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 3,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 2,
-    "videoID": "GZ7YcYymbd0",
-    "datePlayed": "3/11/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 0,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 0,
-    "videoID": "gI4XKNSwq1I",
-    "datePlayed": "3/9/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 3,
-    "awayTeam": "Everton",
-    "awayTeamScore": 2,
-    "videoID": "qVxnYmIitzE",
-    "datePlayed": "3/5/17"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 2,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 3,
-    "videoID": "01j08KmeIyw",
-    "datePlayed": "3/5/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "70PWyDv93Bg",
-    "datePlayed": "3/5/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 1,
-    "videoID": "ItZknodKDNY",
-    "datePlayed": "3/5/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 4,
-    "awayTeam": "Watford",
-    "awayTeamScore": 3,
-    "videoID": "445nXqPTlJA",
-    "datePlayed": "3/5/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 3,
-    "videoID": "rSLhHJF6GAQ",
-    "datePlayed": "2/28/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 4,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 0,
-    "videoID": "N0u95WGdIac",
-    "datePlayed": "2/26/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 1,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 1,
-    "videoID": "xWt39r61EK4",
-    "datePlayed": "2/25/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "JX2Gu7I5HQg",
-    "datePlayed": "2/25/17"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "AXtT0CqfaCA",
-    "datePlayed": "2/25/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "4xLCJLTmp-c",
-    "datePlayed": "2/25/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 2,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 1,
-    "videoID": "_FgvmGbaiaA",
-    "datePlayed": "2/25/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 0,
-    "videoID": "j-BYaUSUofY",
-    "datePlayed": "2/14/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 0,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 2,
-    "videoID": "qVelU-wyhvQ",
-    "datePlayed": "2/12/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "w-tMQiVbekI",
-    "datePlayed": "2/12/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 0,
-    "awayTeam": "Liverpool",
-    "awayTeamScore": 2,
-    "videoID": "gIOwOT4CJxM",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "ziY_yyWJOCw",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 2,
-    "awayTeam": "Watford",
-    "awayTeamScore": 0,
-    "videoID": "7HUPB4oSJw0",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 2,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "Y6lLN4JG0LI",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "138MFFd_2BQ",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "OpUoRtgdasU",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 2,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 2,
-    "videoID": "x1AbhlEKaAQ",
-    "datePlayed": "2/11/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 3,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "Ai7NYLoHNhU",
-    "datePlayed": "2/5/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "0UK5CcPdUdA",
-    "datePlayed": "2/5/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "Q4nBRhX2Aqc",
-    "datePlayed": "2/4/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 1,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 3,
-    "videoID": "G86LiG2_SSo",
-    "datePlayed": "2/4/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 0,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 2,
-    "videoID": "9y5Rh344x0A",
-    "datePlayed": "2/4/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Arsenal",
-    "awayTeamScore": 1,
-    "videoID": "0Qo9ps8vthg",
-    "datePlayed": "2/4/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "ady5ij0uVcU",
-    "datePlayed": "2/4/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 6,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 3,
-    "videoID": "CjDCjttVGuw",
-    "datePlayed": "2/4/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 1,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 1,
-    "videoID": "m_kJvGHNHTM",
-    "datePlayed": "2/2/17"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 4,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 0,
-    "videoID": "u9pCrdlPU0Q",
-    "datePlayed": "2/2/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 0,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "laP07E97If4",
-    "datePlayed": "2/2/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 1,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 2,
-    "videoID": "7xiYCIyctXs",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Liverpool",
-    "awayTeamScore": 1,
-    "videoID": "wXzNKMkaVJU",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "t7rLZkbDjOU",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 0,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 2,
-    "videoID": "2blkHux_v0U",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 1,
-    "awayTeam": "Watford",
-    "awayTeamScore": 2,
-    "videoID": "bKkCkbWZuhY",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 0,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "G7E-PEPBOBw",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 0,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "i7egyQF4qhk",
-    "datePlayed": "2/1/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Liverpool",
-    "awayTeamScore": 1,
-    "videoID": "QsW7CmteVAA",
-    "datePlayed": "1/25/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 3,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "0wKpv4sEeE0",
-    "datePlayed": "1/22/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "V8FPdwuH8XI",
-    "datePlayed": "1/22/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "8Z83zbFS3Kk",
-    "datePlayed": "1/22/17"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 3,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "e3xGKzX42dw",
-    "datePlayed": "1/21/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 3,
-    "videoID": "eAgJqt8ltnU",
-    "datePlayed": "1/21/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "41eo49cVwM8",
-    "datePlayed": "1/21/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 1,
-    "videoID": "CyvE-Rtmm1Q",
-    "datePlayed": "1/21/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 2,
-    "awayTeam": "Watford",
-    "awayTeamScore": 2,
-    "videoID": "UB1kdWfqOx4",
-    "datePlayed": "1/21/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 1,
-    "videoID": "TZW3iTc08l0",
-    "datePlayed": "1/15/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "G0sEEy7BO00",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 4,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "iuHbp3sOk4o",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "4QtUBOsRhvE",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "ydUOwutg64o",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 3,
-    "videoID": "FMFuaX7lO7g",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 3,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 1,
-    "videoID": "IfMqji-U9lA",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 4,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 0,
-    "videoID": "6GEfTCNMlBM",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 3,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "f1HTpWYh6_0",
-    "datePlayed": "1/14/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 3,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 3,
-    "videoID": "PuZozAYyXxU",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "Crystal Palace",
-    "homeTeamScore": 1,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 2,
-    "videoID": "XwTbG8sTHSc",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 2,
-    "awayTeam": "Watford",
-    "awayTeamScore": 0,
-    "videoID": "rMdFQXqo7ww",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 3,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 0,
-    "videoID": "jVSkDQ22b1c",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "JA46KzuFEFU",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "LAoO_Lkw8Ng",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "wUKF7oe0x0I",
-    "datePlayed": "1/3/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 4,
-    "awayTeam": "Watford",
-    "awayTeamScore": 1,
-    "videoID": "bASx1vnXs6Q",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 2,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "JuYwGwQOu4I",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 4,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 2,
-    "videoID": "Yq35nevQ3e8",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 1,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 0,
-    "videoID": "FUbZ-kE8jPo",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 4,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 1,
-    "videoID": "6XCqThr_YGU",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 0,
-    "videoID": "bMi5s5LJMqI",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 3,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 0,
-    "videoID": "W0zAy_qgtHM",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 2,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "ceLw9g0rrms",
-    "datePlayed": "1/2/17"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 4,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 1,
-    "videoID": "hHFiYz0ezVw",
-    "datePlayed": "12/29/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 4,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 1,
-    "videoID": "NCLTGPuZVI0",
-    "datePlayed": "12/28/16"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": "",
-    "awayTeam": "Hull City",
-    "awayTeamScore": "",
-    "videoID": "QxiM1Zv9k6s",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 3,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 1,
-    "videoID": "s8Xa4wAJqSQ",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 1,
-    "videoID": "Zehg_I6WuJo",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 0,
-    "videoID": "q7jgFM63VQA",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 4,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "BCCHOI2Pcds",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 1,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "PNNmm_gZmg4",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "VHRt0GfVuc0",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 2,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "Zvqqd7xeYLU",
-    "datePlayed": "12/26/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 1,
-    "awayTeam": "Everton",
-    "awayTeamScore": 0,
-    "videoID": "170quwYWEgY",
-    "datePlayed": "12/20/16"
-  },
-  {
-    "homeTeam": "Swansea City",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 3,
-    "videoID": "viDz9Smh8oo",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "48L_9lbPfAw",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 2,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "zQE5oLpHKEI",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "aQ2r993ploY",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 2,
-    "videoID": "wIaWaUppyB4",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 0,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 1,
-    "videoID": "7ar7aa9Fm_A",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 3,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 1,
-    "videoID": "odb7-O4DtOo",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "TC_IDhJN_zk",
-    "datePlayed": "12/18/16"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 0,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 1,
-    "videoID": "wOkltfvxwiM",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 0,
-    "videoID": "KK6cWIZv6wY",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "rV_b9dtEwWI",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "MJS-sxqTveg",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 2,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 1,
-    "videoID": "vRWc_a4gKIk",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 3,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "qUjYGUZbLkQ",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "yHJHM72O_eA",
-    "datePlayed": "12/15/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 1,
-    "awayTeam": "Everton",
-    "awayTeamScore": 2,
-    "videoID": "yuvBGnBWsfg",
-    "datePlayed": "12/14/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 1,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "N-UsBSiXc3A",
-    "datePlayed": "12/13/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 2,
-    "videoID": "ZTBES2Tc54s",
-    "datePlayed": "12/11/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "Aal2cOmxwd8",
-    "datePlayed": "12/11/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 0,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 1,
-    "videoID": "H5QoneNMBy0",
-    "datePlayed": "12/11/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 0,
-    "videoID": "u73zxazkdcI",
-    "datePlayed": "12/11/16"
-  },
-  {
-    "homeTeam": "Manchester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 4,
-    "videoID": "96qmy_q4RuU",
-    "datePlayed": "12/11/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 3,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 1,
-    "videoID": "8pzcqNCgzfE",
-    "datePlayed": "12/10/16"
-  },
-  {
-    "homeTeam": "Swansea City",
-    "homeTeamScore": 3,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "J7kQ_98GvkU",
-    "datePlayed": "12/10/16"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 2,
-    "awayTeam": "Watford",
-    "awayTeamScore": 3,
-    "videoID": "QRrN_aXckgg",
-    "datePlayed": "12/10/16"
-  },
-  {
-    "homeTeam": "Crystal Palace",
-    "homeTeamScore": 3,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 3,
-    "videoID": "eLxfhMKr1hk",
-    "datePlayed": "12/10/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 3,
-    "videoID": "zhe8RwLIIl4",
-    "datePlayed": "12/10/16"
-  },
-  {
-    "homeTeam": "Hull City",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "j3xb6I3xsos",
-    "datePlayed": "4/6/17"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Everton",
-    "awayTeamScore": 1,
-    "videoID": "spb6lS4wIDU",
-    "datePlayed": "12/4/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 3,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 4,
-    "videoID": "AlI5VHMZflo",
-    "datePlayed": "12/4/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 5,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 1,
-    "videoID": "XAnkKGgSw5s",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 2,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 0,
-    "videoID": "tCj7EwsWG3o",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 3,
-    "videoID": "rOFRSJfgB3k",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 5,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 0,
-    "videoID": "5C5MKH4oXBQ",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Manchester City",
-    "awayTeamScore": 1,
-    "videoID": "c19lUekl5kY",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 3,
-    "awayTeam": "Watford",
-    "awayTeamScore": 1,
-    "videoID": "XdNfa9n4SLo",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 2,
-    "videoID": "deBr8zrwbCM",
-    "datePlayed": "12/3/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 3,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 1,
-    "videoID": "8PrppNhQscY",
-    "datePlayed": "11/28/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 1,
-    "videoID": "iFXZ4dQOCSM",
-    "datePlayed": "11/28/16"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 0,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 1,
-    "videoID": "VXHgIctLM48",
-    "datePlayed": "11/28/16"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 1,
-    "awayTeam": "Watford",
-    "awayTeamScore": 0,
-    "videoID": "o-thGQaUE1I",
-    "datePlayed": "11/28/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Tottenham",
-    "awayTeamScore": 1,
-    "videoID": "m4Ngda5D43M",
-    "datePlayed": "11/26/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "MloMqM0glZA",
-    "datePlayed": "11/26/16"
-  },
-  {
-    "homeTeam": "Crystal Palace",
-    "homeTeamScore": 4,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 5,
-    "videoID": "#NAME?",
-    "datePlayed": "11/26/16"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 2,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 2,
-    "videoID": "KSka9P20NvE",
-    "datePlayed": "11/26/16"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "_6xSFzV8yYU",
-    "datePlayed": "11/26/16"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 4,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 0,
-    "videoID": "XVDj7_wH0Dc",
-    "datePlayed": "11/22/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "7nEBqj3_-Hg",
-    "datePlayed": "11/20/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 3,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 2,
-    "videoID": "CaKZX5-Uco8",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 1,
-    "awayTeam": "Stoke City",
-    "awayTeamScore": 0,
-    "videoID": "CoSIrrcOEgc",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 0,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 0,
-    "videoID": "8GmO_-AVx8c",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 1,
-    "awayTeam": "Arsenal",
-    "awayTeamScore": 1,
-    "videoID": "90O_ivs9pDA",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 1,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "6B3sXyO9N08",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Hull City",
-    "homeTeamScore": 0,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 3,
-    "videoID": "5iGzaV4lLn0",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 1,
-    "awayTeam": "Watford",
-    "awayTeamScore": 2,
-    "videoID": "UiZNffAFFZY",
-    "datePlayed": "11/19/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 1,
-    "videoID": "lgyJbg6j-GM",
-    "datePlayed": "11/6/16"
-  },
-  {
-    "homeTeam": "West Brom",
-    "homeTeamScore": 2,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 1,
-    "videoID": "32RgmkrpDDY",
-    "datePlayed": "11/6/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 2,
-    "videoID": "xqYkbpZLKRI",
-    "datePlayed": "11/6/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 6,
-    "awayTeam": "Watford",
-    "awayTeamScore": 1,
-    "videoID": "JamYqsjYSLo",
-    "datePlayed": "11/6/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 1,
-    "awayTeam": "Arsenal",
-    "awayTeamScore": 1,
-    "videoID": "de9Q-RDs_UE",
-    "datePlayed": "11/6/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 5,
-    "awayTeam": "Everton",
-    "awayTeamScore": 0,
-    "videoID": "AtsepM-Ho7M",
-    "datePlayed": "11/5/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 2,
-    "videoID": "3teAy0q6fGI",
-    "datePlayed": "11/5/16"
-  },
-  {
-    "homeTeam": "Burnley",
-    "homeTeamScore": 3,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 2,
-    "videoID": "gprG5_Gcic4",
-    "datePlayed": "11/5/16"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 1,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 1,
-    "videoID": "G2acg7y1Xuo",
-    "datePlayed": "11/5/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 2,
-    "awayTeam": "Southampton",
-    "awayTeamScore": 0,
-    "videoID": "eiJRZyr_kVs",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 2,
-    "awayTeam": "West Ham",
-    "awayTeamScore": 0,
-    "videoID": "6kcji2yec6E",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 2,
-    "videoID": "9TZoSzKO3tU",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 4,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 1,
-    "videoID": "CtrND6C4iBU",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 1,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "eNEZnML2ldc",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 4,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 2,
-    "videoID": "34ZvpvsbmfU",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 1,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 1,
-    "videoID": "Fv0BoddWei0",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Manchester United",
-    "homeTeamScore": 0,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 0,
-    "videoID": "pt2Y37MILoM",
-    "datePlayed": "10/30/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 4,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 0,
-    "videoID": "StbjZOFkc5E",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 0,
-    "awayTeam": "Bournemouth",
-    "awayTeamScore": 0,
-    "videoID": "1aXOp9fq178",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 2,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 0,
-    "videoID": "9KQQ828qsXY",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 2,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 1,
-    "videoID": "SFK7vS6z6GE",
-    "datePlayed": "10/22/16"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "Kz4R80P5gTI",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 0,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "oxfhtfgXBsY",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Leicester City",
-    "homeTeamScore": 3,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 1,
-    "videoID": "4nJgH3B1fKY",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Everton",
-    "homeTeamScore": 1,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 2,
-    "videoID": "UMxgoogwt50",
-    "datePlayed": "10/23/16"
-  },
-  {
-    "homeTeam": "Liverpool",
-    "homeTeamScore": 0,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 0,
-    "videoID": "uMVOe7FHpuk",
-    "datePlayed": "10/17/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 3,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 1,
-    "videoID": "oxfaswLdJ7U",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "Watford",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 0,
-    "videoID": "G7mPY3mZrlc",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Crystal Palace",
-    "awayTeamScore": 0,
-    "videoID": "avjaSN6zBNQ",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 1,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 1,
-    "videoID": "Wz3H5J8Ej5k",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 2,
-    "awayTeam": "Sunderland",
-    "awayTeamScore": 0,
-    "videoID": "pzDJhbXzVLY",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 6,
-    "awayTeam": "Hull City",
-    "awayTeamScore": 1,
-    "videoID": "ATQHDzxgUdM",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "Chelsea",
-    "homeTeamScore": 3,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "rcii6bQx4mU",
-    "datePlayed": "10/16/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 3,
-    "awayTeam": "Swansea City",
-    "awayTeamScore": 2,
-    "videoID": "N_NnhpvLJWE",
-    "datePlayed": "10/15/16"
-  },
-  {
-    "homeTeam": "Tottenham",
-    "homeTeamScore": 2,
-    "awayTeam": "Manchester City",
-    "awayTeamScore": 0,
-    "videoID": "ANKUrV4VVh8",
-    "datePlayed": "10/2/16"
-  },
-  {
-    "homeTeam": "Stoke City",
-    "homeTeamScore": 1,
-    "awayTeam": "Manchester United",
-    "awayTeamScore": 1,
-    "videoID": "OZFOReviNV4",
-    "datePlayed": "10/2/16"
-  },
-  {
-    "homeTeam": "Arsenal",
-    "homeTeamScore": 1,
-    "awayTeam": "Burnley",
-    "awayTeamScore": 0,
-    "videoID": "1GAPIk5VQs8",
-    "datePlayed": "10/2/16"
-  },
-  {
-    "homeTeam": "Southampton",
-    "homeTeamScore": 0,
-    "awayTeam": "Leicester City",
-    "awayTeamScore": 0,
-    "videoID": "s7XbPZLJlJE",
-    "datePlayed": "10/1/16"
-  },
-  {
-    "homeTeam": "West Ham",
-    "homeTeamScore": 1,
-    "awayTeam": "Middlesbrough",
-    "awayTeamScore": 1,
-    "videoID": "A79tXHV-Dkg",
-    "datePlayed": "10/1/16"
-  },
-  {
-    "homeTeam": "Bournemouth",
-    "homeTeamScore": 2,
-    "awayTeam": "Watford",
-    "awayTeamScore": 2,
-    "videoID": "C-uZK8yvpCk",
-    "datePlayed": "10/1/16"
-  },
-  {
-    "homeTeam": "Sunderland",
-    "homeTeamScore": 1,
-    "awayTeam": "West Brom",
-    "awayTeamScore": 1,
-    "videoID": "T81geDHBk1A",
-    "datePlayed": "10/1/16"
-  }
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 2,
+   "videoID": "pTy9nEzQ1Lg",
+   "datePlayed": "5/21/17",
+   "title": "Swansea City rally past West Brom in season finale"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 7,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "KQbscSbtaQM",
+   "datePlayed": "5/21/17",
+   "title": "Harry Kane scores hat trick as Tottenham demolish Hull"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "B3SO4GTo8Ng",
+   "datePlayed": "5/21/17",
+   "title": "Stoke City stifle Southampton in 1-0 win"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 3,
+   "awayTeam": "Everton",
+   "awayTeamScore": 1,
+   "videoID": "Q0iCfmDEGiw",
+   "datePlayed": "5/21/17",
+   "title": "Arsenal beat Everton  but miss top 4 spot"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 3,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "YJTf-sWcYqg",
+   "datePlayed": "5/21/17",
+   "title": "Liverpool beat Middlesbrough 3-0 to secure top 4 finish"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 5,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "0zr8_3jRaXk",
+   "datePlayed": "5/21/17",
+   "title": "Man City secure Champions League spot with win over Watford"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 5,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 1,
+   "videoID": "wzhWyTYfNpk",
+   "datePlayed": "5/21/17",
+   "title": "Chelsea top Sunderland to cap title-winning season"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 1,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 1,
+   "videoID": "L5tOK2lBOF0",
+   "datePlayed": "5/21/17",
+   "title": "Bournemouth draw Leicester to reach top half"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 1,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 2,
+   "videoID": "hGavkn29HxI",
+   "datePlayed": "5/21/17",
+   "title": "West Ham come from behind to beat Burnley"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "qrNBh2XdFRc",
+   "datePlayed": "5/21/17",
+   "title": "Man United's youngsters take down Crystal Palace"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 6,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 1,
+   "videoID": "NxKLFj0RpI8",
+   "datePlayed": "5/18/17",
+   "title": "Harry Kane  Tottenham demolish Leicester City"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "4ciK9-Sjna4",
+   "datePlayed": "5/17/17",
+   "title": "Manchester United winless streak extended in draw against Southampton"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 3,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 1,
+   "videoID": "k0kPbXwpRzk",
+   "datePlayed": "5/16/17",
+   "title": "Man City dominate West Bromwich  hold Top 4 spot"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "wSZam2wwV1I",
+   "datePlayed": "5/16/17",
+   "title": "Alexis Sanchez leads Arsenal past Sunderland"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 4,
+   "awayTeam": "Watford",
+   "awayTeamScore": 3,
+   "videoID": "RpCjOZ1PBu8",
+   "datePlayed": "5/15/17",
+   "title": "Chelsea top Watford  tie record with 29th Premier League win"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 0,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 4,
+   "videoID": "IHYYybNjpe4",
+   "datePlayed": "5/14/17",
+   "title": "Hull City relegated after 4-0 shut out by Palace"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 4,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "vdGmLMklSW4",
+   "datePlayed": "5/14/17",
+   "title": "Liverpool cruise past West Ham in 4-0 win"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 1,
+   "videoID": "m9lq15CHXoU",
+   "datePlayed": "5/14/17",
+   "title": "Tottenham top Man United in White Hart Lane finale"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 1,
+   "videoID": "NaOR4pe3tl0",
+   "datePlayed": "5/13/17",
+   "title": "Man City hold on to defeat Leicester City 2-1"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "547QO8cCGPE",
+   "datePlayed": "5/13/17",
+   "title": "Bournemouth earn exciting 2-1 win over Burnley"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 4,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "Jg2lOFRwMzM",
+   "datePlayed": "5/13/17",
+   "title": "Arsenal overwhelm Stoke City in 4-1 win"
+ },
+ {
+   "homeTeam": "Swansea City",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "SMlTYiHwgc0",
+   "datePlayed": "5/13/17",
+   "title": "Swansea top Sunderland  move closer to PL survival"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 2,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "XkqRvTil-uY",
+   "datePlayed": "5/13/17",
+   "title": "Southampton clip Middlesbrough 2-1"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "mX0TylQRt2c",
+   "datePlayed": "5/12/17",
+   "title": "Everton cruise to 1-0 win over Watford"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "b3jIDQ55dIg",
+   "datePlayed": "5/12/17",
+   "title": "Chelsea top West Brom  clinch Premier league title"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 2,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "UF3uFpJgE4E",
+   "datePlayed": "5/10/17",
+   "title": "Arsenal push past Southampton in 2-0 win"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "eDTz6k6ctZs",
+   "datePlayed": "5/8/17",
+   "title": "Chelsea top Middlesbrough  one win from PL title"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 2,
+   "videoID": "YD0sR-nK77g",
+   "datePlayed": "5/7/17",
+   "title": "Arsenal top Man United  keep top four hopes alive"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 0,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "pI0k9PdTJJw",
+   "datePlayed": "5/7/17",
+   "title": "Southampton stifle Liverpool in 0-0 draw"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 0,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "TnZX0qcZOGM",
+   "datePlayed": "5/6/17",
+   "title": "Swansea top Everton to move out of relegation zone"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 2,
+   "videoID": "F3LFHMqm4ZU",
+   "datePlayed": "5/6/17",
+   "title": "Burnley  West Brom play to exciting 2-2 draw"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 5,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "bIAzGVkFQJc",
+   "datePlayed": "5/6/17",
+   "title": "Man City thump Crystal Palace 5-0"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 0,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 2,
+   "videoID": "WfpwJ0tJZ-0",
+   "datePlayed": "5/6/17",
+   "title": "Hull drop vital points to Sunderland in 2-0 loss"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 2,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 2,
+   "videoID": "o9luWAiBQPk",
+   "datePlayed": "5/6/17",
+   "title": "Bournemouth  Stoke share the points in 2-2 draw"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 3,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "3vdBs2oxay4",
+   "datePlayed": "5/6/17",
+   "title": "Albrighton  Mahrez help Leicester beat Watford"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 0,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "e2upXuyLWdw",
+   "datePlayed": "5/5/17",
+   "title": "West Ham  Lanzini top Tottenham"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 2,
+   "videoID": "SeMStmCGIGw",
+   "datePlayed": "5/7/17",
+   "title": "Man United  Arsenal clash eying top four"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "mdvmyD22wP0",
+   "datePlayed": "5/1/17",
+   "title": "Liverpool's Can scores sensational overhead kick against Watford"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 0,
+   "videoID": "dEcZvAkgwaA",
+   "datePlayed": "4/30/17",
+   "title": "Tottenham top Arsenal in North London derby"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "C2rNthffcBA",
+   "datePlayed": "4/30/17",
+   "title": "Swansea City earn 1-1 draw against Man United"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Everton",
+   "awayTeamScore": 0,
+   "videoID": "TzawDcN0X8w",
+   "datePlayed": "4/30/17",
+   "title": "Chelsea's big second half leads to win v. Everton"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 2,
+   "videoID": "cFyf8iu6INk",
+   "datePlayed": "4/30/17",
+   "title": "Middlesbrough  Man City play to exciting 2-2 draw"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 0,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "d_aWxn-1uPA",
+   "datePlayed": "4/29/17",
+   "title": "Stoke City  West Ham share points in 0-0 draw"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "9rE-UPdzUfs",
+   "datePlayed": "4/29/17",
+   "title": "Hull City draw Southampton  get important point"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "LczGx-lSs4o",
+   "datePlayed": "4/29/17",
+   "title": "Bournemouth win through late goal v. Sunderland"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 0,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 1,
+   "videoID": "tGwXSZUMZhY",
+   "datePlayed": "4/29/17",
+   "title": "Leicester City get past West Brom with 1-0 win"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 2,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "T235Fosho2E",
+   "datePlayed": "4/29/17",
+   "title": "Burnley clip Crytsal Palace 2-0"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 0,
+   "videoID": "G9Ft8V30IHA",
+   "datePlayed": "4/27/17",
+   "title": "Man City and Man United played to a 0-0 draw in a derby filled with missed scoring chances and a late red card for Marouane Fellaini."
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "UE2Tn2xuBxw",
+   "datePlayed": "4/26/17",
+   "title": "Arsenal beat Leicester through Huth's own goal"
+ },
+ {
+   "homeTeam": "Middlesbrough",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "w4kUrwe2Iyg",
+   "datePlayed": "4/26/17",
+   "title": "Middlesbrough clip Sunderland in relegation battle"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "u6MTXDJU9ik",
+   "datePlayed": "4/26/17",
+   "title": "Christian Eriksen leads Tottenham past Palace"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 4,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 2,
+   "videoID": "ZU2p03HZfOk",
+   "datePlayed": "4/25/17",
+   "title": "Chelsea regain form  top Southampton 4-2"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "QUIP_SFKMqY",
+   "datePlayed": "4/23/17",
+   "title": "Benteke's two goals leads Crystal Palace over Liverpool"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 0,
+   "videoID": "VPgup8Vb-8c",
+   "datePlayed": "4/23/17",
+   "title": "Wayne Rooney's goal leads Man United to win over Burnley"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 0,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 2,
+   "videoID": "QoZD_72gcqI",
+   "datePlayed": "4/22/17",
+   "title": "Clucas leads 10-man Hull City to win over Watford"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 4,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "el1LLg4kzcQ",
+   "datePlayed": "4/22/17",
+   "title": "Bournemouth blow past Middlesbrough"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 0,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 2,
+   "videoID": "SFFVGIoevBI",
+   "datePlayed": "4/22/17",
+   "title": "Llorente helps Swansea stifle Stoke City"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 0,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "ifWJJdwz7EM",
+   "datePlayed": "4/22/17",
+   "title": "West Ham  Everton play to scoreless draw"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 2,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "r99cBO9FTMw",
+   "datePlayed": "4/17/17",
+   "title": "Arsenal get past Middlesbrough for 2-1 win"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 2,
+   "videoID": "nLVz-8RwGDU",
+   "datePlayed": "4/16/17",
+   "title": "Chelsea fall to Manchester United as title race gets tighter"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "NObzadtdaRI",
+   "datePlayed": "4/16/17",
+   "title": "Liverpool get past West Brom in 1-0 win"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 2,
+   "videoID": "hdOHbXEm8dk",
+   "datePlayed": "4/16/17",
+   "title": "Rashford provides breakthrough for Man United against Chelsea"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 3,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "X4jrmYR6CsA",
+   "datePlayed": "4/15/17",
+   "title": "Man City beat Southampton to move into third"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 2,
+   "videoID": "3V19pVRu5N4",
+   "datePlayed": "4/15/17",
+   "title": "Sunderland salvage draw against West Ham"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "SjZsL8-hdX4",
+   "datePlayed": "4/15/17",
+   "title": "Stoke City too much for Hull City in 3-1 win"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "CbYQ12geHQ8",
+   "datePlayed": "4/15/17",
+   "title": "Etienne Capoue helps Watford to win over Swansea"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 3,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "NUvcZsMxrzk",
+   "datePlayed": "4/15/17",
+   "title": "Barkley  Lukaku secure Everton win over Burnley"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "HSaWJNPusGQ",
+   "datePlayed": "4/15/17",
+   "title": "Palace come back to earn draw with Leicester"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "SjZsL8-hdX4",
+   "datePlayed": "4/15/17",
+   "title": "Stoke City got goals from three different players, including a stunning strike from Xeherdan Shaqiri as they topped Hull City 3-1 on Matchday 33."
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 4,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 0,
+   "videoID": "FWlQ6KRC87s",
+   "datePlayed": "4/15/17",
+   "title": "Tottenham dominate Bournemouth in 4-0 win"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 0,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 3,
+   "videoID": "RmYaZiyngs0",
+   "datePlayed": "4/10/17",
+   "title": "Crystal Palace embarrasses Arsenal"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 4,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 2,
+   "videoID": "QFs6UE6QxQk",
+   "datePlayed": "4/9/17",
+   "title": "Lukaku doubles to lead Everton past Leicester"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 3,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "WRo3IwRfsbg",
+   "datePlayed": "4/9/17",
+   "title": "Man United handle 10-man Sunderland in 3-0 win"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 4,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "KPzaqA2ImNI",
+   "datePlayed": "4/8/17",
+   "title": "Tottenham score four goals in Watford blowout"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "vKu20kVewJs",
+   "datePlayed": "4/8/17",
+   "title": "Man City dominate Hull City in 3-1 win"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "uIWhg4Wmdl0",
+   "datePlayed": "4/8/17",
+   "title": "West Ham  Cheikhou Kouyate top Swansea City"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 1,
+   "videoID": "KTvYPMDL134",
+   "datePlayed": "4/8/17",
+   "title": "Chelsea cruise past Bournemouth to hold title lead"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "YqzBkho0XGM",
+   "datePlayed": "4/8/17",
+   "title": "Burnley holds Middlesbrough to draw"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "Cz98yPXwf_o",
+   "datePlayed": "4/8/17",
+   "title": "Liverpool comeback to beat Stoke City"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 0,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 1,
+   "videoID": "rRp3jy3UUy0",
+   "datePlayed": "4/8/17",
+   "title": "Southampton clip West Brom Albion in 1-0 win"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 3,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "jN1nMDC1g38",
+   "datePlayed": "4/5/17",
+   "title": "Tottenham leave it late  top Swansea City 3-1"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 3,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 1,
+   "videoID": "Cf6o5KVThSA",
+   "datePlayed": "4/5/17",
+   "title": "Southampton comeback to beat Crystal Palace"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 2,
+   "videoID": "krQLbmdb0Ew",
+   "datePlayed": "4/5/17",
+   "title": "Liverpool concede late to draw with Bournemouth"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 4,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 2,
+   "videoID": "yJnCY4tIG8o",
+   "datePlayed": "4/5/17",
+   "title": "Hull City outlast Middlesbrough in 4-2 win"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 2,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 1,
+   "videoID": "B-dPaWw-4RY",
+   "datePlayed": "4/5/17",
+   "title": "Chelsea earn massive 2-1 win over Man City"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 3,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "eA4mmJC_-sA",
+   "datePlayed": "4/5/17",
+   "title": "Arsenal complete 3-0 rout of West Ham"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "Everton",
+   "awayTeamScore": 1,
+   "videoID": "QbSLM-ZNhys",
+   "datePlayed": "4/4/17",
+   "title": "Late goal helps Man United draw with Everton"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "xb1ZN622beQ",
+   "datePlayed": "4/4/17",
+   "title": "Leicester top Sunderland  win fifth straight in PL"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 0,
+   "awayTeam": "Watford",
+   "awayTeamScore": 2,
+   "videoID": "wT0KcMZKpLc",
+   "datePlayed": "4/4/17",
+   "title": "Watford earn 2-0 victory over West Brom"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 0,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "nDyq-__tBTA",
+   "datePlayed": "4/4/17",
+   "title": "Burnley clip Stoke City in 1-0 win"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": " -maeEHE2CRo",
+   "datePlayed": "4/1/17",
+   "title": "Manchester United held to draw v. West Brom"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 0,
+   "videoID": "G324Cjs7mKQ",
+   "datePlayed": "4/1/17",
+   "title": "Leicester beat Stoke  get fourth straight PL win"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 2,
+   "videoID": "5ilTukYuAq0",
+   "datePlayed": "4/1/17",
+   "title": "Robertson and Ranocchia rally Hull City for win over West Ham"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 0,
+   "videoID": "mRtE6i4hzH0",
+   "datePlayed": "4/1/17",
+   "title": "Tottenham leave it late  but top Burnley 2-0"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "Fg7gBRV-HmU",
+   "datePlayed": "4/1/17",
+   "title": "Watford clip Sunderland 1-0"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 0,
+   "videoID": "1gCBfY5u0_Y",
+   "datePlayed": "4/1/17",
+   "title": "Southampton  Bournemouth draw 0-0"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "S4wM6k_GDSA",
+   "datePlayed": "4/1/17",
+   "title": "Crystal Palace stun Chelsea at Stamford Bridge"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 3,
+   "awayTeam": "Everton",
+   "awayTeamScore": 1,
+   "videoID": "I05ckonGAA0",
+   "datePlayed": "4/1/17",
+   "title": "Liverpool maintain Merseyside Derby dominance over Everton"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 1,
+   "videoID": " -lSYXFICjy0",
+   "datePlayed": "3/19/17",
+   "title": "Man City  Liverpool play to thrilling 1-1 draw"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 3,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "HYAnqREIb64",
+   "datePlayed": "3/19/17",
+   "title": "Manchester United hold on to beat Middlesbrough"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 1,
+   "videoID": "uUUNGKccBm4",
+   "datePlayed": "3/19/17",
+   "title": "Tottenham top Southampton 2-1 at White Hart Lane"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 2,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "WRLLm8xUGv8",
+   "datePlayed": "3/18/17",
+   "title": "Bournemouth shut out Swansea 2-0"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 4,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "FchHI5S2Gcs",
+   "datePlayed": "3/18/17",
+   "title": "Romelu Lukaku leads Everton rout of Hull City"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 0,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 1,
+   "videoID": "-852pkbdKko",
+   "datePlayed": "3/18/17",
+   "title": "Troy Deeney's own goal gives Crystal Palace the win over Watford"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 0,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "X1b1fSOagW4",
+   "datePlayed": "3/18/17",
+   "title": "Sunderland  Burnley play to scoreless draw"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 3,
+   "videoID": "rq1vuEisAm8",
+   "datePlayed": "3/18/17",
+   "title": "Arsenal fall to West Brom 3-1"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 3,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 2,
+   "videoID": "zzEUggLjOsQ",
+   "datePlayed": "3/18/17",
+   "title": "Leicester City stay hot with 3-2 win over West Ham"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 2,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "fMGUWddMCPM",
+   "datePlayed": "3/18/17",
+   "title": "Chelsea get past Stoke City with 2-1 victory"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "Bc3WaUBORz4",
+   "datePlayed": "3/12/17",
+   "title": "Liverpool comeback to beat Burnley 2-1"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 3,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 2,
+   "videoID": "GZ7YcYymbd0",
+   "datePlayed": "3/11/17",
+   "title": "Joshua King's hat-trick leads Bournemouth past West Ham"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 2,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "hMC756JqPcg",
+   "datePlayed": "3/11/17",
+   "title": "Oumar Niasse's double helps Hull City beat Swansea"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 3,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "J8Dx_nw0Vgs",
+   "datePlayed": "3/11/17",
+   "title": "Everton top West Brom in 3-0 blowout"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 0,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 0,
+   "videoID": "gI4XKNSwq1I",
+   "datePlayed": "3/8/17",
+   "title": "Man City's missed chances lead to scoreless draw with Stoke"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 2,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "iDFHuDTp24Y",
+   "datePlayed": "3/6/17",
+   "title": "Chelsea continue Premier League dominance defeating West Ham"
+ },
+ {
+   "homeTeam": "Middlesbrough",
+   "homeTeamScore": 0,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 2,
+   "videoID": "LNioSO44hiI",
+   "datePlayed": "3/4/17",
+   "title": "Marko Arnautovic's two goals lifted Stoke City past Middlesbrough at the Bet 365 Stadium."
+ },
+ {
+   "homeTeam": "Sunderland",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 2,
+   "videoID": "gkXR8No9t9o",
+   "datePlayed": "3/5/17",
+   "title": "Manchester City handle Sunderland 2-0"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 3,
+   "awayTeam": "Everton",
+   "awayTeamScore": 2,
+   "videoID": "qVxnYmIitzE",
+   "datePlayed": "3/5/17",
+   "title": "Tottenham beat Everton 3-2 as Harry Kane dominates"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 2,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 3,
+   "videoID": "01j08KmeIyw",
+   "datePlayed": "3/4/17",
+   "title": "Llorente leads Swansea past Burnley"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "70PWyDv93Bg",
+   "datePlayed": "3/4/17",
+   "title": "Leicester score three unanswered goals to top Hull"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 3,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 1,
+   "videoID": "51woOX_Leog",
+   "datePlayed": "3/4/17",
+   "title": "Liverpool beat Arsenal  rise to third in PL table"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 1,
+   "videoID": "ItZknodKDNY",
+   "datePlayed": "3/4/17",
+   "title": "Bournemouth steals point from Old Trafford after 1-1 draw with Man United"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 4,
+   "awayTeam": "Watford",
+   "awayTeamScore": 3,
+   "videoID": "445nXqPTlJA",
+   "datePlayed": "3/4/17",
+   "title": "Southampton beat Watford in high-scoring affair at Vicarage Road"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 3,
+   "videoID": "rSLhHJF6GAQ",
+   "datePlayed": "2/27/17",
+   "title": "Leicester get much needed win over Liverpool"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 4,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 0,
+   "videoID": "N0u95WGdIac",
+   "datePlayed": "2/26/17",
+   "title": "Harry Kane secures hat-trick in Tottenham's win over Stoke"
+ },
+ {
+   "homeTeam": "Crystal Palace",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "goDIIWLY_hs",
+   "datePlayed": "2/25/17",
+   "title": "In an important match in the relegation battle, Crystal Palace earned the three points against Middlesbrough thanks to a goal from Patrick Van Aanholt."
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "xWt39r61EK4",
+   "datePlayed": "2/25/17",
+   "title": "Watford  West Ham share points in 1-1 draw"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "JX2Gu7I5HQg",
+   "datePlayed": "2/25/17",
+   "title": "Everton beat Sunderland to stay red-hot"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "AXtT0CqfaCA",
+   "datePlayed": "2/25/17",
+   "title": "Hull City  Burnley exchange late goals in draw"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "4xLCJLTmp-c",
+   "datePlayed": "2/25/17",
+   "title": "Chelsea extend title lead with win over Swansea"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 2,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 1,
+   "videoID": "_FgvmGbaiaA",
+   "datePlayed": "2/25/17",
+   "title": "West Brom top Bournemouth for 2-1 win"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 3,
+   "videoID": "fPGPZntgdBU",
+   "datePlayed": "2/27/17",
+   "title": "Premier League preview: Leicester City v. Liverpool"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 0,
+   "videoID": "j-BYaUSUofY",
+   "datePlayed": "2/13/17",
+   "title": "Sterling  Aguero help Man City beat Bournemouth"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 0,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 2,
+   "videoID": "qVelU-wyhvQ",
+   "datePlayed": "2/12/17",
+   "title": "Leicester struggles continue in loss to Swansea"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "w-tMQiVbekI",
+   "datePlayed": "2/12/17",
+   "title": "Burnley  Chelsea play to hard-fought draw"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 0,
+   "awayTeam": "Liverpool",
+   "awayTeamScore": 2,
+   "videoID": "gIOwOT4CJxM",
+   "datePlayed": "2/11/17",
+   "title": "Sadio Mane  Liverpool beat Tottenham 2-0"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 4,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "OpUoRtgdasU",
+   "datePlayed": "2/11/17",
+   "title": "Southampton hammer Sunderland 4-0"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "ziY_yyWJOCw",
+   "datePlayed": "2/11/17",
+   "title": "Middlesbrough  Everton draw 0-0"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "7HUPB4oSJw0",
+   "datePlayed": "2/11/17",
+   "title": "Manchester United power past Watford in 2-0 win"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 2,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 2,
+   "videoID": "x1AbhlEKaAQ",
+   "datePlayed": "2/11/17",
+   "title": "West Ham  West Brom play to thrilling 2-2 draw"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "138MFFd_2BQ",
+   "datePlayed": "2/11/17",
+   "title": "Joe Allen's goal lifts Stoke past Crystal Palace"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 2,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "Y6lLN4JG0LI",
+   "datePlayed": "2/11/17",
+   "title": "Alexis Sanchez's brace leads Arsenal past Hull"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 3,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "Ai7NYLoHNhU",
+   "datePlayed": "2/5/17",
+   "title": "Manchester United blowout Leicester City"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "0UK5CcPdUdA",
+   "datePlayed": "2/5/17",
+   "title": "Gabriel Jesus brace leads Man City past Swansea"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 1,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 3,
+   "videoID": "G86LiG2_SSo",
+   "datePlayed": "2/4/17",
+   "title": "West Ham beat Southampton 3-1"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "Q4nBRhX2Aqc",
+   "datePlayed": "2/4/17",
+   "title": "Tottenham get past Middlesbrough in 1-0 win"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 0,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 2,
+   "videoID": "9y5Rh344x0A",
+   "datePlayed": "2/4/17",
+   "title": "Hull City shock Liverpool with 2-0 win"
+ },
+ {
+   "homeTeam": "Sunderland",
+   "homeTeamScore": 4,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "5ehDx4jP-QA",
+   "datePlayed": "2/4/17",
+   "title": "Sunderland put four goals past Palace in win"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "ady5ij0uVcU",
+   "datePlayed": "2/4/17",
+   "title": "Watford hold on to beat 10-man Burnley 2-1"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 1,
+   "videoID": "0Qo9ps8vthg",
+   "datePlayed": "2/4/17",
+   "title": "Chelsea cruise past Arsenal for 3-1 win"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 6,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 3,
+   "videoID": "CjDCjttVGuw",
+   "datePlayed": "2/4/17",
+   "title": "Lukaku leads Everton to 6-3 win over Bournemouth"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "m_kJvGHNHTM",
+   "datePlayed": "2/1/17",
+   "title": "Stoke City  Everton settle for 1-1 draw"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "laP07E97If4",
+   "datePlayed": "2/1/17",
+   "title": "Hull City stifle Manchester United in 0-0 draw"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 4,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "u9pCrdlPU0Q",
+   "datePlayed": "2/1/17",
+   "title": "Man City too much for West Ham in 4-0 blowout"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 2,
+   "videoID": "7xiYCIyctXs",
+   "datePlayed": "1/31/17",
+   "title": "Swansea earn second straight win  beat Southampton"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Liverpool",
+   "awayTeamScore": 1,
+   "videoID": "wXzNKMkaVJU",
+   "datePlayed": "1/31/17",
+   "title": "Liverpool  Chelsea share points in 1-1 draw"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "t7rLZkbDjOU",
+   "datePlayed": "1/31/17",
+   "title": "Middlesbrough  West Brom play to 1-1 draw"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 0,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "2blkHux_v0U",
+   "datePlayed": "1/31/17",
+   "title": "Crystal Palace power past Bournemouth in 2-0 win"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "Watford",
+   "awayTeamScore": 2,
+   "videoID": "bKkCkbWZuhY",
+   "datePlayed": "1/31/17",
+   "title": "Watford clip Arsenal in 2-1 win"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 0,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "G7E-PEPBOBw",
+   "datePlayed": "1/31/17",
+   "title": "Sunderland earn draw against Tottenham"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 0,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "i7egyQF4qhk",
+   "datePlayed": "1/31/17",
+   "title": "Burnley score late to get win against Leicester"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Liverpool",
+   "awayTeamScore": 1,
+   "videoID": "QsW7CmteVAA",
+   "datePlayed": "1/31/17",
+   "title": "Chelsea set to visit struggling Liverpool at Anfield"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 3,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "0wKpv4sEeE0",
+   "datePlayed": "1/22/17",
+   "title": "Southampton stifle Leicester City in 3-0 win"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "V8FPdwuH8XI",
+   "datePlayed": "1/22/17",
+   "title": "Arsenal snatch win from Burnley with late PK"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 2,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "8Z83zbFS3Kk",
+   "datePlayed": "1/22/17",
+   "title": "Chelsea beat Hull City as Diego Costa returns"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 3,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "e3xGKzX42dw",
+   "datePlayed": "1/21/17",
+   "title": "West Ham too much for Middlesbrough in 3-1 win"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "vW2zbL0LoMo",
+   "datePlayed": "1/21/17",
+   "title": "Everton get late goal to earn win over Palace"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 3,
+   "videoID": "eAgJqt8ltnU",
+   "datePlayed": "1/21/17",
+   "title": "Swansea City shock Liverpool in 3-2 thriller"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "41eo49cVwM8",
+   "datePlayed": "1/21/17",
+   "title": "West Brom power past Sunderland for 2-0 win"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "CyvE-Rtmm1Q",
+   "datePlayed": "1/21/17",
+   "title": "Wayne Rooney's historic goal forces Man United's 1-1 draw with Stoke City"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 2,
+   "videoID": "zgXTuSnG23k",
+   "datePlayed": "1/21/17",
+   "title": "Manchester City opened the second half with two quick goals, but could not maintain their lead as Tottenham came back to earn a point with a 2-2 draw."
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 2,
+   "awayTeam": "Watford",
+   "awayTeamScore": 2,
+   "videoID": "UB1kdWfqOx4",
+   "datePlayed": "1/21/17",
+   "title": "Bournemouth come back to earn draw with Watford"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 1,
+   "videoID": "TZW3iTc08l0",
+   "datePlayed": "1/15/17",
+   "title": "Man United  Liverpool share points in 1-1 draw"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "BuLkFq7mCOQ",
+   "datePlayed": "1/21/17",
+   "title": "Everton top Manchester City in 4-0 blowout"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "G0sEEy7BO00",
+   "datePlayed": "1/14/17",
+   "title": "Even without Costa  Chelsea crush Leicester"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 4,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "iuHbp3sOk4o",
+   "datePlayed": "1/14/17",
+   "title": "Kane's hat-trick leads Tottenham past West Brom"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "4QtUBOsRhvE",
+   "datePlayed": "1/14/17",
+   "title": "Watford  Middlesbrough play to scoreless draw"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "ydUOwutg64o",
+   "datePlayed": "1/14/17",
+   "title": "Joey Barton's goal helps Burnley past Southampton"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 3,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 1,
+   "videoID": "IfMqji-U9lA",
+   "datePlayed": "1/14/17",
+   "title": "Stoke City power past Sunderland in 3-1 win"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 3,
+   "videoID": "FMFuaX7lO7g",
+   "datePlayed": "1/14/17",
+   "title": "Hull City come back to beat Bournemouth 3-1"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 4,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "6GEfTCNMlBM",
+   "datePlayed": "1/14/17",
+   "title": "Arsenal too much for Swansea City in 4-0 win"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 3,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "f1HTpWYh6_0",
+   "datePlayed": "1/14/17",
+   "title": "West Ham thrash Crystal Palace in 3-0 win"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 3,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 3,
+   "videoID": "PuZozAYyXxU",
+   "datePlayed": "1/3/17",
+   "title": "Arsenal come back in 3-3 thriller v. Bournemouth"
+ },
+ {
+   "homeTeam": "Crystal Palace",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 2,
+   "videoID": "XwTbG8sTHSc",
+   "datePlayed": "1/3/17",
+   "title": "Swansea earn vital relegation battle win v. Crystal Palace"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 2,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "rMdFQXqo7ww",
+   "datePlayed": "1/3/17",
+   "title": "Stoke City handle Watford in 2-0 win"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 3,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "jVSkDQ22b1c",
+   "datePlayed": "1/2/17",
+   "title": "Everton pull away from Southampton for 3-0 win"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "JA46KzuFEFU",
+   "datePlayed": "1/2/17",
+   "title": "West Brom power past Hull City in 3-1 win"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 2,
+   "videoID": "Tqa7jgQoZfk",
+   "datePlayed": "1/2/17",
+   "title": "10-man Manchester City beat Burnley 2-1"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "LastE_ZtdY0",
+   "datePlayed": "1/2/17",
+   "title": "Man United earn 6th straight PL win v. 10-man West Ham"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "LAoO_Lkw8Ng",
+   "datePlayed": "1/2/17",
+   "title": "Middlesbrough  Leicester play to scoreless draw"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 2,
+   "videoID": "wUKF7oe0x0I",
+   "datePlayed": "1/2/17",
+   "title": "Sunderland earn 2-2 draw against Liverpool"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 4,
+   "awayTeam": "Watford",
+   "awayTeamScore": 1,
+   "videoID": "bASx1vnXs6Q",
+   "datePlayed": "1/1/17",
+   "title": "Harry Kane  Dele Alli lead Tottenham past Watford"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 2,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "JuYwGwQOu4I",
+   "datePlayed": "1/1/17",
+   "title": "Giroud's wondergoal sparks Arsenal to win over Crystal Palace"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 4,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 2,
+   "videoID": "Yq35nevQ3e8",
+   "datePlayed": "12/31/16",
+   "title": "Chelsea top Stoke City in 4-2 thriller"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 1,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "FUbZ-kE8jPo",
+   "datePlayed": "12/31/16",
+   "title": "Leicester City hold off West Ham for 1-0 win"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 4,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 1,
+   "videoID": "6XCqThr_YGU",
+   "datePlayed": "12/31/16",
+   "title": "Andre Gray's hat-trick leads Burnley to win over Sunderland"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 3,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "bMi5s5LJMqI",
+   "datePlayed": "12/31/16",
+   "title": "Bournemouth puts three goals past Swansea in win"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 2,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 1,
+   "videoID": "W0zAy_qgtHM",
+   "datePlayed": "12/31/16",
+   "title": "Southampton score first  but fall to West Brom"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "ceLw9g0rrms",
+   "datePlayed": "12/31/16",
+   "title": "Manchester United come back to beat Middlesbrough"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 0,
+   "videoID": "R3YqoBnA3Dw",
+   "datePlayed": "12/31/16",
+   "title": "Wijnaldum's goal helps Liverpool to ugly win over Manchester City"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 2,
+   "awayTeam": "Everton",
+   "awayTeamScore": 2,
+   "videoID": "4YmYvYOkki8",
+   "datePlayed": "12/30/16",
+   "title": "Hull City held a 2-1 lead late in the second half, but Ross Barkley's late equalizer secured a point for the Toffees."
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 4,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 1,
+   "videoID": "hHFiYz0ezVw",
+   "datePlayed": "12/28/16",
+   "title": "Dele Alli sparks Tottenham rout of Southampton"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 4,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "NCLTGPuZVI0",
+   "datePlayed": "12/27/16",
+   "title": "Liverpool score four unanswered goal to beat Stoke"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "QxiM1Zv9k6s",
+   "datePlayed": "12/26/16",
+   "title": "Toure  Iheanacho spark Man City's second half dominance vs. Hull City"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 4,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "BCCHOI2Pcds",
+   "datePlayed": "12/26/16",
+   "title": "West Ham hammer Swansea City 4-1"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "PNNmm_gZmg4",
+   "datePlayed": "12/26/16",
+   "title": "Olivier Giroud's late goal gives Arsenal the win over West Brom"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "VHRt0GfVuc0",
+   "datePlayed": "12/26/16",
+   "title": "Andre Gray's late goal pushes Burnley past Middlesbrough"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 2,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "Zvqqd7xeYLU",
+   "datePlayed": "12/26/16",
+   "title": "Everton use strong second half to beat Leicester City"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 3,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 1,
+   "videoID": "s8Xa4wAJqSQ",
+   "datePlayed": "12/26/16",
+   "title": "Manchester United continue to roll with 3-1 win over Sunderland"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 1,
+   "videoID": "Zehg_I6WuJo",
+   "datePlayed": "12/26/16",
+   "title": "Watford  Crystal Palace play to 1-1 draw on Boxing Day"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 0,
+   "videoID": "q7jgFM63VQA",
+   "datePlayed": "12/26/16",
+   "title": "Chelsea thump Bournemouth for 12th straight win"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 1,
+   "awayTeam": "Everton",
+   "awayTeamScore": 0,
+   "videoID": "170quwYWEgY",
+   "datePlayed": "12/19/16",
+   "title": "Liverpool escape Merseyside derby with win over Everton"
+ },
+ {
+   "homeTeam": "Swansea City",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 3,
+   "videoID": "viDz9Smh8oo",
+   "datePlayed": "12/17/16",
+   "title": "Swansea City no match for Middlesbrough in 3-0 defeat"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "48L_9lbPfAw",
+   "datePlayed": "12/17/16",
+   "title": "Chelsea beat Crystal Palace for 11th straight win"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "aQ2r993ploY",
+   "datePlayed": "12/17/16",
+   "title": "Mark Noble's penalty kick goal helps West Ham past Hull City"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "zQE5oLpHKEI",
+   "datePlayed": "12/17/16",
+   "title": "Zlatan Ibrahimovic scores two goals as Manchester United best West Brom"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 2,
+   "videoID": "wIaWaUppyB4",
+   "datePlayed": "12/17/16",
+   "title": "10-man Leicester City comeback to earn 2-2 draw v. Stoke City"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 0,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 1,
+   "videoID": "7ar7aa9Fm_A",
+   "datePlayed": "12/17/16",
+   "title": "Sunderland top Watford in 1-0 win"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 3,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 1,
+   "videoID": "odb7-O4DtOo",
+   "datePlayed": "12/18/16",
+   "title": "Jay Rodriguez's brace leads Southampton past Bournemouth"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "TC_IDhJN_zk",
+   "datePlayed": "12/18/16",
+   "title": "Dele Alli  Danny Rose score as Tottenham beat Burnley 2-1"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 2,
+   "videoID": "ypuoN0Rm3o4",
+   "datePlayed": "12/18/16",
+   "title": "Dominant second half helps Manchester City beat Arsenal 2-1"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 0,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "wOkltfvxwiM",
+   "datePlayed": "12/14/16",
+   "title": "West Ham edge Burnley 1-0 for pivotal win"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 0,
+   "videoID": "KK6cWIZv6wY",
+   "datePlayed": "12/14/16",
+   "title": "Stoke City  Southampton play to scoreless draw"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "MJS-sxqTveg",
+   "datePlayed": "12/14/16",
+   "title": "Tottenham trounce Hull City 3-0"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 3,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "rV_b9dtEwWI",
+   "datePlayed": "12/14/16",
+   "title": "Salomon Rondon's hat trick leads West Brom past Swansea City"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 2,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 1,
+   "videoID": "vRWc_a4gKIk",
+   "datePlayed": "12/14/16",
+   "title": "Zlatan Ibrahimovic's late goal helps Manchester United past Crystal Palace"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 1,
+   "videoID": "UaHmLnUVHQo",
+   "datePlayed": "12/26/16",
+   "title": "Manchester City too much for Watford in 2-0 win"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 3,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "qUjYGUZbLkQ",
+   "datePlayed": "12/14/16",
+   "title": "Liverpool dismantle Middlesbrough in 3-0 win"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "yHJHM72O_eA",
+   "datePlayed": "12/14/16",
+   "title": "Chelsea top Sunderland  wins 10th straight"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "Everton",
+   "awayTeamScore": 2,
+   "videoID": "yuvBGnBWsfg",
+   "datePlayed": "12/13/16",
+   "title": "Ashley Williams provides late winner as Everton top Arsenal"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 1,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "N-UsBSiXc3A",
+   "datePlayed": "12/13/16",
+   "title": "Bournemouth hold on to top Leicester City 1-0"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 2,
+   "videoID": "ZTBES2Tc54s",
+   "datePlayed": "12/11/16",
+   "title": "Liverpool draw 2-2 with West Ham"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "Aal2cOmxwd8",
+   "datePlayed": "12/11/16",
+   "title": "Southampton clip Middlesbrough for win"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 1,
+   "videoID": "H5QoneNMBy0",
+   "datePlayed": "12/11/16",
+   "title": "Henrikh Mkhitaryan's goal helps Manchester United beat Tottenham"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "u73zxazkdcI",
+   "datePlayed": "12/11/16",
+   "title": "Diego Costa leads Chelsea past West Brom for ninth straight win"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 4,
+   "videoID": "96qmy_q4RuU",
+   "datePlayed": "12/10/16",
+   "title": "Jamie Vardy's incredible hat trick seals a Leicester win v. Man City"
+ },
+ {
+   "homeTeam": "Crystal Palace",
+   "homeTeamScore": 3,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 3,
+   "videoID": "eLxfhMKr1hk",
+   "datePlayed": "12/10/16",
+   "title": "Hull CIty  Crystal Palace play to 3-3 draw"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 3,
+   "videoID": "zhe8RwLIIl4",
+   "datePlayed": "12/10/16",
+   "title": "Burnley holds on to beat Bournemouth 3-2"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 3,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 1,
+   "videoID": "8pzcqNCgzfE",
+   "datePlayed": "12/10/16",
+   "title": "Arsenal put three goals past Stoke City in win"
+ },
+ {
+   "homeTeam": "Swansea City",
+   "homeTeamScore": 3,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "J7kQ_98GvkU",
+   "datePlayed": "12/10/16",
+   "title": "Swansea City dismantle Sunderland in big win"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 2,
+   "awayTeam": "Watford",
+   "awayTeamScore": 3,
+   "videoID": "QRrN_aXckgg",
+   "datePlayed": "12/10/16",
+   "title": "Watford comes back from a goal down to beat Everton"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 4,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 2,
+   "videoID": "j3xb6I3xsos",
+   "datePlayed": "12/5/16",
+   "title": "Middlesbrough get by Hull City"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "Everton",
+   "awayTeamScore": 1,
+   "videoID": "spb6lS4wIDU",
+   "datePlayed": "12/4/16",
+   "title": "Manchester United and Everton play to 1-1 draw"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 3,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 4,
+   "videoID": "AlI5VHMZflo",
+   "datePlayed": "12/4/16",
+   "title": "Bournemouth tops Liverpool 4-3 with thrilling comeback"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 5,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "XAnkKGgSw5s",
+   "datePlayed": "12/3/16",
+   "title": "Arsenal dominate West Ham in 5-1 win"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 2,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 0,
+   "videoID": "tCj7EwsWG3o",
+   "datePlayed": "12/3/16",
+   "title": "Stoke City handle Burnley 2-0"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 3,
+   "videoID": "rOFRSJfgB3k",
+   "datePlayed": "12/3/16",
+   "title": "Crystal Palace bury Southampton in three-goal win"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 5,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "5C5MKH4oXBQ",
+   "datePlayed": "12/3/16",
+   "title": "Tottenham thump Swansea City 5-0"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 3,
+   "awayTeam": "Watford",
+   "awayTeamScore": 1,
+   "videoID": "XdNfa9n4SLo",
+   "datePlayed": "12/3/16",
+   "title": "West Brom top Watford 3-1"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 2,
+   "videoID": "deBr8zrwbCM",
+   "datePlayed": "12/3/16",
+   "title": "Sunderland hold off Leicester City for 2-1 win"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 1,
+   "videoID": "c19lUekl5kY",
+   "datePlayed": "12/3/16",
+   "title": "Chelsea beats Man City after strong second half"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 3,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 1,
+   "videoID": "8PrppNhQscY",
+   "datePlayed": "11/27/16",
+   "title": "Alexis Sanchez leads Arsenal over Bournemouth"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "iFXZ4dQOCSM",
+   "datePlayed": "11/27/16",
+   "title": "Manchester United  West Ham play to 1-1 draw"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 0,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 1,
+   "videoID": "VXHgIctLM48",
+   "datePlayed": "11/27/16",
+   "title": "Southampton beats Everton in Ronald Koeman's return"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 1,
+   "awayTeam": "Watford",
+   "awayTeamScore": 0,
+   "videoID": "o-thGQaUE1I",
+   "datePlayed": "11/27/16",
+   "title": "Stoke City edge Watford through own goal"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 2,
+   "awayTeam": "Tottenham",
+   "awayTeamScore": 1,
+   "videoID": "m4Ngda5D43M",
+   "datePlayed": "11/26/16",
+   "title": "Chelsea edges Tottenham on Victor Moses goal"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 2,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 2,
+   "videoID": "KSka9P20NvE",
+   "datePlayed": "11/26/16",
+   "title": "Leicester City draws Middlesbrough off Islam Slimani's penalty shot goal"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 3,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "imPdT0k3dNk",
+   "datePlayed": "11/5/16",
+   "title": "Manchester City sneak out win v. Burnley with Sergio Aguero brace"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "_6xSFzV8yYU",
+   "datePlayed": "11/26/16",
+   "title": "Hull City draw West Bromwich Albion as Gareth McAuley  Michael Dawson score"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "MloMqM0glZA",
+   "datePlayed": "11/26/16",
+   "title": "Liverpool top Sunderland behind Divock Origi  James Milner goals"
+ },
+ {
+   "homeTeam": "Crystal Palace",
+   "homeTeamScore": 4,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 5,
+   "videoID": "#NAME?",
+   "datePlayed": "11/26/16",
+   "title": "Swansea City wins wild match over Crystal Palace"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 4,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 0,
+   "videoID": "XVDj7_wH0Dc",
+   "datePlayed": "11/21/16",
+   "title": "Matt Phillips  West Brom blank Burnley  4-0"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "7nEBqj3_-Hg",
+   "datePlayed": "11/20/16",
+   "title": "Chelsea clip Middlesbrough 1-0"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 3,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 2,
+   "videoID": "CaKZX5-Uco8",
+   "datePlayed": "11/19/16",
+   "title": "Tottenham steals win from West Ham with late comeback"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 1,
+   "awayTeam": "Stoke City",
+   "awayTeamScore": 0,
+   "videoID": "CoSIrrcOEgc",
+   "datePlayed": "11/19/16",
+   "title": "Bournemouth tops Stoke City"
+ },
+ {
+   "homeTeam": "Crystal Palace",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 2,
+   "videoID": "vsLBX5qPTQQ",
+   "datePlayed": "11/19/16",
+   "title": "Yaya Toure leads Manchester City to victory over Crystal Palace"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 0,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "8GmO_-AVx8c",
+   "datePlayed": "11/19/16",
+   "title": "Southampton stymies Liverpool to earn 0-0 draw"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 1,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 1,
+   "videoID": "90O_ivs9pDA",
+   "datePlayed": "11/19/16",
+   "title": "Manchester United  Arsenal play to 1-1 draw"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "6B3sXyO9N08",
+   "datePlayed": "11/19/16",
+   "title": "Everton scores late to steal a point against Swansea City"
+ },
+ {
+   "homeTeam": "Hull City",
+   "homeTeamScore": 0,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 3,
+   "videoID": "5iGzaV4lLn0",
+   "datePlayed": "11/19/16",
+   "title": "Sunderland dominates Hull City 3-0"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 1,
+   "awayTeam": "Watford",
+   "awayTeamScore": 2,
+   "videoID": "UiZNffAFFZY",
+   "datePlayed": "11/19/16",
+   "title": "Watford holds off Leicester City"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 3,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 1,
+   "videoID": "lgyJbg6j-GM",
+   "datePlayed": "11/6/16",
+   "title": "Manchester United handle Swansea City on the road"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 2,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 1,
+   "videoID": "32RgmkrpDDY",
+   "datePlayed": "11/6/16",
+   "title": "West Brom defeat Leicester City 2-1"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 2,
+   "videoID": "xqYkbpZLKRI",
+   "datePlayed": "11/6/16",
+   "title": "Hull City clips Southampton 2-1"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 6,
+   "awayTeam": "Watford",
+   "awayTeamScore": 1,
+   "videoID": "JamYqsjYSLo",
+   "datePlayed": "11/6/16",
+   "title": "Liverpool hammers Watford 6-1"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 1,
+   "awayTeam": "Arsenal",
+   "awayTeamScore": 1,
+   "videoID": "de9Q-RDs_UE",
+   "datePlayed": "11/6/16",
+   "title": "Arsenal  Tottenham settle for 1-1 draw"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 2,
+   "videoID": "3teAy0q6fGI",
+   "datePlayed": "11/5/16",
+   "title": "Sunderland earns first win of the season  defeats Bournemouth"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 5,
+   "awayTeam": "Everton",
+   "awayTeamScore": 0,
+   "videoID": "AtsepM-Ho7M",
+   "datePlayed": "11/5/16",
+   "title": "Chelsea crushes Everton 5-0"
+ },
+ {
+   "homeTeam": "Burnley",
+   "homeTeamScore": 3,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "gprG5_Gcic4",
+   "datePlayed": "11/5/16",
+   "title": "Burnley tops Crystal Palace in 3-2 thriller"
+ },
+ {
+   "homeTeam": "Middlesbrough",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 1,
+   "videoID": "LMHiv7YfF3Y",
+   "datePlayed": "11/5/16",
+   "title": "Middlesbrough earns a point against Manchester City"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 1,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 1,
+   "videoID": "G2acg7y1Xuo",
+   "datePlayed": "11/5/16",
+   "title": "West Ham  Stoke City play to 1-1 draw"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 2,
+   "awayTeam": "Southampton",
+   "awayTeamScore": 0,
+   "videoID": "eiJRZyr_kVs",
+   "datePlayed": "10/30/16",
+   "title": "Chelsea handle Southampton 2-0"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 2,
+   "awayTeam": "West Ham",
+   "awayTeamScore": 0,
+   "videoID": "6kcji2yec6E",
+   "datePlayed": "10/30/16",
+   "title": "Everton powers past West Ham"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 2,
+   "videoID": "9TZoSzKO3tU",
+   "datePlayed": "10/29/16",
+   "title": "Middlesbrough tops Bournemouth 2-0"
+ },
+ {
+   "homeTeam": "West Brom",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 4,
+   "videoID": "RT7mBtBoYUQ",
+   "datePlayed": "10/30/16",
+   "title": "Manchester City routs West Brom 4-0"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 4,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 1,
+   "videoID": "CtrND6C4iBU",
+   "datePlayed": "10/29/16",
+   "title": "Arsenal defeats Sunderland 4-1"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "eNEZnML2ldc",
+   "datePlayed": "10/29/16",
+   "title": "Hull City own goal helps Watford get 1-0 win"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 4,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 2,
+   "videoID": "34ZvpvsbmfU",
+   "datePlayed": "10/29/16",
+   "title": "Offense shines in Liverpool's 4-2 win against Crystal Palace"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 1,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 1,
+   "videoID": "Fv0BoddWei0",
+   "datePlayed": "10/29/16",
+   "title": "Ahmed Musa's score helps Leicester draw Tottenham"
+ },
+ {
+   "homeTeam": "Manchester United",
+   "homeTeamScore": 0,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 0,
+   "videoID": "pt2Y37MILoM",
+   "datePlayed": "10/29/16",
+   "title": "Manchester United  Burnley play to scoreless draw"
+ },
+ {
+   "homeTeam": "Manchester City",
+   "homeTeamScore": 4,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 0,
+   "videoID": "RT7mBtBoYUQ",
+   "datePlayed": "10/29/16",
+   "title": "Manchester City got two goals apiece from Sergio Aguero and Ilkay Gundogan as the team dominated West Brom on Matchday 10."
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 4,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 0,
+   "videoID": "StbjZOFkc5E",
+   "datePlayed": "10/23/16",
+   "title": "Chelsea top Manchester United 4-0"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 0,
+   "awayTeam": "Bournemouth",
+   "awayTeamScore": 0,
+   "videoID": "1aXOp9fq178",
+   "datePlayed": "10/22/16",
+   "title": "Bournemouth hold Tottenham to 0-0 draw"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 2,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 0,
+   "videoID": "9KQQ828qsXY",
+   "datePlayed": "10/22/16",
+   "title": "Xherdan Shaqiri's two goals lead Stoke City past Hull City"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 2,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 1,
+   "videoID": "SFK7vS6z6GE",
+   "datePlayed": "10/22/16",
+   "title": "Liverpool gets past West Brom 2-1"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 1,
+   "videoID": "VK8x4W_om9E",
+   "datePlayed": "10/23/16",
+   "title": "Manchester City  Southampton draw 1-1"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 1,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "Kz4R80P5gTI",
+   "datePlayed": "10/22/16",
+   "title": "West Ham gets stoppage-time winner to defeat Sunderland"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 0,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 0,
+   "videoID": "BwD4j5ldITc",
+   "datePlayed": "10/22/16",
+   "title": "Swansea City  Watford draw as Bob Bradley earns first Premier League point"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 0,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "oxfhtfgXBsY",
+   "datePlayed": "10/22/16",
+   "title": "Arsenal  Middlesbrough play to draw"
+ },
+ {
+   "homeTeam": "Leicester City",
+   "homeTeamScore": 3,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 1,
+   "videoID": "4nJgH3B1fKY",
+   "datePlayed": "10/22/16",
+   "title": "Leicester City earns three points against Crystal Palace"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 2,
+   "videoID": "UMxgoogwt50",
+   "datePlayed": "10/22/16",
+   "title": "Burnley tops Everton with late winner"
+ },
+ {
+   "homeTeam": "Liverpool",
+   "homeTeamScore": 0,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 0,
+   "videoID": "uMVOe7FHpuk",
+   "datePlayed": "10/17/16",
+   "title": "Liverpool  Manchester United play to scoreless draw"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 3,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 1,
+   "videoID": "oxfaswLdJ7U",
+   "datePlayed": "10/16/16",
+   "title": "Southampton beats Burnley 3-1"
+ },
+ {
+   "homeTeam": "Watford",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 0,
+   "videoID": "G7mPY3mZrlc",
+   "datePlayed": "10/16/16",
+   "title": "Watford gets past Middlesbrough 1-0"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 1,
+   "awayTeam": "Crystal Palace",
+   "awayTeamScore": 0,
+   "videoID": "avjaSN6zBNQ",
+   "datePlayed": "10/15/16",
+   "title": "Ten-man West Ham top Crystal Palace  1-0"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 1,
+   "awayTeam": "West Brom",
+   "awayTeamScore": 1,
+   "videoID": "Wz3H5J8Ej5k",
+   "datePlayed": "10/15/16",
+   "title": "Tottenham draw West Brom  1-1"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 2,
+   "awayTeam": "Sunderland",
+   "awayTeamScore": 0,
+   "videoID": "pzDJhbXzVLY",
+   "datePlayed": "10/15/16",
+   "title": "Allen  Stoke City blank Sunderland  2-0"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 6,
+   "awayTeam": "Hull City",
+   "awayTeamScore": 1,
+   "videoID": "ATQHDzxgUdM",
+   "datePlayed": "10/15/16",
+   "title": "Bournemouth roll over Hull City  6-1"
+ },
+ {
+   "homeTeam": "Everton",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 1,
+   "videoID": "#NAME?",
+   "datePlayed": "10/16/16",
+   "title": "Manchester City  Everton draw 1-1"
+ },
+ {
+   "homeTeam": "Chelsea",
+   "homeTeamScore": 3,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "rcii6bQx4mU",
+   "datePlayed": "10/15/16",
+   "title": "Diego Costa  Chelsea blank Leicester City  3-0"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 3,
+   "awayTeam": "Swansea City",
+   "awayTeamScore": 2,
+   "videoID": "N_NnhpvLJWE",
+   "datePlayed": "10/15/16",
+   "title": "Arsenal spoil Bob Bradley's debut with Swansea"
+ },
+ {
+   "homeTeam": "Arsenal",
+   "homeTeamScore": 1,
+   "awayTeam": "Burnley",
+   "awayTeamScore": 0,
+   "videoID": "1GAPIk5VQs8",
+   "datePlayed": "10/2/16",
+   "title": "Arsenal beats Burnley on late score"
+ },
+ {
+   "homeTeam": "Tottenham",
+   "homeTeamScore": 2,
+   "awayTeam": "Manchester City",
+   "awayTeamScore": 0,
+   "videoID": "ANKUrV4VVh8",
+   "datePlayed": "10/2/16",
+   "title": "Tottenham tops Manchester City"
+ },
+ {
+   "homeTeam": "Stoke City",
+   "homeTeamScore": 1,
+   "awayTeam": "Manchester United",
+   "awayTeamScore": 1,
+   "videoID": "OZFOReviNV4",
+   "datePlayed": "10/2/16",
+   "title": "Stoke City forces draw with Man Utd"
+ },
+ {
+   "homeTeam": "Southampton",
+   "homeTeamScore": 0,
+   "awayTeam": "Leicester City",
+   "awayTeamScore": 0,
+   "videoID": "s7XbPZLJlJE",
+   "datePlayed": "10/2/16",
+   "title": "Leicester-Southampton play to exciting draw"
+ },
+ {
+   "homeTeam": "West Ham",
+   "homeTeamScore": 1,
+   "awayTeam": "Middlesbrough",
+   "awayTeamScore": 1,
+   "videoID": "A79tXHV-Dkg",
+   "datePlayed": "10/1/16",
+   "title": "Payet ensures a draw for West Ham v. Middlesbrough"
+ },
+ {
+   "homeTeam": "Bournemouth",
+   "homeTeamScore": 2,
+   "awayTeam": "Watford",
+   "awayTeamScore": 2,
+   "videoID": "C-uZK8yvpCk",
+   "datePlayed": "10/1/16",
+   "title": "Watford seals draw vs. Bournemouth"
+ }
 ]
