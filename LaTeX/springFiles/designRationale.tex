@@ -1,0 +1,10 @@
+\chapter{Design Rationale}
+
+\section{Introduction}
+	The design rationale gives reasons for the decisions we made in the design of the product. This primarily justifies the choices made about the user interface design and the technologies used.
+    
+\section{User Interface Design}
+	The user interface for this application was designed to have the look and feel of a single page application (SPA), however consisted of numerous pages; thus, requiring numerous routes. We chose this methodology because we wanted to account for continuity among pages, while also prioritizing the viewing experience. Except for having to make changes to his or her account, the user should always be able to have a running video feed on the application. Having an interface as such will keep the user busy watching, while being able to do numerous other tasks (like searching for videos) at the same time. 
+
+\section{Technologies Used}
+	The technologies used were basic, yet modern web technologies and frameworks that rendered similar pages across multiple browsers. We used an ElasticSearch instance along with Kibana ( a visualization tool) to enable easy indexing and visualization of our data. We used an Amazon EC2 instance to gain flexibility and ease our deployment process, as it took minimal time to launch an instance. We ultimately used technologies that our development team was familiar with to ensure the short and doable development timeline. Node JS along with the powerful Express JS framework was used to keep a running server as well organize our routes to different pages. This was also  especially helpful when we made many HTTP requests to GET or POST data. That being said, AJAX was used extensively in our scripts as well. Lastly, we chose to use the Materialize CSS framework because it made the styling fairly easy and responsive.
