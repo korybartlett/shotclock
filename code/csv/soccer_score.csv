@@ -1,0 +1,381 @@
+HomeTeam,FTHG,AwayTeam,FTAG,Date
+Burnley,0,Swansea City,1,8/13/16
+Crystal Palace,0,West Brom,1,8/13/16
+Everton,1,Tottenham,1,8/13/16
+Hull City,2,Leicester City,1,8/13/16
+Manchester City,2,Sunderland,1,8/13/16
+Middlesbrough,1,Stoke City,1,8/13/16
+Southampton,1,Watford,1,8/13/16
+Arsenal,3,Liverpool,4,8/14/16
+Bournemouth,1,Manchester United,3,8/14/16
+Chelsea,2,West Ham,1,8/15/16
+Manchester United,2,Southampton,0,8/19/16
+Burnley,2,Liverpool,0,8/20/16
+Leicester City,0,Arsenal,0,8/20/16
+Stoke City,1,Manchester City,4,8/20/16
+Swansea City,0,Hull City,2,8/20/16
+Tottenham,1,Crystal Palace,0,8/20/16
+Watford,1,Chelsea,2,8/20/16
+West Brom,1,Everton,2,8/20/16
+Sunderland,1,Middlesbrough,2,8/21/16
+West Ham,1,Bournemouth,0,8/21/16
+Chelsea,3,Burnley,0,8/27/16
+Crystal Palace,1,Bournemouth,1,8/27/16
+Everton,1,Stoke City,0,8/27/16
+Hull City,0,Manchester United,1,8/27/16
+Leicester City,2,Swansea City,1,8/27/16
+Southampton,1,Sunderland,1,8/27/16
+Tottenham,1,Liverpool,1,8/27/16
+Watford,1,Arsenal,3,8/27/16
+Manchester City,3,West Ham,1,8/28/16
+West Brom,0,Middlesbrough,0,8/28/16
+Arsenal,2,Southampton,1,9/10/16
+Bournemouth,1,West Brom,0,9/10/16
+Burnley,1,Hull City,1,9/10/16
+Liverpool,4,Leicester City,1,9/10/16
+Manchester United,1,Manchester City,2,9/10/16
+Middlesbrough,1,Crystal Palace,2,9/10/16
+Stoke City,0,Tottenham,4,9/10/16
+West Ham,2,Watford,4,9/10/16
+Swansea City,2,Chelsea,2,9/11/16
+Sunderland,0,Everton,3,9/12/16
+Chelsea,1,Liverpool,2,9/16/16
+Everton,3,Middlesbrough,1,9/17/16
+Hull City,1,Arsenal,4,9/17/16
+Leicester City,3,Burnley,0,9/17/16
+Manchester City,4,Bournemouth,0,9/17/16
+West Brom,4,West Ham,2,9/17/16
+Crystal Palace,4,Stoke City,1,9/18/16
+Southampton,1,Swansea City,0,9/18/16
+Tottenham,1,Sunderland,0,9/18/16
+Watford,3,Manchester United,1,9/18/16
+Arsenal,3,Chelsea,0,9/24/16
+Bournemouth,1,Everton,0,9/24/16
+Liverpool,5,Hull City,1,9/24/16
+Manchester United,4,Leicester City,1,9/24/16
+Middlesbrough,1,Tottenham,2,9/24/16
+Stoke City,1,West Brom,1,9/24/16
+Sunderland,2,Crystal Palace,3,9/24/16
+Swansea City,1,Manchester City,3,9/24/16
+West Ham,0,Southampton,3,9/25/16
+Burnley,2,Watford,0,9/26/16
+Everton,1,Crystal Palace,1,9/30/16
+Hull City,0,Chelsea,2,10/1/16
+Sunderland,1,West Brom,1,10/1/16
+Swansea City,1,Liverpool,2,10/1/16
+Watford,2,Bournemouth,2,10/1/16
+West Ham,1,Middlesbrough,1,10/1/16
+Burnley,0,Arsenal,1,10/2/16
+Leicester City,0,Southampton,0,10/2/16
+Manchester United,1,Stoke City,1,10/2/16
+Tottenham,2,Manchester City,0,10/2/16
+Arsenal,3,Swansea City,2,10/15/16
+Bournemouth,6,Hull City,1,10/15/16
+Chelsea,3,Leicester City,0,10/15/16
+Crystal Palace,0,West Ham,1,10/15/16
+Manchester City,1,Everton,1,10/15/16
+Stoke City,2,Sunderland,0,10/15/16
+West Brom,1,Tottenham,1,10/15/16
+Middlesbrough,0,Watford,1,10/16/16
+Southampton,3,Burnley,1,10/16/16
+Liverpool,0,Manchester United,0,10/17/16
+Arsenal,0,Middlesbrough,0,10/22/16
+Bournemouth,0,Tottenham,0,10/22/16
+Burnley,2,Everton,1,10/22/16
+Hull City,0,Stoke City,2,10/22/16
+Leicester City,3,Crystal Palace,1,10/22/16
+Liverpool,2,West Brom,1,10/22/16
+Swansea City,0,Watford,0,10/22/16
+West Ham,1,Sunderland,0,10/22/16
+Chelsea,4,Manchester United,0,10/23/16
+Manchester City,1,Southampton,1,10/23/16
+Crystal Palace,2,Liverpool,4,10/29/16
+Manchester United,0,Burnley,0,10/29/16
+Middlesbrough,2,Bournemouth,0,10/29/16
+Sunderland,1,Arsenal,4,10/29/16
+Tottenham,1,Leicester City,1,10/29/16
+Watford,1,Hull City,0,10/29/16
+West Brom,0,Manchester City,4,10/29/16
+Everton,2,West Ham,0,10/30/16
+Southampton,0,Chelsea,2,10/30/16
+Stoke City,3,Swansea City,1,10/31/16
+Bournemouth,1,Sunderland,2,11/5/16
+Burnley,3,Crystal Palace,2,11/5/16
+Chelsea,5,Everton,0,11/5/16
+Manchester City,1,Middlesbrough,1,11/5/16
+West Ham,1,Stoke City,1,11/5/16
+Arsenal,1,Tottenham,1,11/6/16
+Hull City,2,Southampton,1,11/6/16
+Leicester City,1,West Brom,2,11/6/16
+Liverpool,6,Watford,1,11/6/16
+Swansea City,1,Manchester United,3,11/6/16
+Crystal Palace,1,Manchester City,2,11/19/16
+Everton,1,Swansea City,1,11/19/16
+Manchester United,1,Arsenal,1,11/19/16
+Southampton,0,Liverpool,0,11/19/16
+Stoke City,0,Bournemouth,1,11/19/16
+Sunderland,3,Hull City,0,11/19/16
+Tottenham,3,West Ham,2,11/19/16
+Watford,2,Leicester City,1,11/19/16
+Middlesbrough,0,Chelsea,1,11/20/16
+West Brom,4,Burnley,0,11/21/16
+Burnley,1,Manchester City,2,11/26/16
+Chelsea,2,Tottenham,1,11/26/16
+Hull City,1,West Brom,1,11/26/16
+Leicester City,2,Middlesbrough,2,11/26/16
+Liverpool,2,Sunderland,0,11/26/16
+Swansea City,5,Crystal Palace,4,11/26/16
+Arsenal,3,Bournemouth,1,11/27/16
+Manchester United,1,West Ham,1,11/27/16
+Southampton,1,Everton,0,11/27/16
+Watford,0,Stoke City,1,11/27/16
+Crystal Palace,3,Southampton,0,12/3/16
+Manchester City,1,Chelsea,3,12/3/16
+Stoke City,2,Burnley,0,12/3/16
+Sunderland,2,Leicester City,1,12/3/16
+Tottenham,5,Swansea City,0,12/3/16
+West Brom,3,Watford,1,12/3/16
+West Ham,1,Arsenal,5,12/3/16
+Bournemouth,4,Liverpool,3,12/4/16
+Everton,1,Manchester United,1,12/4/16
+Middlesbrough,1,Hull City,0,12/5/16
+Arsenal,3,Stoke City,1,12/10/16
+Burnley,3,Bournemouth,2,12/10/16
+Hull City,3,Crystal Palace,3,12/10/16
+Leicester City,4,Manchester City,2,12/10/16
+Swansea City,3,Sunderland,0,12/10/16
+Watford,3,Everton,2,12/10/16
+Chelsea,1,West Brom,0,12/11/16
+Liverpool,2,West Ham,2,12/11/16
+Manchester United,1,Tottenham,0,12/11/16
+Southampton,1,Middlesbrough,0,12/11/16
+Bournemouth,1,Leicester City,0,12/13/16
+Everton,2,Arsenal,1,12/13/16
+Crystal Palace,1,Manchester United,2,12/14/16
+Manchester City,2,Watford,0,12/14/16
+Middlesbrough,0,Liverpool,3,12/14/16
+Stoke City,0,Southampton,0,12/14/16
+Sunderland,0,Chelsea,1,12/14/16
+Tottenham,3,Hull City,0,12/14/16
+West Brom,3,Swansea City,1,12/14/16
+West Ham,1,Burnley,0,12/14/16
+Crystal Palace,0,Chelsea,1,12/17/16
+Middlesbrough,3,Swansea City,0,12/17/16
+Stoke City,2,Leicester City,2,12/17/16
+Sunderland,1,Watford,0,12/17/16
+West Brom,0,Manchester United,2,12/17/16
+West Ham,1,Hull City,0,12/17/16
+Bournemouth,1,Southampton,3,12/18/16
+Manchester City,2,Arsenal,1,12/18/16
+Tottenham,2,Burnley,1,12/18/16
+Everton,0,Liverpool,1,12/19/16
+Arsenal,1,West Brom,0,12/26/16
+Burnley,1,Middlesbrough,0,12/26/16
+Chelsea,3,Bournemouth,0,12/26/16
+Hull City,0,Manchester City,3,12/26/16
+Leicester City,0,Everton,2,12/26/16
+Manchester United,3,Sunderland,1,12/26/16
+Swansea City,1,West Ham,4,12/26/16
+Watford,1,Crystal Palace,1,12/26/16
+Liverpool,4,Stoke City,1,12/27/16
+Southampton,1,Tottenham,4,12/28/16
+Hull City,2,Everton,2,12/30/16
+Burnley,4,Sunderland,1,12/31/16
+Chelsea,4,Stoke City,2,12/31/16
+Leicester City,1,West Ham,0,12/31/16
+Liverpool,1,Manchester City,0,12/31/16
+Manchester United,2,Middlesbrough,1,12/31/16
+Southampton,1,West Brom,2,12/31/16
+Swansea City,0,Bournemouth,3,12/31/16
+Arsenal,2,Crystal Palace,0,1/1/17
+Watford,1,Tottenham,4,1/1/17
+Everton,3,Southampton,0,1/2/17
+Manchester City,2,Burnley,1,1/2/17
+Middlesbrough,0,Leicester City,0,1/2/17
+Sunderland,2,Liverpool,2,1/2/17
+West Brom,3,Hull City,1,1/2/17
+West Ham,0,Manchester United,2,1/2/17
+Bournemouth,3,Arsenal,3,1/3/17
+Crystal Palace,1,Swansea City,2,1/3/17
+Stoke City,2,Watford,0,1/3/17
+Tottenham,2,Chelsea,0,1/4/17
+Burnley,1,Southampton,0,1/14/17
+Hull City,3,Bournemouth,1,1/14/17
+Leicester City,0,Chelsea,3,1/14/17
+Sunderland,1,Stoke City,3,1/14/17
+Swansea City,0,Arsenal,4,1/14/17
+Tottenham,4,West Brom,0,1/14/17
+Watford,0,Middlesbrough,0,1/14/17
+West Ham,3,Crystal Palace,0,1/14/17
+Everton,4,Manchester City,0,1/15/17
+Manchester United,1,Liverpool,1,1/15/17
+Bournemouth,2,Watford,2,1/21/17
+Crystal Palace,0,Everton,1,1/21/17
+Liverpool,2,Swansea City,3,1/21/17
+Manchester City,2,Tottenham,2,1/21/17
+Middlesbrough,1,West Ham,3,1/21/17
+Stoke City,1,Manchester United,1,1/21/17
+West Brom,2,Sunderland,0,1/21/17
+Arsenal,2,Burnley,1,1/22/17
+Chelsea,2,Hull City,0,1/22/17
+Southampton,3,Leicester City,0,1/22/17
+Arsenal,1,Watford,2,1/31/17
+Bournemouth,0,Crystal Palace,2,1/31/17
+Burnley,1,Leicester City,0,1/31/17
+Liverpool,1,Chelsea,1,1/31/17
+Middlesbrough,1,West Brom,1,1/31/17
+Sunderland,0,Tottenham,0,1/31/17
+Swansea City,2,Southampton,1,1/31/17
+Manchester United,0,Hull City,0,2/1/17
+Stoke City,1,Everton,1,2/1/17
+West Ham,0,Manchester City,4,2/1/17
+Chelsea,3,Arsenal,1,2/4/17
+Crystal Palace,0,Sunderland,4,2/4/17
+Everton,6,Bournemouth,3,2/4/17
+Hull City,2,Liverpool,0,2/4/17
+Southampton,1,West Ham,3,2/4/17
+Tottenham,1,Middlesbrough,0,2/4/17
+Watford,2,Burnley,1,2/4/17
+West Brom,1,Stoke City,0,2/4/17
+Leicester City,0,Manchester United,3,2/5/17
+Manchester City,2,Swansea City,1,2/5/17
+Arsenal,2,Hull City,0,2/11/17
+Liverpool,2,Tottenham,0,2/11/17
+Manchester United,2,Watford,0,2/11/17
+Middlesbrough,0,Everton,0,2/11/17
+Stoke City,1,Crystal Palace,0,2/11/17
+Sunderland,0,Southampton,4,2/11/17
+West Ham,2,West Brom,2,2/11/17
+Burnley,1,Chelsea,1,2/12/17
+Swansea City,2,Leicester City,0,2/12/17
+Bournemouth,0,Manchester City,2,2/13/17
+Chelsea,3,Swansea City,1,2/25/17
+Crystal Palace,1,Middlesbrough,0,2/25/17
+Everton,2,Sunderland,0,2/25/17
+Hull City,1,Burnley,1,2/25/17
+Watford,1,West Ham,1,2/25/17
+West Brom,2,Bournemouth,1,2/25/17
+Tottenham,4,Stoke City,0,2/26/17
+Leicester City,3,Liverpool,1,2/27/17
+Leicester City,3,Hull City,1,3/4/17
+Liverpool,3,Arsenal,1,3/4/17
+Manchester United,1,Bournemouth,1,3/4/17
+Stoke City,2,Middlesbrough,0,3/4/17
+Swansea City,3,Burnley,2,3/4/17
+Watford,3,Southampton,4,3/4/17
+West Brom,0,Crystal Palace,2,3/4/17
+Sunderland,0,Manchester City,2,3/5/17
+Tottenham,3,Everton,2,3/5/17
+West Ham,1,Chelsea,2,3/6/17
+Manchester City,0,Stoke City,0,3/8/17
+Bournemouth,3,West Ham,2,3/11/17
+Everton,3,West Brom,0,3/11/17
+Hull City,2,Swansea City,1,3/11/17
+Liverpool,2,Burnley,1,3/12/17
+Bournemouth,2,Swansea City,0,3/18/17
+Crystal Palace,1,Watford,0,3/18/17
+Everton,4,Hull City,0,3/18/17
+Stoke City,1,Chelsea,2,3/18/17
+Sunderland,0,Burnley,0,3/18/17
+West Brom,3,Arsenal,1,3/18/17
+West Ham,2,Leicester City,3,3/18/17
+Manchester City,1,Liverpool,1,3/19/17
+Middlesbrough,1,Manchester United,3,3/19/17
+Tottenham,2,Southampton,1,3/19/17
+Burnley,0,Tottenham,2,4/1/17
+Chelsea,1,Crystal Palace,2,4/1/17
+Hull City,2,West Ham,1,4/1/17
+Leicester City,2,Stoke City,0,4/1/17
+Liverpool,3,Everton,1,4/1/17
+Manchester United,0,West Brom,0,4/1/17
+Southampton,0,Bournemouth,0,4/1/17
+Watford,1,Sunderland,0,4/1/17
+Arsenal,2,Manchester City,2,4/2/17
+Swansea City,0,Middlesbrough,0,4/2/17
+Burnley,1,Stoke City,0,4/4/17
+Leicester City,2,Sunderland,0,4/4/17
+Manchester United,1,Everton,1,4/4/17
+Watford,2,West Brom,0,4/4/17
+Arsenal,3,West Ham,0,4/5/17
+Chelsea,2,Manchester City,1,4/5/17
+Hull City,4,Middlesbrough,2,4/5/17
+Liverpool,2,Bournemouth,2,4/5/17
+Southampton,3,Crystal Palace,1,4/5/17
+Swansea City,1,Tottenham,3,4/5/17
+Bournemouth,1,Chelsea,3,4/8/17
+Manchester City,3,Hull City,1,4/8/17
+Middlesbrough,0,Burnley,0,4/8/17
+Stoke City,1,Liverpool,2,4/8/17
+Tottenham,4,Watford,0,4/8/17
+West Brom,0,Southampton,1,4/8/17
+West Ham,1,Swansea City,0,4/8/17
+Everton,4,Leicester City,2,4/9/17
+Sunderland,0,Manchester United,3,4/9/17
+Crystal Palace,3,Arsenal,0,4/10/17
+Crystal Palace,2,Leicester City,2,4/15/17
+Everton,3,Burnley,1,4/15/17
+Southampton,0,Manchester City,3,4/15/17
+Stoke City,3,Hull City,1,4/15/17
+Sunderland,2,West Ham,2,4/15/17
+Tottenham,4,Bournemouth,0,4/15/17
+Watford,1,Swansea City,0,4/15/17
+Manchester United,2,Chelsea,0,4/16/17
+West Brom,0,Liverpool,1,4/16/17
+Middlesbrough,1,Arsenal,2,4/17/17
+Bournemouth,4,Middlesbrough,0,4/22/17
+Hull City,2,Watford,0,4/22/17
+Swansea City,2,Stoke City,0,4/22/17
+West Ham,0,Everton,0,4/22/17
+Burnley,0,Manchester United,2,4/23/17
+Liverpool,1,Crystal Palace,2,4/23/17
+Chelsea,4,Southampton,2,4/25/17
+Arsenal,1,Leicester City,0,4/26/17
+Crystal Palace,0,Tottenham,1,4/26/17
+Middlesbrough,1,Sunderland,0,4/26/17
+Manchester City,0,Manchester United,0,4/27/17
+Crystal Palace,0,Burnley,2,4/29/17
+Southampton,0,Hull City,0,4/29/17
+Stoke City,0,West Ham,0,4/29/17
+Sunderland,0,Bournemouth,1,4/29/17
+West Brom,0,Leicester City,1,4/29/17
+Everton,0,Chelsea,3,4/30/17
+Manchester United,1,Swansea City,1,4/30/17
+Middlesbrough,2,Manchester City,2,4/30/17
+Tottenham,2,Arsenal,0,4/30/17
+Watford,0,Liverpool,1,5/1/17
+West Ham,1,Tottenham,0,5/5/17
+Bournemouth,2,Stoke City,2,5/6/17
+Burnley,2,West Brom,2,5/6/17
+Hull City,0,Sunderland,2,5/6/17
+Leicester City,3,Watford,0,5/6/17
+Manchester City,5,Crystal Palace,0,5/6/17
+Swansea City,1,Everton,0,5/6/17
+Arsenal,2,Manchester United,0,5/7/17
+Liverpool,0,Southampton,0,5/7/17
+Chelsea,3,Middlesbrough,0,5/8/17
+Southampton,0,Arsenal,2,5/10/17
+Everton,1,Watford,0,5/12/17
+West Brom,0,Chelsea,1,5/12/17
+Bournemouth,2,Burnley,1,5/13/17
+Manchester City,2,Leicester City,1,5/13/17
+Middlesbrough,1,Southampton,2,5/13/17
+Stoke City,1,Arsenal,4,5/13/17
+Sunderland,0,Swansea City,2,5/13/17
+Crystal Palace,4,Hull City,0,5/14/17
+Tottenham,2,Manchester United,1,5/14/17
+West Ham,0,Liverpool,4,5/14/17
+Chelsea,4,Watford,3,5/15/17
+Arsenal,2,Sunderland,0,5/16/17
+Manchester City,3,West Brom,1,5/16/17
+Southampton,0,Manchester United,0,5/17/17
+Leicester City,1,Tottenham,6,5/18/17
+Arsenal,3,Everton,1,5/21/17
+Burnley,1,West Ham,2,5/21/17
+Chelsea,5,Sunderland,1,5/21/17
+Hull City,1,Tottenham,7,5/21/17
+Leicester City,1,Bournemouth,1,5/21/17
+Liverpool,3,Middlesbrough,0,5/21/17
+Manchester United,2,Crystal Palace,0,5/21/17
+Southampton,0,Stoke City,1,5/21/17
+Swansea City,2,West Brom,1,5/21/17
+Watford,0,Manchester City,5,5/21/17

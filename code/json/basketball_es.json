@@ -1,0 +1,4026 @@
+[
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 111,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 105,
+    "videoID": "8HPqEwnk7Pk",
+    "datePlayed": "4/12/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 97,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 101,
+    "videoID": "t221ruYan-c",
+    "datePlayed": "4/12/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 94,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 109,
+    "videoID": "wE4cdy8ow5Y",
+    "datePlayed": "4/12/17"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 73,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 112,
+    "videoID": "P8Uo6Qo_S1g",
+    "datePlayed": "4/12/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 98,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 83,
+    "videoID": "ntP1EQMAnDw",
+    "datePlayed": "4/12/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 100,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 98,
+    "videoID": "fVOlH-qv8yU",
+    "datePlayed": "4/11/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 96,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 125,
+    "videoID": "febRh2-vQ-4",
+    "datePlayed": "4/10/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 98,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 99,
+    "videoID": "A271If6exZk",
+    "datePlayed": "4/10/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 105,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 99,
+    "videoID": "uFa6Xqa2jtg",
+    "datePlayed": "4/10/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 121,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 124,
+    "videoID": "_UgYphDNgrk",
+    "datePlayed": "4/10/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 109,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 110,
+    "videoID": "oXoqRh9nu1U",
+    "datePlayed": "4/9/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 106,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 105,
+    "videoID": "MQtEcQMfVTA",
+    "datePlayed": "4/9/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 125,
+    "awayTeam": "Atlanta Hawks",
+    "awayTeamScore": 126,
+    "videoID": "xBpDztmVIM8",
+    "datePlayed": "4/9/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 86,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 101,
+    "videoID": "P6qzOfwdHIo",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 101,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 123,
+    "videoID": "LSaTGlC6sEE",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 98,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 87,
+    "videoID": "ZMjx_KDrIg8",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 106,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 103,
+    "videoID": "d13eLsokt9o",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 127,
+    "awayTeam": "Orlando Magic",
+    "awayTeamScore": 112,
+    "videoID": "V9pwHFlH3NM",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 121,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 114,
+    "videoID": "bjeu5pym5N4",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 106,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 107,
+    "videoID": "nM2ZyMixMdY",
+    "datePlayed": "4/8/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 113,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 120,
+    "videoID": "kvBxlTa3G_0",
+    "datePlayed": "4/7/17"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 114,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 109,
+    "videoID": "3hX0tbmDv-E",
+    "datePlayed": "4/7/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 99,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 120,
+    "videoID": "Lf64cB2Qnhg",
+    "datePlayed": "4/7/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 102,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 89,
+    "videoID": "mcE8EEAYO_Y",
+    "datePlayed": "4/7/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 94,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 96,
+    "videoID": "-h1BPeGJI1I",
+    "datePlayed": "4/7/17"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 114,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 100,
+    "videoID": "c_6q23Utc8A",
+    "datePlayed": "4/7/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 98,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 105,
+    "videoID": "qj1B1ndUVNk",
+    "datePlayed": "4/6/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 106,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 103,
+    "videoID": "SO3WGl-O8Ck",
+    "datePlayed": "4/6/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 116,
+    "awayTeam": "Atlanta Hawks",
+    "awayTeamScore": 123,
+    "videoID": "TVzM1-WZ-Qs",
+    "datePlayed": "4/6/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 102,
+    "awayTeam": "Philadelphia 76ers",
+    "awayTeamScore": 90,
+    "videoID": "kL7bsrpTods",
+    "datePlayed": "4/6/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 89,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 104,
+    "videoID": "rcmlUbIzhMY",
+    "datePlayed": "4/6/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 102,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 95,
+    "videoID": "x5f1LiPpW1M",
+    "datePlayed": "4/5/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 120,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 111,
+    "videoID": "g50VrZbkxEk",
+    "datePlayed": "4/5/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 105,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 102,
+    "videoID": "pbd54lWUgjg",
+    "datePlayed": "4/5/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 104,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 110,
+    "videoID": "2uLEPvagpH0",
+    "datePlayed": "4/5/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 114,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 91,
+    "videoID": "TV_KQ0vY6tI",
+    "datePlayed": "4/5/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 112,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 99,
+    "videoID": "9pN9WAPvSU8",
+    "datePlayed": "4/5/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 107,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 121,
+    "videoID": "JNMhthnJ2k8",
+    "datePlayed": "4/4/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 89,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 95,
+    "videoID": "JkofIVopfSw",
+    "datePlayed": "4/4/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 79,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 110,
+    "videoID": "g8ms1LptRPo",
+    "datePlayed": "4/4/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 90,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 108,
+    "videoID": "Nqv08QaXbU0",
+    "datePlayed": "4/4/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 102,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 122,
+    "videoID": "indiRFgmW5E",
+    "datePlayed": "4/4/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 109,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 110,
+    "videoID": "PWdBnzcmwPw",
+    "datePlayed": "4/3/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 123,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 116,
+    "videoID": "gM8viNZnE2c",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 115,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 139,
+    "videoID": "w-Fo45DpsZU",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 130,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 135,
+    "videoID": "Egn9maWVY_A",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 117,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 110,
+    "videoID": "YoasZ5g3kJk",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 103,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 108,
+    "videoID": "UI3lF_BD7_8",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 109,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 105,
+    "videoID": "AzHSV6qNG0g",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 103,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 109,
+    "videoID": "8J8dLpu_YfY",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 113,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 101,
+    "videoID": "2priqDE94Lk",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 110,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 94,
+    "videoID": "HnKTjYp3hts",
+    "datePlayed": "4/2/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 123,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 117,
+    "videoID": "EOAkaaHOirU",
+    "datePlayed": "4/1/17"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 104,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 106,
+    "videoID": "TB4FHSEx1qA",
+    "datePlayed": "4/1/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 104,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 115,
+    "videoID": "yBVBgGaudOI",
+    "datePlayed": "4/1/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 100,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 111,
+    "videoID": "ThB_IMvl3hc",
+    "datePlayed": "3/31/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 98,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 107,
+    "videoID": "wIbD4K-yn_s",
+    "datePlayed": "3/31/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 88,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 95,
+    "videoID": "UrL1eOHCTGs",
+    "datePlayed": "3/31/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 116,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 117,
+    "videoID": "Vl7QPYybTbg",
+    "datePlayed": "3/31/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 95,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 100,
+    "videoID": "lJyBa-8wMoA",
+    "datePlayed": "3/31/17"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 105,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 122,
+    "videoID": "vj23dfNo95w",
+    "datePlayed": "3/31/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 107,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 117,
+    "videoID": "9MeagVE9GrI",
+    "datePlayed": "3/30/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 124,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 118,
+    "videoID": "pdt9XcwLkho",
+    "datePlayed": "3/30/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 104,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 119,
+    "videoID": "EvtMrWmGN2g",
+    "datePlayed": "3/30/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 93,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 99,
+    "videoID": "OAxSdAH4vP4",
+    "datePlayed": "3/30/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 124,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 133,
+    "videoID": "wgjKcZPTf_Y",
+    "datePlayed": "3/29/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 110,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 98,
+    "videoID": "yRXm0LnZCK4",
+    "datePlayed": "3/29/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 105,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 88,
+    "videoID": "lCT2KANT3vw",
+    "datePlayed": "3/29/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 103,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 100,
+    "videoID": "ZKLelUNJmkY",
+    "datePlayed": "3/29/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 114,
+    "awayTeam": "Orlando Magic",
+    "awayTeamScore": 106,
+    "videoID": "i0F0LW5Azvw",
+    "datePlayed": "3/29/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 119,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 108,
+    "videoID": "d_nLRhMnpaQ",
+    "datePlayed": "3/28/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 113,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 122,
+    "videoID": "HvTxb5pqdhE",
+    "datePlayed": "3/28/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 113,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 106,
+    "videoID": "kNOVlqx9QX0",
+    "datePlayed": "3/28/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 97,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 96,
+    "videoID": "gyIB5biKmXw",
+    "datePlayed": "3/28/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 100,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 108,
+    "videoID": "Iu-pKwHxeaI",
+    "datePlayed": "3/27/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 112,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 131,
+    "videoID": "5bcjGAeHqMA",
+    "datePlayed": "3/27/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 92,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 91,
+    "videoID": "J_eGiGq-aGY",
+    "datePlayed": "3/27/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 74,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 103,
+    "videoID": "glZHTj2EvyI",
+    "datePlayed": "3/27/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 115,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 90,
+    "videoID": "piybXmYASMQ",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 97,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 81,
+    "videoID": "8kFwGQLMkbw",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 94,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 106,
+    "videoID": "-cyN4tyuy50",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 108,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 112,
+    "videoID": "bUfOUubKQBs",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 98,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 97,
+    "videoID": "4THYfNclY-4",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 125,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 137,
+    "videoID": "RGGqZy79oLY",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 109,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 94,
+    "videoID": "D7XEVdvya6c",
+    "datePlayed": "3/26/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 100,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 112,
+    "videoID": "sshsPmVURxU",
+    "datePlayed": "3/25/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 94,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 86,
+    "videoID": "VfRKnnF-JJo",
+    "datePlayed": "3/25/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 98,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 106,
+    "videoID": "dJ8pXvUywK4",
+    "datePlayed": "3/25/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 127,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 115,
+    "videoID": "xEV_6G95u4o",
+    "datePlayed": "3/25/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 95,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 108,
+    "videoID": "fkoeOnItCLc",
+    "datePlayed": "3/25/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 100,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 114,
+    "videoID": "BFx0zCw5eG8",
+    "datePlayed": "3/24/17"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 120,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 130,
+    "videoID": "cQh_f3Q0-OA",
+    "datePlayed": "3/24/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 107,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 117,
+    "videoID": "kyHz62QrPLs",
+    "datePlayed": "3/24/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 112,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 105,
+    "videoID": "1Zh6ic-1J9g",
+    "datePlayed": "3/24/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 95,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 110,
+    "videoID": "lf7KJaEbZmA",
+    "datePlayed": "3/23/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 95,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 97,
+    "videoID": "mfODccx-Syk",
+    "datePlayed": "3/23/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 90,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 97,
+    "videoID": "XJ7-z6sf-Sg",
+    "datePlayed": "3/23/17"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 98,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 126,
+    "videoID": "ulHZcmv-E40",
+    "datePlayed": "3/23/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 101,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 84,
+    "videoID": "MNO7Dh4d7gU",
+    "datePlayed": "3/23/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 101,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 108,
+    "videoID": "PY5W4tG4Q_4",
+    "datePlayed": "3/22/17"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 95,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 117,
+    "videoID": "ND2uYGXQyy8",
+    "datePlayed": "3/22/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 113,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 126,
+    "videoID": "dImG4ALRsm8",
+    "datePlayed": "3/22/17"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 97,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 122,
+    "videoID": "YCR4z8NX5hM",
+    "datePlayed": "3/22/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 100,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 109,
+    "videoID": "911-BB9Lha8",
+    "datePlayed": "3/22/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 82,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 95,
+    "videoID": "CpSjSljRzz0",
+    "datePlayed": "3/21/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 133,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 109,
+    "videoID": "3ZqFcdnd9ds",
+    "datePlayed": "3/21/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 100,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 93,
+    "videoID": "JuBLGohIA0k",
+    "datePlayed": "3/21/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 112,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 87,
+    "videoID": "GKlWgjBNz0c",
+    "datePlayed": "3/21/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 105,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 114,
+    "videoID": "ifEf-0y8dSA",
+    "datePlayed": "3/20/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 124,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 125,
+    "videoID": "v0hxJ2zLMBE",
+    "datePlayed": "3/20/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 111,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 95,
+    "videoID": "R7XBYNXB-p4",
+    "datePlayed": "3/20/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 102,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 110,
+    "videoID": "LSDmWnWCgOc",
+    "datePlayed": "3/20/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 125,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 120,
+    "videoID": "dNLiq1v4tk0",
+    "datePlayed": "3/19/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 91,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 116,
+    "videoID": "zlqJ9VQ10bM",
+    "datePlayed": "3/19/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 102,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 118,
+    "videoID": "aDcrOABiYyw",
+    "datePlayed": "3/19/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 115,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 104,
+    "videoID": "KSx4HszED-c",
+    "datePlayed": "3/19/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 99,
+    "awayTeam": "Philadelphia 76ers",
+    "awayTeamScore": 105,
+    "videoID": "N5QCx2LH4Rs",
+    "datePlayed": "3/19/17"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 111,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 104,
+    "videoID": "qZ_YPum7i4o",
+    "datePlayed": "3/19/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 92,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 117,
+    "videoID": "X5j1MIyiwQE",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 109,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 105,
+    "videoID": "HFq2ivQJGk8",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 96,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 104,
+    "videoID": "j41IPfnh8CM",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 78,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 108,
+    "videoID": "NFhA55goy3w",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 93,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 98,
+    "videoID": "VbRyAAjOs4A",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 113,
+    "awayTeam": "Atlanta Hawks",
+    "awayTeamScore": 97,
+    "videoID": "9VJw0gdV6as",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 94,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 110,
+    "videoID": "Z5W9UW1ft04",
+    "datePlayed": "3/18/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 107,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 103,
+    "videoID": "wSA4lgiw0FQ",
+    "datePlayed": "3/17/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 105,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 123,
+    "videoID": "NtyruVH3Xyg",
+    "datePlayed": "3/17/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 112,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 128,
+    "videoID": "foBkoZY31H0",
+    "datePlayed": "3/17/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 98,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 95,
+    "videoID": "I9KFXts-IIA",
+    "datePlayed": "3/17/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 107,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 112,
+    "videoID": "uZ5WGAZukN8",
+    "datePlayed": "3/17/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 92,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 122,
+    "videoID": "f7rNBUfgqOk",
+    "datePlayed": "3/16/17"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 121,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 110,
+    "videoID": "iClhaLjQz_U",
+    "datePlayed": "3/16/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 123,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 102,
+    "videoID": "m1omtjvncWU",
+    "datePlayed": "3/16/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 83,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 91,
+    "videoID": "KAGZeMOgf_c",
+    "datePlayed": "3/16/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 112,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 120,
+    "videoID": "_lUZPh7mcPc",
+    "datePlayed": "3/15/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 97,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 96,
+    "videoID": "PyEZq4_iBLw",
+    "datePlayed": "3/15/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 110,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 106,
+    "videoID": "7KxIP_NI5Rw",
+    "datePlayed": "3/15/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 100,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 139,
+    "videoID": "g32RdaeOi3w",
+    "datePlayed": "3/15/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 104,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 117,
+    "videoID": "emTV1lkuphQ",
+    "datePlayed": "3/15/17"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 112,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 107,
+    "videoID": "V9zOyIWbgnk",
+    "datePlayed": "3/15/17"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 104,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 106,
+    "videoID": "xwFYVm3SeIY",
+    "datePlayed": "3/14/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 77,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 100,
+    "videoID": "Xtyr9JjD-XQ",
+    "datePlayed": "3/14/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 122,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 104,
+    "videoID": "u4E7KXfE7gQ",
+    "datePlayed": "3/14/17"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 96,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 128,
+    "videoID": "DVoyJbpL5Yw",
+    "datePlayed": "3/14/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 101,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 129,
+    "videoID": "Pp4RXCKePpI",
+    "datePlayed": "3/13/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 108,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 114,
+    "videoID": "P7LAAY2GFIU",
+    "datePlayed": "3/13/17"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 99,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 107,
+    "videoID": "72woXR_8_o4",
+    "datePlayed": "3/13/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 115,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 109,
+    "videoID": "4d7odOJdQhA",
+    "datePlayed": "3/13/17"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 118,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 116,
+    "videoID": "Em_rlWjIu-s",
+    "datePlayed": "3/12/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 112,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 117,
+    "videoID": "H6CmA6iZwGM",
+    "datePlayed": "3/12/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 80,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 100,
+    "videoID": "JvebN0phEdg",
+    "datePlayed": "3/12/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 85,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 107,
+    "videoID": "RnLMMlFa9Hg",
+    "datePlayed": "3/11/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 116,
+    "awayTeam": "Orlando Magic",
+    "awayTeamScore": 104,
+    "videoID": "W68UJe9jEXA",
+    "datePlayed": "3/11/17"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 100,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 112,
+    "videoID": "q-D-WWI_J6A",
+    "datePlayed": "3/11/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 104,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 112,
+    "videoID": "2NJnN0JzlbU",
+    "datePlayed": "3/11/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 115,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 94,
+    "videoID": "sk9s0OsEiLY",
+    "datePlayed": "3/10/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 102,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 103,
+    "videoID": "5feVPwSro3s",
+    "datePlayed": "3/10/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 92,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 102,
+    "videoID": "bc9R7KTHnjk",
+    "datePlayed": "3/9/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 101,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 106,
+    "videoID": "3c1b48bIwew",
+    "datePlayed": "3/9/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 99,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 86,
+    "videoID": "GShZUiyqEH0",
+    "datePlayed": "3/8/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 104,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 114,
+    "videoID": "yVPqoPOPNvY",
+    "datePlayed": "3/8/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 115,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 108,
+    "videoID": "3GIxJkMzM00",
+    "datePlayed": "3/8/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 93,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 104,
+    "videoID": "dbyYuwV_4Ig",
+    "datePlayed": "3/8/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 111,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 122,
+    "videoID": "WBuzCwcWipE",
+    "datePlayed": "3/7/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 126,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 121,
+    "videoID": "nmQQCkKIAy0",
+    "datePlayed": "3/7/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 102,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 116,
+    "videoID": "wQd1XsfwbZo",
+    "datePlayed": "3/6/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 110,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 112,
+    "videoID": "j-CcDxOpanE",
+    "datePlayed": "3/6/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 119,
+    "awayTeam": "Atlanta Hawks",
+    "awayTeamScore": 111,
+    "videoID": "Jh_0-tgzHbw",
+    "datePlayed": "3/6/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 106,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 98,
+    "videoID": "6RhbEJpt4Dw",
+    "datePlayed": "3/6/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 105,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 97,
+    "videoID": "KE2t8iOSiLw",
+    "datePlayed": "3/5/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 89,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 104,
+    "videoID": "zeamGEGU2c0",
+    "datePlayed": "3/5/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 106,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 109,
+    "videoID": "4PDEnywl7V4",
+    "datePlayed": "3/5/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 112,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 105,
+    "videoID": "3QcyFOJvYkw",
+    "datePlayed": "3/5/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 90,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 97,
+    "videoID": "XqCRmRcJFfA",
+    "datePlayed": "3/4/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 94,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 101,
+    "videoID": "wxlKSMqcqig",
+    "datePlayed": "3/4/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 92,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 120,
+    "videoID": "PBxqiQg61AE",
+    "datePlayed": "3/4/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 101,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 98,
+    "videoID": "APFtCHqMeNg",
+    "datePlayed": "3/3/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 111,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 118,
+    "videoID": "mSXvEMWBSN4",
+    "datePlayed": "3/3/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 135,
+    "awayTeam": "Atlanta Hawks",
+    "awayTeamScore": 130,
+    "videoID": "BWUPGPzsR8o",
+    "datePlayed": "3/3/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 109,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 114,
+    "videoID": "5EnN1Ea7ZDw",
+    "datePlayed": "3/2/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 87,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 94,
+    "videoID": "CRIKCfJQxQQ",
+    "datePlayed": "3/2/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 122,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 103,
+    "videoID": "-S2EeZXcgnw",
+    "datePlayed": "3/1/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 99,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 100,
+    "videoID": "IpEVEFYiW5s",
+    "datePlayed": "3/1/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 99,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 103,
+    "videoID": "BpHYzCIpSww",
+    "datePlayed": "3/1/17"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 109,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 104,
+    "videoID": "JBniRFF4gE8",
+    "datePlayed": "2/28/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 106,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 109,
+    "videoID": "lCiKQ22_mLw",
+    "datePlayed": "2/28/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 108,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 112,
+    "videoID": "fbktmLYD6dQ",
+    "datePlayed": "2/28/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 117,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 108,
+    "videoID": "xnSoDUh-waQ",
+    "datePlayed": "2/27/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 119,
+    "awayTeam": "Philadelphia 76ers",
+    "awayTeamScore": 108,
+    "videoID": "kVaoo69FLqo",
+    "datePlayed": "2/27/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 95,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 102,
+    "videoID": "Phy6RdfxhGA",
+    "datePlayed": "2/27/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 110,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 118,
+    "videoID": "kZLIUyApu3E",
+    "datePlayed": "2/26/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 104,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 98,
+    "videoID": "mRX5N6Wv1fw",
+    "datePlayed": "2/26/17"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 96,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 100,
+    "videoID": "LJJY46jASrY",
+    "datePlayed": "2/26/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 119,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 98,
+    "videoID": "JAHTPIQHQIc",
+    "datePlayed": "2/26/17"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 95,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 112,
+    "videoID": "3WTSwfXsGGc",
+    "datePlayed": "2/25/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 117,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 99,
+    "videoID": "v47HaxXgy9w",
+    "datePlayed": "2/25/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 105,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 97,
+    "videoID": "tzUX_-gl8Xc",
+    "datePlayed": "2/24/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 97,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 107,
+    "videoID": "B-LWXhWNr1s",
+    "datePlayed": "2/24/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 93,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 110,
+    "videoID": "tls3JmU_-zY",
+    "datePlayed": "2/24/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 113,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 123,
+    "videoID": "klbUtjRfbA0",
+    "datePlayed": "2/23/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 129,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 99,
+    "videoID": "z2IX2sg8BlA",
+    "datePlayed": "2/23/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 104,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 119,
+    "videoID": "w1jMR732XdM",
+    "datePlayed": "2/23/17"
+  },
+  {
+    "homeTeam": "Team EAST",
+    "homeTeamScore": "",
+    "awayTeam": "Team WEST",
+    "awayTeamScore": "",
+    "videoID": "RllGs6GWwsI",
+    "datePlayed": "2/19/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 103,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 104,
+    "videoID": "BRt5DR8T7Tc",
+    "datePlayed": "2/16/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 86,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 109,
+    "videoID": "UdJJtZScv0A",
+    "datePlayed": "2/15/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 116,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 108,
+    "videoID": "r1ZWLmb4a2U",
+    "datePlayed": "2/14/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 110,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 132,
+    "videoID": "hcjguHTsldg",
+    "datePlayed": "2/13/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 111,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 98,
+    "videoID": "gCZFtAIB4N4",
+    "datePlayed": "2/13/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 110,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 106,
+    "videoID": "ZZdkOmCjmso",
+    "datePlayed": "2/13/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 89,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 117,
+    "videoID": "aUkN61x60gs",
+    "datePlayed": "2/12/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 90,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 94,
+    "videoID": "lQj0jbWy5xM",
+    "datePlayed": "2/12/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 130,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 114,
+    "videoID": "obmRMQlqKAs",
+    "datePlayed": "2/11/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 109,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 125,
+    "videoID": "bHQ4Av1NsLU",
+    "datePlayed": "2/11/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 97,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 115,
+    "videoID": "Dpm1NZ4XuKU",
+    "datePlayed": "2/10/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 122,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 114,
+    "videoID": "Y4cjS5m-jo0",
+    "datePlayed": "2/10/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 122,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 107,
+    "videoID": "TqFr8R6HmpU",
+    "datePlayed": "2/10/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 103,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 92,
+    "videoID": "RdFyox32Puc",
+    "datePlayed": "2/10/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 109,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 118,
+    "videoID": "41FzSRyjuKc",
+    "datePlayed": "2/9/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 107,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 95,
+    "videoID": "2K-O6TVHDUY",
+    "datePlayed": "2/9/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 92,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 108,
+    "videoID": "jIxhRWwfXvA",
+    "datePlayed": "2/8/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 92,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 123,
+    "videoID": "hl9_aFWbByU",
+    "datePlayed": "2/8/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 106,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 88,
+    "videoID": "7JYkwWeryWc",
+    "datePlayed": "2/8/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 132,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 117,
+    "videoID": "elwDhbpRn6Q",
+    "datePlayed": "2/8/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 104,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 128,
+    "videoID": "2IeYIfNUJnQ",
+    "datePlayed": "2/7/17"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 107,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 111,
+    "videoID": "8ad1u7iZpnA",
+    "datePlayed": "2/7/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 74,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 89,
+    "videoID": "lotnBN8uvCc",
+    "datePlayed": "2/6/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 140,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 135,
+    "videoID": "5CIEQiy85YI",
+    "datePlayed": "2/6/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 121,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 107,
+    "videoID": "ic1ArVmlx94",
+    "datePlayed": "2/6/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 106,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 109,
+    "videoID": "Aevzj2vO4B4",
+    "datePlayed": "2/4/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 97,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 121,
+    "videoID": "PRdG5JnlZsA",
+    "datePlayed": "2/4/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 111,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 104,
+    "videoID": "bLDVvzMw6oo",
+    "datePlayed": "2/4/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 117,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 121,
+    "videoID": "huuaM3d6uN0",
+    "datePlayed": "2/3/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 107,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 113,
+    "videoID": "aKtV3UaCtHU",
+    "datePlayed": "2/3/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 133,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 120,
+    "videoID": "f8-tnlyociA",
+    "datePlayed": "2/2/17"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 86,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 102,
+    "videoID": "A6v66bnL1Ys",
+    "datePlayed": "2/2/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 108,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 116,
+    "videoID": "y7DOrRxRTtY",
+    "datePlayed": "2/2/17"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 111,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 126,
+    "videoID": "5pvmA4_ZRGM",
+    "datePlayed": "2/1/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 97,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 125,
+    "videoID": "ewTTjTsw244",
+    "datePlayed": "2/1/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 94,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 108,
+    "videoID": "jLThdGMMnes",
+    "datePlayed": "1/31/17"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 83,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 105,
+    "videoID": "47BjnWn6IyY",
+    "datePlayed": "1/31/17"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 109,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 113,
+    "videoID": "pMh0NuT0uXg",
+    "datePlayed": "1/30/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 97,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 104,
+    "videoID": "VFXpmxC5ZTU",
+    "datePlayed": "1/30/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 113,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 111,
+    "videoID": "-17L5yzhjpc",
+    "datePlayed": "1/29/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 91,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 107,
+    "videoID": "bNMruSQqJK8",
+    "datePlayed": "1/29/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 112,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 108,
+    "videoID": "03PpnYFlty4",
+    "datePlayed": "1/28/17"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 98,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 144,
+    "videoID": "Qgf_ShDyMRU",
+    "datePlayed": "1/28/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 98,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 128,
+    "videoID": "yX_eVbEcqe8",
+    "datePlayed": "1/27/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 103,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 119,
+    "videoID": "XYXQavn6_XE",
+    "datePlayed": "1/27/17"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 116,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 124,
+    "videoID": "o_eKtCfxEog",
+    "datePlayed": "1/27/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 88,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 96,
+    "videoID": "38Ae0cgSsVE",
+    "datePlayed": "1/26/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 109,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 103,
+    "videoID": "THYm1llfBwg",
+    "datePlayed": "1/26/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 108,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 123,
+    "videoID": "PouwxBLpMhw",
+    "datePlayed": "1/24/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 108,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 106,
+    "videoID": "Wr2ClLPC4xY",
+    "datePlayed": "1/24/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 112,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 86,
+    "videoID": "i448sIYT-V8",
+    "datePlayed": "1/23/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 122,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 124,
+    "videoID": "7hvEK3o3oSs",
+    "datePlayed": "1/23/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 102,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 105,
+    "videoID": "ehVTDhfrkj0",
+    "datePlayed": "1/23/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 119,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 95,
+    "videoID": "z6emwuLmAx0",
+    "datePlayed": "1/21/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 118,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 115,
+    "videoID": "cPGmseKWjWY",
+    "datePlayed": "1/21/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 97,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 109,
+    "videoID": "Yvwkij38kls",
+    "datePlayed": "1/21/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 127,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 123,
+    "videoID": "clYLCo0FyUk",
+    "datePlayed": "1/21/17"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 96,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 108,
+    "videoID": "ahb8GN1NPPo",
+    "datePlayed": "1/20/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 125,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 108,
+    "videoID": "UbsPK8iQEhw",
+    "datePlayed": "1/20/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 96,
+    "awayTeam": "Orlando Magic",
+    "awayTeamScore": 112,
+    "videoID": "Oy6KWlxAxNg",
+    "datePlayed": "1/20/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 104,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 118,
+    "videoID": "bVEILr4JLtk",
+    "datePlayed": "1/19/17"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 103,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 118,
+    "videoID": "tjQRC2MxuN0",
+    "datePlayed": "1/19/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 100,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 121,
+    "videoID": "DaLl64W5Afw",
+    "datePlayed": "1/18/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 92,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 111,
+    "videoID": "C--ET5v5huA",
+    "datePlayed": "1/18/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 117,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 106,
+    "videoID": "B46eOPC3eyQ",
+    "datePlayed": "1/18/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 127,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 121,
+    "videoID": "jiGz-GMKmA4",
+    "datePlayed": "1/17/17"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 114,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 122,
+    "videoID": "xxge_PTnq9k",
+    "datePlayed": "1/17/17"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 99,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 98,
+    "videoID": "1qkX18AEgwA",
+    "datePlayed": "1/17/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 103,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 109,
+    "videoID": "wz-t9u5e3ME",
+    "datePlayed": "1/17/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 98,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 120,
+    "videoID": "S6AP1NOIpgk",
+    "datePlayed": "1/16/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 91,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 126,
+    "videoID": "93qRmApzAT8",
+    "datePlayed": "1/16/17"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 98,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 108,
+    "videoID": "88Ds3htwNCs",
+    "datePlayed": "1/16/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 91,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 126,
+    "videoID": "RgT8-_OXp24",
+    "datePlayed": "1/16/17"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 102,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 97,
+    "videoID": "IM_SM_wowfo",
+    "datePlayed": "1/15/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 122,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 118,
+    "videoID": "9XE-A6w9sBA",
+    "datePlayed": "1/15/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 108,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 104,
+    "videoID": "99Z7NPTsjis",
+    "datePlayed": "1/15/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 137,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 112,
+    "videoID": "xgxMGpcMEyM",
+    "datePlayed": "1/15/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 105,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 108,
+    "videoID": "8ZTUfBYFYkg",
+    "datePlayed": "1/14/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 97,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 113,
+    "videoID": "LCaYJ4HVWJw",
+    "datePlayed": "1/14/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 110,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 105,
+    "videoID": "2CxI-I6KW5M",
+    "datePlayed": "1/13/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 86,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 96,
+    "videoID": "rAdkkvFKihY",
+    "datePlayed": "1/13/17"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 107,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 127,
+    "videoID": "2IRVxWoAYF8",
+    "datePlayed": "1/12/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 94,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 134,
+    "videoID": "x2gBpe0oZkA",
+    "datePlayed": "1/12/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 89,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 104,
+    "videoID": "B5x_e4elmDU",
+    "datePlayed": "1/12/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 86,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 102,
+    "videoID": "P-lINngfQQA",
+    "datePlayed": "1/11/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 95,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 107,
+    "videoID": "CBRCx8CmlVw",
+    "datePlayed": "1/10/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 92,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 100,
+    "videoID": "ldz9I8aVWfM",
+    "datePlayed": "1/10/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 109,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 107,
+    "videoID": "mSpG8y-8a1k",
+    "datePlayed": "1/10/17"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 106,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 114,
+    "videoID": "0EsjI3JqnYU",
+    "datePlayed": "1/10/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 110,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 96,
+    "videoID": "5__4DTfZ0BU",
+    "datePlayed": "1/9/17"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 95,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 111,
+    "videoID": "P_DdbmtKaps",
+    "datePlayed": "1/8/17"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 117,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 106,
+    "videoID": "1bgTMiLpTKk",
+    "datePlayed": "1/8/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 120,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 116,
+    "videoID": "Sg1axtmZYCg",
+    "datePlayed": "1/8/17"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 129,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 122,
+    "videoID": "WC85LW6r1PE",
+    "datePlayed": "1/8/17"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 85,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 102,
+    "videoID": "kG-BfC5uIkQ",
+    "datePlayed": "1/7/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 118,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 123,
+    "videoID": "7s0hVKwtjTI",
+    "datePlayed": "1/7/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 106,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 121,
+    "videoID": "gcJqBvIlMmE",
+    "datePlayed": "1/7/17"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 100,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 127,
+    "videoID": "ZSEA9Jkb0po",
+    "datePlayed": "1/6/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 128,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 119,
+    "videoID": "eOFVORC2XJ4",
+    "datePlayed": "1/6/17"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 116,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 111,
+    "videoID": "craSjm19fHw",
+    "datePlayed": "1/6/17"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 116,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 108,
+    "videoID": "AQtrUAc5FOs",
+    "datePlayed": "1/6/17"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 109,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 118,
+    "videoID": "gI14F66RR2Q",
+    "datePlayed": "1/5/17"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 127,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 99,
+    "videoID": "EqywXyAr9qc",
+    "datePlayed": "1/5/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 116,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 118,
+    "videoID": "NvUnULMCJwk",
+    "datePlayed": "1/5/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 106,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 115,
+    "videoID": "GV4NVJ49FfU",
+    "datePlayed": "1/4/17"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 117,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 125,
+    "videoID": "K3WMe28xLCY",
+    "datePlayed": "1/4/17"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 106,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 94,
+    "videoID": "QNYllVAsg8o",
+    "datePlayed": "1/4/17"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 105,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 104,
+    "videoID": "WxXbYz-_YWA",
+    "datePlayed": "1/4/17"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 102,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 116,
+    "videoID": "qV__n9cvQ6M",
+    "datePlayed": "1/3/17"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 82,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 110,
+    "videoID": "1MXqSQFaiUk",
+    "datePlayed": "1/3/17"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 104,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 115,
+    "videoID": "2sAM40XEi9s",
+    "datePlayed": "1/3/17"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 119,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 127,
+    "videoID": "b7FU73N2COI",
+    "datePlayed": "1/2/17"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 94,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 98,
+    "videoID": "hF-fzOL5_9w",
+    "datePlayed": "1/2/17"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 82,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 90,
+    "videoID": "3EV-PJuv1Fc",
+    "datePlayed": "1/2/17"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 99,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 108,
+    "videoID": "nsiDml1UiL8",
+    "datePlayed": "12/30/16"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 99,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 116,
+    "videoID": "nQSEGJJdJ50",
+    "datePlayed": "12/30/16"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 114,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 117,
+    "videoID": "ViVcvsqj6MA",
+    "datePlayed": "12/30/16"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 80,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 114,
+    "videoID": "6GGIrcL0yxw",
+    "datePlayed": "12/29/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 118,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 124,
+    "videoID": "jlz2o1FZuVc",
+    "datePlayed": "12/29/16"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 111,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 121,
+    "videoID": "yz4NIVHFiB8",
+    "datePlayed": "12/28/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 98,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 119,
+    "videoID": "u8AIhqykAkk",
+    "datePlayed": "12/28/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 99,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 101,
+    "videoID": "C6hHAN2Lwpk",
+    "datePlayed": "12/28/16"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 119,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 94,
+    "videoID": "VNcXU8JDbQU",
+    "datePlayed": "12/28/16"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 102,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 100,
+    "videoID": "YA7PsZdYcIo",
+    "datePlayed": "12/27/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 123,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 107,
+    "videoID": "gFb7SIYL1Og",
+    "datePlayed": "12/27/16"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 103,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 113,
+    "videoID": "l8HLyA8chYc",
+    "datePlayed": "12/27/16"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 106,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 94,
+    "videoID": "Iifn4qIuqNk",
+    "datePlayed": "12/27/16"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 95,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 91,
+    "videoID": "tbrXU6LvgUY",
+    "datePlayed": "12/26/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 85,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 90,
+    "videoID": "dOe8TnemdNQ",
+    "datePlayed": "12/26/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 115,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 131,
+    "videoID": "6M0BPH_F4Ak",
+    "datePlayed": "12/26/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 90,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 106,
+    "videoID": "_g15VQDSU08",
+    "datePlayed": "12/26/16"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 102,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 111,
+    "videoID": "eHOs4sqBCV8",
+    "datePlayed": "12/25/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 100,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 112,
+    "videoID": "mi6yVBjKDYM",
+    "datePlayed": "12/25/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 100,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 119,
+    "videoID": "d2FM9gLfSDg",
+    "datePlayed": "12/25/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 108,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 109,
+    "videoID": "pLqQb1i58oE",
+    "datePlayed": "12/25/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 109,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 115,
+    "videoID": "ugcNF0zBSV8",
+    "datePlayed": "12/23/16"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 117,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 112,
+    "videoID": "5CpWdWjEU54",
+    "datePlayed": "12/23/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 99,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 119,
+    "videoID": "wiblZuDl2iE",
+    "datePlayed": "12/23/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 119,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 113,
+    "videoID": "OrYDsh2orrk",
+    "datePlayed": "12/23/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 101,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 106,
+    "videoID": "B11b9HoxTu0",
+    "datePlayed": "12/22/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 107,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 115,
+    "videoID": "IZuZSXoKsBY",
+    "datePlayed": "12/22/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 117,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 101,
+    "videoID": "FxUhAooWLbQ",
+    "datePlayed": "12/22/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 109,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 102,
+    "videoID": "zw8AINl6e60",
+    "datePlayed": "12/22/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 125,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 111,
+    "videoID": "k9Gv1DBBAOM",
+    "datePlayed": "12/21/16"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 107,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 97,
+    "videoID": "EWNcA-a4qqA",
+    "datePlayed": "12/21/16"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 102,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 113,
+    "videoID": "I0ki40UNOSs",
+    "datePlayed": "12/21/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 104,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 116,
+    "videoID": "k-y_LSXqZJk",
+    "datePlayed": "12/20/16"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 121,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 126,
+    "videoID": "HmVGIeBvUew",
+    "datePlayed": "12/20/16"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 74,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 104,
+    "videoID": "84IIDHI2JKQ",
+    "datePlayed": "12/20/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 114,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 108,
+    "videoID": "0QA6d5hlFVg",
+    "datePlayed": "12/20/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 102,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 100,
+    "videoID": "A-Xr71k1szQ",
+    "datePlayed": "12/20/16"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 110,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 108,
+    "videoID": "3yrXuPy39ck",
+    "datePlayed": "12/19/16"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 82,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 113,
+    "videoID": "wzo8FTbzlIs",
+    "datePlayed": "12/19/16"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 100,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 113,
+    "videoID": "iK6U9yhzr58",
+    "datePlayed": "12/18/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 105,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 95,
+    "videoID": "t3W3wupwV1g",
+    "datePlayed": "12/18/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 111,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 109,
+    "videoID": "HzcHLjmt1EE",
+    "datePlayed": "12/17/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 108,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 119,
+    "videoID": "LvvivdGwSco",
+    "datePlayed": "12/17/16"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 90,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 103,
+    "videoID": "skzAkyj_xtU",
+    "datePlayed": "12/15/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 107,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 92,
+    "videoID": "A3B9GXZ0Fi0",
+    "datePlayed": "12/15/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 101,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 108,
+    "videoID": "vcTEb2pWSzo",
+    "datePlayed": "12/14/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 85,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 93,
+    "videoID": "vIRIT_bUkOE",
+    "datePlayed": "12/14/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 97,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 107,
+    "videoID": "5j8VFZDhqLM",
+    "datePlayed": "12/14/16"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 95,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 114,
+    "videoID": "UtTE5vYaoVc",
+    "datePlayed": "12/13/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 99,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 94,
+    "videoID": "fjgwrW-GXbA",
+    "datePlayed": "12/13/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 113,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 109,
+    "videoID": "eIXYEJE10ao",
+    "datePlayed": "12/13/16"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 86,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 103,
+    "videoID": "PBqt47AVdqU",
+    "datePlayed": "12/13/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 92,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 116,
+    "videoID": "nEbrbWwsbRs",
+    "datePlayed": "12/12/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 118,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 122,
+    "videoID": "UAGBmsFjbQY",
+    "datePlayed": "12/12/16"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 101,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 112,
+    "videoID": "pdKi_ExG_KY",
+    "datePlayed": "12/12/16"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 118,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 112,
+    "videoID": "5RVT4cZ7wuM",
+    "datePlayed": "12/11/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 116,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 108,
+    "videoID": "XC4TI8g6WKE",
+    "datePlayed": "12/11/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 96,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 99,
+    "videoID": "hjEQQntLdP0",
+    "datePlayed": "12/11/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 89,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 110,
+    "videoID": "zRJSCGA_-RM",
+    "datePlayed": "12/10/16"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 105,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 116,
+    "videoID": "cvN9bTwi3yc",
+    "datePlayed": "12/10/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 119,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 115,
+    "videoID": "yZCcUaMz8zY",
+    "datePlayed": "12/9/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 102,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 99,
+    "videoID": "7RKfyY9Y-Nk",
+    "datePlayed": "12/9/16"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 84,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 114,
+    "videoID": "cAd_sjoatsQ",
+    "datePlayed": "12/9/16"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 99,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 88,
+    "videoID": "u0_SiI1aGKQ",
+    "datePlayed": "12/8/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 91,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 95,
+    "videoID": "qopxYgkgMGc",
+    "datePlayed": "12/8/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 106,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 99,
+    "videoID": "BLh7wbw7lfw",
+    "datePlayed": "12/8/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 110,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 124,
+    "videoID": "6ztEwWoD7Gg",
+    "datePlayed": "12/8/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 115,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 98,
+    "videoID": "JKZPNo48bLE",
+    "datePlayed": "12/7/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 126,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 94,
+    "videoID": "1rdvtVBZjpY",
+    "datePlayed": "12/7/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 95,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 134,
+    "videoID": "ltQnUZu7b7k",
+    "datePlayed": "12/7/16"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 114,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 103,
+    "videoID": "PEcTpvqVKc0",
+    "datePlayed": "12/6/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 105,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 91,
+    "videoID": "Ka49UQH8gdQ",
+    "datePlayed": "12/6/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 106,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 142,
+    "videoID": "0Sf-s2z_iw4",
+    "datePlayed": "12/5/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 116,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 112,
+    "videoID": "uJMaU5TbZWU",
+    "datePlayed": "12/5/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 106,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 107,
+    "videoID": "3vaT68Q_whk",
+    "datePlayed": "12/5/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 111,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 102,
+    "videoID": "p_sz0TxmRao",
+    "datePlayed": "12/4/16"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 98,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 106,
+    "videoID": "d2FmQjfN-HA",
+    "datePlayed": "12/4/16"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 108,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 101,
+    "videoID": "zeYTbBXc4Fg",
+    "datePlayed": "12/4/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 109,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 138,
+    "videoID": "5v9rpnWVBbc",
+    "datePlayed": "12/3/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 100,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 103,
+    "videoID": "3JDckqeHuHM",
+    "datePlayed": "12/3/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 107,
+    "awayTeam": "Philadelphia 76ers",
+    "awayTeamScore": 106,
+    "videoID": "T1f4xwroLd0",
+    "datePlayed": "12/3/16"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 105,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 107,
+    "videoID": "gzxcHoVUHPY",
+    "datePlayed": "12/2/16"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 105,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 120,
+    "videoID": "Y6bJhcLK1Ag",
+    "datePlayed": "11/30/16"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 121,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 114,
+    "videoID": "8k4qxnm0DIs",
+    "datePlayed": "11/30/16"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 122,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 127,
+    "videoID": "dbch9g8uoBA",
+    "datePlayed": "11/29/16"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 100,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 105,
+    "videoID": "z4b_8mB6tjA",
+    "datePlayed": "11/28/16"
+  },
+  {
+    "homeTeam": "Philadelphia 76ers",
+    "homeTeamScore": 95,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 122,
+    "videoID": "SBrdGhvkBXY",
+    "datePlayed": "11/28/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 112,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 104,
+    "videoID": "lO-8JLBkIGM",
+    "datePlayed": "11/28/16"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 94,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 109,
+    "videoID": "YDgV4kU8VGo",
+    "datePlayed": "11/27/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 130,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 114,
+    "videoID": "RwTkey9d_U0",
+    "datePlayed": "11/27/16"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 104,
+    "awayTeam": "Orlando Magic",
+    "awayTeamScore": 96,
+    "videoID": "QT8p6LpTEhc",
+    "datePlayed": "11/27/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 102,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 115,
+    "videoID": "mxp8QYxMjq4",
+    "datePlayed": "11/26/16"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 88,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 106,
+    "videoID": "ET_ElwnLKec",
+    "datePlayed": "11/26/16"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 102,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 107,
+    "videoID": "rhNPy_YVF5E",
+    "datePlayed": "11/26/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 112,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 100,
+    "videoID": "_RkY862mvZg",
+    "datePlayed": "11/26/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 109,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 103,
+    "videoID": "vI_WBjrr8kw",
+    "datePlayed": "11/25/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 106,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 149,
+    "videoID": "Mi3lZ3AArPY",
+    "datePlayed": "11/23/16"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 115,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 102,
+    "videoID": "UQ6xvxy_aBU",
+    "datePlayed": "11/23/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 111,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 92,
+    "videoID": "7EtCV1vxBmQ",
+    "datePlayed": "11/23/16"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 125,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 137,
+    "videoID": "pYn4ugyoaeU",
+    "datePlayed": "11/23/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 99,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 93,
+    "videoID": "JzZ5EhUvhsk",
+    "datePlayed": "11/21/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 99,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 96,
+    "videoID": "33P9xYweBro",
+    "datePlayed": "11/21/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 120,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 83,
+    "videoID": "OwtrqtLw4EE",
+    "datePlayed": "11/21/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 118,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 110,
+    "videoID": "0lcPPKDXo-M",
+    "datePlayed": "11/20/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 115,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 111,
+    "videoID": "agKS3iH0PGU",
+    "datePlayed": "11/20/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 124,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 121,
+    "videoID": "e5LL5lwIwhA",
+    "datePlayed": "11/19/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 94,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 92,
+    "videoID": "46cjktgpPew",
+    "datePlayed": "11/19/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 116,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 107,
+    "videoID": "jilFle0ibQE",
+    "datePlayed": "11/18/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 104,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 88,
+    "videoID": "4uVYl1GrXL4",
+    "datePlayed": "11/18/16"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 81,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 104,
+    "videoID": "7hlI3YyvnNw",
+    "datePlayed": "11/18/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 85,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 77,
+    "videoID": "ujqX6nE69sg",
+    "datePlayed": "11/17/16"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 109,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 126,
+    "videoID": "x-wb4LpIZKE",
+    "datePlayed": "11/17/16"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 73,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 96,
+    "videoID": "7zh3o3QKVLQ",
+    "datePlayed": "11/17/16"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 83,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 90,
+    "videoID": "IIVrZGnW76w",
+    "datePlayed": "11/16/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 103,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 105,
+    "videoID": "5tMRHg1te-Q",
+    "datePlayed": "11/16/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 127,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 121,
+    "videoID": "AYbhlGF2Xcg",
+    "datePlayed": "11/16/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 93,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 103,
+    "videoID": "xHTHkLcZMoE",
+    "datePlayed": "11/16/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 118,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 125,
+    "videoID": "89_zzpD-OlU",
+    "datePlayed": "11/15/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 113,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 88,
+    "videoID": "lruiE83ZqmA",
+    "datePlayed": "11/15/16"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 115,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 108,
+    "videoID": "IWVVmit8d1w",
+    "datePlayed": "11/15/16"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 93,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 90,
+    "videoID": "J9yz2UETuTw",
+    "datePlayed": "11/15/16"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 117,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 121,
+    "videoID": "daUzMnrdWhQ",
+    "datePlayed": "11/15/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 95,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 127,
+    "videoID": "dh1w76HrgRI",
+    "datePlayed": "11/14/16"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 90,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 94,
+    "videoID": "FG1RpcR1-a0",
+    "datePlayed": "11/14/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 105,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 106,
+    "videoID": "UtGr3wOKb7c",
+    "datePlayed": "11/14/16"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 88,
+    "awayTeam": "Detroit Pistons",
+    "awayTeamScore": 104,
+    "videoID": "_fgHRZe0Huc",
+    "datePlayed": "11/14/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 120,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 133,
+    "videoID": "zhKHmQ1Sq7Q",
+    "datePlayed": "11/13/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 99,
+    "awayTeam": "Minnesota Timberwolves",
+    "awayTeamScore": 125,
+    "videoID": "1UOA_zL8qeU",
+    "datePlayed": "11/13/16"
+  },
+  {
+    "homeTeam": "Charlotte Hornets",
+    "homeTeamScore": 93,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 100,
+    "videoID": "WxJVJP0-Vl0",
+    "datePlayed": "11/13/16"
+  },
+  {
+    "homeTeam": "Memphis Grizzlies",
+    "homeTeamScore": 96,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 106,
+    "videoID": "5svSmUOoPHA",
+    "datePlayed": "11/12/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 106,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 100,
+    "videoID": "vMDsGBeHXJ4",
+    "datePlayed": "11/12/16"
+  },
+  {
+    "homeTeam": "Washington Wizards",
+    "homeTeamScore": 95,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 106,
+    "videoID": "oRaeu2EhU38",
+    "datePlayed": "11/12/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 105,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 99,
+    "videoID": "jCbjUFIgPfs",
+    "datePlayed": "11/12/16"
+  },
+  {
+    "homeTeam": "Detroit Pistons",
+    "homeTeamScore": 86,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 96,
+    "videoID": "-_HJvzYEflc",
+    "datePlayed": "11/11/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 105,
+    "awayTeam": "Washington Wizards",
+    "awayTeamScore": 94,
+    "videoID": "gWoCc79-aaQ",
+    "datePlayed": "11/11/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 101,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 91,
+    "videoID": "OgLFo49nyXw",
+    "datePlayed": "11/10/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 125,
+    "awayTeam": "Denver Nuggets",
+    "awayTeamScore": 101,
+    "videoID": "FNNPdHhzA64",
+    "datePlayed": "11/10/16"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 112,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 106,
+    "videoID": "MoiDPRbyDME",
+    "datePlayed": "11/10/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 98,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 95,
+    "videoID": "aOxzhkjjB1Q",
+    "datePlayed": "11/10/16"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 95,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 116,
+    "videoID": "LaQdT_hCpZo",
+    "datePlayed": "11/9/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 101,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 99,
+    "videoID": "zg7aAUadp0Y",
+    "datePlayed": "11/9/16"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 112,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 102,
+    "videoID": "8Qwjb6ZVl8E",
+    "datePlayed": "11/9/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 107,
+    "awayTeam": "Atlanta Hawks",
+    "awayTeamScore": 115,
+    "videoID": "nDK539R1Y2Q",
+    "datePlayed": "11/9/16"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 109,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 97,
+    "videoID": "v2jJPfN007s",
+    "datePlayed": "11/8/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 121,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 124,
+    "videoID": "0yOTPaT_r4g",
+    "datePlayed": "11/8/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 110,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 119,
+    "videoID": "QpAzD5iTsVg",
+    "datePlayed": "11/8/16"
+  },
+  {
+    "homeTeam": "Atlanta Hawks",
+    "homeTeamScore": 110,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 106,
+    "videoID": "evmcPgG9dzg",
+    "datePlayed": "11/8/16"
+  },
+  {
+    "homeTeam": "New Orleans Pelicans",
+    "homeTeamScore": 106,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 116,
+    "videoID": "nyVJOz4bIvY",
+    "datePlayed": "11/7/16"
+  },
+  {
+    "homeTeam": "Orlando Magic",
+    "homeTeamScore": 80,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 112,
+    "videoID": "C_7fgm89BXY",
+    "datePlayed": "11/7/16"
+  },
+  {
+    "homeTeam": "Miami Heat",
+    "homeTeamScore": 85,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 97,
+    "videoID": "Cif_Rx60j0w",
+    "datePlayed": "11/7/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 100,
+    "awayTeam": "Charlotte Hornets",
+    "awayTeamScore": 122,
+    "videoID": "Kg_USJHAgPU",
+    "datePlayed": "11/7/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 108,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 119,
+    "videoID": "rviTVRqIxVY",
+    "datePlayed": "11/6/16"
+  },
+  {
+    "homeTeam": "Milwaukee Bucks",
+    "homeTeamScore": 75,
+    "awayTeam": "Dallas Mavericks",
+    "awayTeamScore": 86,
+    "videoID": "ydKAYHe2FZ8",
+    "datePlayed": "11/6/16"
+  },
+  {
+    "homeTeam": "Sacramento Kings",
+    "homeTeamScore": 96,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 91,
+    "videoID": "qntvQfJssHg",
+    "datePlayed": "11/6/16"
+  },
+  {
+    "homeTeam": "Los Angeles Clippers",
+    "homeTeamScore": 116,
+    "awayTeam": "San Antonio Spurs",
+    "awayTeamScore": 92,
+    "videoID": "K5O4LMxdaNU",
+    "datePlayed": "11/5/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 102,
+    "awayTeam": "Philadelphia 76ers",
+    "awayTeamScore": 101,
+    "videoID": "GRCOItCbUQI",
+    "datePlayed": "11/5/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 97,
+    "awayTeam": "Los Angeles Lakers",
+    "awayTeamScore": 117,
+    "videoID": "uc9_8k7WGqM",
+    "datePlayed": "11/4/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 100,
+    "awayTeam": "Utah Jazz",
+    "awayTeamScore": 86,
+    "videoID": "Z8TL73MJymg",
+    "datePlayed": "11/4/16"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 117,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 104,
+    "videoID": "gSc4LJsZ3VE",
+    "datePlayed": "11/4/16"
+  },
+  {
+    "homeTeam": "Toronto Raptors",
+    "homeTeamScore": 96,
+    "awayTeam": "Miami Heat",
+    "awayTeamScore": 87,
+    "videoID": "skKe784s0sk",
+    "datePlayed": "11/4/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 107,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 125,
+    "videoID": "gV2m1xgLzXQ",
+    "datePlayed": "11/3/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 122,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 128,
+    "videoID": "GW55Ej9vl2c",
+    "datePlayed": "11/3/16"
+  },
+  {
+    "homeTeam": "Oklahoma City Thunder",
+    "homeTeamScore": 85,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 83,
+    "videoID": "RHy6N5MnuK0",
+    "datePlayed": "11/2/16"
+  },
+  {
+    "homeTeam": "Portland Trail Blazers",
+    "homeTeamScore": 115,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 118,
+    "videoID": "3B_0VYnrVeU",
+    "datePlayed": "11/2/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 100,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 107,
+    "videoID": "78gWD7_A4r4",
+    "datePlayed": "11/2/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 118,
+    "awayTeam": "New York Knicks",
+    "awayTeamScore": 99,
+    "videoID": "LfqqVoxHIkk",
+    "datePlayed": "11/2/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 127,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 104,
+    "videoID": "oprakdo83FE",
+    "datePlayed": "11/1/16"
+  },
+  {
+    "homeTeam": "Houston Rockets",
+    "homeTeamScore": 120,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 128,
+    "videoID": "-mZ9xHBZ9NA",
+    "datePlayed": "11/1/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 108,
+    "awayTeam": "Indiana Pacers",
+    "awayTeamScore": 115,
+    "videoID": "n7DBJNUMp5c",
+    "datePlayed": "11/1/16"
+  },
+  {
+    "homeTeam": "Phoenix Suns",
+    "homeTeamScore": 98,
+    "awayTeam": "Los Angeles Clippers",
+    "awayTeamScore": 116,
+    "videoID": "ahB5SnDNxgg",
+    "datePlayed": "10/31/16"
+  },
+  {
+    "homeTeam": "Denver Nuggets",
+    "homeTeamScore": 102,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 105,
+    "videoID": "5LzUwcoljnE",
+    "datePlayed": "10/31/16"
+  },
+  {
+    "homeTeam": "Chicago Bulls",
+    "homeTeamScore": 118,
+    "awayTeam": "Brooklyn Nets",
+    "awayTeamScore": 88,
+    "videoID": "lt7S6-WRzdE",
+    "datePlayed": "10/31/16"
+  },
+  {
+    "homeTeam": "Dallas Mavericks",
+    "homeTeamScore": 92,
+    "awayTeam": "Houston Rockets",
+    "awayTeamScore": 93,
+    "videoID": "51EW3bcqH1s",
+    "datePlayed": "10/30/16"
+  },
+  {
+    "homeTeam": "Los Angeles Lakers",
+    "homeTeamScore": 96,
+    "awayTeam": "Oklahoma City Thunder",
+    "awayTeamScore": 113,
+    "videoID": "m2RRQBR6wOs",
+    "datePlayed": "10/30/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 106,
+    "awayTeam": "Phoenix Suns",
+    "awayTeamScore": 100,
+    "videoID": "blMchQA5xJ4",
+    "datePlayed": "10/30/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 103,
+    "awayTeam": "Sacramento Kings",
+    "awayTeamScore": 106,
+    "videoID": "jXOcVReBF3o",
+    "datePlayed": "10/29/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 108,
+    "awayTeam": "Milwaukee Bucks",
+    "awayTeamScore": 110,
+    "videoID": "uM9uAlbr7No",
+    "datePlayed": "10/29/16"
+  },
+  {
+    "homeTeam": "Indiana Pacers",
+    "homeTeamScore": 101,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 118,
+    "videoID": "Y_FfKjDlOJo",
+    "datePlayed": "10/29/16"
+  },
+  {
+    "homeTeam": "Golden State Warriors",
+    "homeTeamScore": 122,
+    "awayTeam": "New Orleans Pelicans",
+    "awayTeamScore": 114,
+    "videoID": "S3GAN8j8eEU",
+    "datePlayed": "10/28/16"
+  },
+  {
+    "homeTeam": "Cleveland Cavaliers",
+    "homeTeamScore": 94,
+    "awayTeam": "Toronto Raptors",
+    "awayTeamScore": 91,
+    "videoID": "sKPmOZgGqso",
+    "datePlayed": "10/28/16"
+  },
+  {
+    "homeTeam": "Boston Celtics",
+    "homeTeamScore": 99,
+    "awayTeam": "Chicago Bulls",
+    "awayTeamScore": 105,
+    "videoID": "8d_zOxpeI9Y",
+    "datePlayed": "10/27/16"
+  },
+  {
+    "homeTeam": "Minnesota Timberwolves",
+    "homeTeamScore": 98,
+    "awayTeam": "Memphis Grizzlies",
+    "awayTeamScore": 102,
+    "videoID": "JNtUTkYdeyI",
+    "datePlayed": "10/26/16"
+  },
+  {
+    "homeTeam": "Brooklyn Nets",
+    "homeTeamScore": 117,
+    "awayTeam": "Boston Celtics",
+    "awayTeamScore": 122,
+    "videoID": "JqWJGXxnoQ0",
+    "datePlayed": "10/26/16"
+  },
+  {
+    "homeTeam": "Utah Jazz",
+    "homeTeamScore": 104,
+    "awayTeam": "Portland Trail Blazers",
+    "awayTeamScore": 113,
+    "videoID": "aJoTCgs2RQ8",
+    "datePlayed": "10/25/16"
+  },
+  {
+    "homeTeam": "San Antonio Spurs",
+    "homeTeamScore": 129,
+    "awayTeam": "Golden State Warriors",
+    "awayTeamScore": 100,
+    "videoID": "j6OxmCbPr3E",
+    "datePlayed": "10/25/16"
+  },
+  {
+    "homeTeam": "New York Knicks",
+    "homeTeamScore": 88,
+    "awayTeam": "Cleveland Cavaliers",
+    "awayTeamScore": 117,
+    "videoID": "yYMnDFLhSsY",
+    "datePlayed": "10/25/16"
+  }
+]

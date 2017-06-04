@@ -5,6 +5,7 @@ var initID = "";
 var queueCount = 0;
 var videosWatched = [];
 var queuedVideos = [];
+var updatedScoreCount = 0;
 
 //used in changeCustomize
 var favBaskArr = [];
@@ -29,13 +30,13 @@ $(document).ready(function () {
     var requestParam;
     console.log("outside if statement", window.location.pathname);
     if (window.location.pathname == '/home' || window.location.pathname == '/') {
-        requestParam = "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
+        requestParam = "http://localhost:9200/deployshotclock/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=4";
     }
     else if (window.location.pathname == '/nba') {
         requestParam = "http://localhost:9200/deployshotclock/nba/_search?q=datePlayed%3A[2017-04-10%20TO%202017-04-12]&size=4";
     }
     else {
-        requestParam = "http://localhost:9200/deployshotclock/epl/_search?q=datePlayed%3A[2017-05-01%20TO%202017-05-08]&size=4";
+        requestParam = "http://localhost:9200/deployshotclock/epl/_search?q=datePlayed%3A["+lastWeekString+"%20TO%20"+todayString+"]&size=4";
     }
     //$.get(
     $.ajax({
@@ -50,10 +51,6 @@ $(document).ready(function () {
             console.log("This shit failed");
           }
     });
-
-    //save the count of the queue
-    queueCount = i;
-    queuedVideos.push(vidId);
         
 });
 
@@ -65,12 +62,14 @@ function run(data) {
         var sportType = betterParse[i]._type;
         var mainSport;
         var dominantTeam;
+
         if (sportType=='epl') {
             mainSport = 'soccer';
         } 
         else {
             mainSport = 'basketball';
         }
+
         if (info.homeTeamScore >= info.awayTeamScore) {
             dominantTeam = info.homeTeam;
         }
@@ -85,34 +84,33 @@ function run(data) {
             '<div class="theQueue-ul-li">',
             '<h6>' + info.homeTeam + ' - '+info.homeTeamScore+' </h6> <!-- Team 1 and score -->',
             '<h6>' + info.awayTeam + ' - '+info.awayTeamScore+' </h6> <!-- Team 2 and score -->',
-            '<h6>' + info.datePlayed + '</h6> <!-- Date --></div></li>'
+            '<h6>' + info.datePlayed + '</h6> <!-- Date --> </div></li>'
         ];
         
         //appends the items to the search list 
         $(".theQueue-ul").append(listItem.join(''));
 
+        //adds videoID to queued videos array
+        queuedVideos.push(info.videoID);
+
+        //keeps the first 6 scores so it does not exceed the box
+        if(i < 6){
+            //create div element for score
+            var updatedScoreDiv = [
+                '<div class = "updatedScore-div">',
+                '<p>' + info.homeTeam + ' - ' + info.homeTeamScore + '</p> <!-- Home Team and score -->',
+                '<p>' + info.awayTeam + ' - ' + info.awayTeamScore + '</p> <!-- Away Team and score -->',
+                '</div>'
+            ];
+            //append to the updated scores section on the bottom of the page
+            $(".updatedScore").append(updatedScoreDiv.join(''));  
+            updatedScoreCount = i+1;  
+        }
+        
+        
+        //save the count of the queue
+        queueCount = i;
     }
-}
-
-
-function moveToQueue(vidId) {
-
-    //clones the searchResult video item to the queue, copies the entire item data
-    //adds to the top of the Queue
-    //vidId = vidId.slice(1, vidId.length);
-    console.log('#'+vidId);
-    $('.theQueue-ul').prepend($('#'+vidId).clone());
-
-    //removes the last occurence, which is hopefully in the search result 
-    $('#' + vidId + '.searchResults-item').last().remove();
-
-    $('#' + vidId + '.theQueue-item').last().remove();    
-    
-    //adjusts theQueue class attributes because of cloning
-    $('#' + vidId).removeClass('searchResults-item').addClass('theQueue-item');
-    $('#' + vidId + ' .searchResults-ul-img').removeClass('searchResults-ul-img').addClass('theQueue-ul-img');
-    $('#' + vidId + ' .searchResults-ul-li').removeClass('searchResults-ul-li').addClass('theQueue-ul-li');
-    //$('.theQueue-ul-img').prop('onclick', null);
 }
 
 //This code loads the IFrame Player API code asynchronously.
@@ -165,14 +163,25 @@ function onPlayerStateChange(event) {
 
 function moveToQueue(vidId) {
 
+    //check if queueID exsits in array and therefore is already in queue
+    var idIndex = queuedVideos.indexOf(queueId);
+
     //ensures queue stays within view port
-    if(queueCount > 6){
+    //!!CHECK when moving items around within queue!!
+    // if(queueCount > 6 ){
+    //     console.log("Queue full, cannot add videos");
+    //     return;
+    // }
+
+    //ensures queue stays within view port
+    //checks if queue legnth is too large and if the videoID exsists in current queue array
+    //!!CHECK when moving items around within queue!!
+    if(queuedVideos.length > 7 && idIndex == -1){
         console.log("Queue full, cannot add videos");
         return;
     }
 
-    //clones the searchResult video item to the queue, copies the entire item data
-    //adds to the top of the Queue
+    //clones the video item to the top of the queue, copies the entire item data
     //vidId = vidId.slice(1, vidId.length);
     console.log('#'+vidId);
     $('.theQueue-ul').prepend($('#'+vidId).clone());
@@ -180,6 +189,7 @@ function moveToQueue(vidId) {
     //removes the last occurence, which is hopefully in the search result 
     $('#' + vidId + '.searchResults-item').last().remove();
 
+    //removes queue item from bottom of the queue
     $('#' + vidId + '.theQueue-item').last().remove();    
     
     //adjusts theQueue class attributes because of cloning
@@ -192,6 +202,23 @@ function moveToQueue(vidId) {
     queueCount++;
     queuedVideos.push(vidId);
     console.log("expanded queue array: ",queuedVideos)
+
+    if(updatedScoreCount < 6 && idIndex == -1){
+        updateScoreboard();
+        //examine dom element given vidID and checking class 
+        $('#' + vidId + ' .theQueue-ul-il').text();
+
+        //sets up div element
+        var updatedScoreDiv = [
+            '<div class = "updatedScore-div">',
+            '<p>' + info.homeTeam + ' - ' + info.homeTeamScore + '</p> <!-- Home Team and score -->',
+            '<p>' + info.awayTeam + ' - ' + info.awayTeamScore + '</p> <!-- Away Team and score -->',
+            '</div>'
+        ];
+
+        //append to the updated scores section on the bottom of the page
+        $(".updatedScore").append(updatedScoreDiv.join(''));  
+    }
 
     //delete after testing
     // var end = player.getDuration();
@@ -213,27 +240,33 @@ function queueToPlayer(){
     var topTeam = $('#' + queueId + ' .theQueue-ul-li h6:first-child').text();
     var botTeam = $('#' + queueId + ' .theQueue-ul-li h6:nth-child(2)').text();
 
-    //splits fields into an array = {name of team, score}
+    //splits fields into an array = {name of team , score}
     var topTeamArray = topTeam.split("-");
     var botTeamArray = botTeam.split("-");
 
     //saves the scores from the returned results
     var topScore = topTeamArray[1];
+    topScore = topScore.substring(1, topScore.length);
     var botScore = botTeamArray[1];
+    botScore = botScore.substring(1, botScore.length);
 
     //saves the name of the team 
     var topTeamName = topTeamArray[0];
-    topTeamName = topTeamName.replace(/\s+/g, "");
+    //topTeamName = topTeamName.replace(/\s\s+/g, "");
+    topTeamName = topTeamName.substring(0, topTeamName.length-1);
     var botTeamName = botTeamArray[0];
-    botTeamName = botTeamName.replace(/\s+/g, "");
+    //botTeamName = botTeamName.replace(/\s\s+/g, "");
+    botTeamName = botTeamName.substring(0, botTeamName.length-1);
 
     
+    //grabs the image source attribute
     var imgSrc = $('.theQueue-ul-img:first-child img').attr('src');
 
     //removes the first element from the queue
     $('.theQueue-ul li:first-child').remove();
 
     console.log("image source", imgSrc);
+    //saves the sport type
     var sportType;
     if (/soccer/.test(imgSrc)) {
         sportType='soccer';
@@ -242,10 +275,15 @@ function queueToPlayer(){
         sportType = 'basketball';
     }
 
-    $('#currentScore-leftTeam').attr('src', '../images/'+sportType+'/150px/'+topTeamName+'.png');
-    $('#currentScore-rightTeam').attr('src', '../images/'+sportType+'/150px/'+botTeamName+'.png');
-    //var hello = $('.currentScore-leftSide img').text();
-    //onsole.log("hello =" , hello);
+
+    //add underscores to the team names, replaces spaces with underscores
+    var topTeamNamePNG = topTeamName.replace(/\s/g,'_');
+    var botTeamNamePNG = botTeamName.replace(/\s/g,'_');
+
+    //adds correct team images to the main scoreboard
+    $('#currentScore-leftTeam').attr('src', '../images/'+sportType+'/150px/'+topTeamNamePNG+'.png');
+    $('#currentScore-rightTeam').attr('src', '../images/'+sportType+'/150px/'+botTeamNamePNG+'.png');
+
 
     //loads video to video player with video ID
     player.loadVideoById(queueId);
@@ -312,9 +350,20 @@ function queueToPlayer(){
     videosWatched.push(queueId);
 
     //function to check queue size. Refresh queue to keep it full
-    if(queueCount < 1){
-        console.log("queue has space: ", queueCount);
+    // if(queueCount < 1){
+    //     console.log("queue has space: ", queueCount);
+    //     //add more videos to queue as it gets empty
+    // }
+
+    //function to check queue size. Refresh queue to keep it full
+    if(queuedVideos.length < 1){
+        console.log("queue has space: ", queuedVideos.length);
         //add more videos to queue as it gets empty
+    }
+
+    if(queuedVideos.legnth < 6){
+        //check queue videos and add new score to bottom if possible
+        updateScoreboard();
     }
 }
 
@@ -324,7 +373,7 @@ function searchVideo(){
 
     //ajax call to search youtube videos on specific channel !!still need to edit for search!!
     var userInput = $('#search').val();
-    userInput = userInput.replace(/\s+/g,"_");
+    //userInput = userInput.replace(/\s+/g,"_");
     //userInput+=" Full Game";
     console.log(userInput);
     $.get(
@@ -351,6 +400,8 @@ function searchVideo(){
                 else {
                     dominantTeam = info.awayTeam;
                 }
+
+                var dominantTeam = dominantTeam.replace(/ /g,'_');
                 var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
                 info.videoID = info.videoID.slice(1, info.videoID.length);
                 var listItem = [
@@ -387,7 +438,6 @@ function searchVideoLogIn(){
     }
 
     //console.log(userFavSearch);
-    //ajax call to search youtube videos on specific channel !!still need to edit for search!!
     //var userInput = $('#search').val();
     userInput = userFavSearch;
     //userInput+=" Full Game";
@@ -418,6 +468,7 @@ function searchVideoLogIn(){
                     dominantTeam = info.awayTeam;
                 }
 
+                var dominantTeam = dominantTeam.replace(/ /g,'_');
                 var imgSrc = '../images/'+mainSport+'/150px/'+dominantTeam+'.png'
                 info.videoID = info.videoID.slice(1, info.videoID.length);
                 var listItem = [
@@ -439,6 +490,7 @@ function searchVideoLogIn(){
 }
 
 function getVideoID(func){
+    //NEED TO REPLACE WITH AJAX CALL TO ELASTIC SEARCH
     var userInput = "sacramento kings";
     userInput+=" Full Game";
     $.get(
@@ -476,6 +528,10 @@ function getVideoID(func){
             })
         }
     ); 
+}
+
+function updateScoreboard(){
+    console.log("Still need to write function");
 }
 
 //enter button functionality
