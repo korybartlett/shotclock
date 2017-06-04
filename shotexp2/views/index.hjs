@@ -80,27 +80,27 @@
 
 			<!-- Section 5: The Updated Scores (Bottom of Page) -->
 			<section class="updatedScore">
-				<div>
+				<div class="updatedScore-div">
 					<p>Golden State Warriors - 109</p>
 					<p>Los Angeles Lakers - 94</p>
 				</div>
-				<div>
+				<div class="updatedScore-div">
 					<p>Boston Celtics - 112</p>
 					<p>Milwaukee Bucks - 94</p>
 				</div>
-				<div>
+				<div class="updatedScore-div">
 					<p>Los Angeles Clippers - 115</p>
 					<p>Sacramento Kings - 95</p>
 				</div>
-				<div>
+				<div class="updatedScore-div">
 					<p>Chelsea - 3</p>
 					<p>Middlesbrough - 0</p>
 				</div>
-				<div>
+				<div class="updatedScore-div">
 					<p>Arsenal - 2</p>
 					<p>Manchester United - 0</p>
 				</div>
-				<div>
+				<div class="updatedScore-div">
 					<p>Southampton - 0</p>
 					<p>Liverpool - 0</p>
 				</div>
@@ -111,7 +111,7 @@
 		<section class="searchResults">
 			<ul class="searchResults-ul">
 				<!-- video ID added via js function -->
-				<!-- <li class="searchResults-item">	 -->
+				<!-- <li id="videoID" class="searchResults-item">	 -->
 					<!-- <div class="searchResults-ul-img"> -->
 						<!-- <img src="hazardgoal.png">--> <!-- the thumbnail --> 
 					<!-- </div> -->
